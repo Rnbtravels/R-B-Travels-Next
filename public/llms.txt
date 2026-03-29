@@ -1,13 +1,13 @@
-# R &  B Travels
+# rnvtravels
 
 > 
 
 ## Pages
 
-- [Itineraries-Experiences - R &  B Travels](https://voyanta.teleporthq.site/itineraries-experiences)
-- [BookingSub - R &  B Travels](https://voyanta.teleporthq.site/bookingsub)
-- [Services - R &  B Travels](https://voyanta.teleporthq.site/services)
-- [Page - R &  B Travels](https://voyanta.teleporthq.site/page)
-- [Pricing-Packages - R &  B Travels](https://voyanta.teleporthq.site/pricing-packages)
-- [R &  B Travels](https://voyanta.teleporthq.site)
-- [Booking-Documentation - R &  B Travels](https://voyanta.teleporthq.site/booking-documentation)
+- [Itineraries-Experiences - rnvtravels](https://voyanta.teleporthq.site/itineraries-experiences)
+- [BookingSub - rnvtravels](https://voyanta.teleporthq.site/bookingsub)
+- [Services - rnvtravels](https://voyanta.teleporthq.site/services)
+- [Page - rnvtravels](https://voyanta.teleporthq.site/page)
+- [Pricing-Packages - rnvtravels](https://voyanta.teleporthq.site/pricing-packages)
+- [rnvtravels](https://voyanta.teleporthq.site)
+- [Booking-Documentation - rnvtravels](https://voyanta.teleporthq.site/booking-documentation)

@@ -12,8 +12,8 @@ const Home = (props) => {
     <>
       <div className="home-container1">
         <Head>
-          <title>R & B Travels</title>
-          <meta property="og:title" content="R &amp;  B Travels" />
+          <title>rnvtravels</title>
+          <meta property="og:title" content="rnvtravels" />
           <link rel="canonical" href="https://voyanta.teleporthq.site/" />
           <meta property="og:url" content="https://voyanta.teleporthq.site/" />
         </Head>

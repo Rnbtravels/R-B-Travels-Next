@@ -12,11 +12,8 @@ const PricingPackages = (props) => {
     <>
       <div className="pricing-packages-container10">
         <Head>
-          <title>Pricing-Packages - R & B Travels</title>
-          <meta
-            property="og:title"
-            content="Pricing-Packages - R &amp;  B Travels"
-          />
+          <title>Pricing-Packages - rnvtravels</title>
+          <meta property="og:title" content="Pricing-Packages - rnvtravels" />
           <link
             rel="canonical"
             href="https://voyanta.teleporthq.site/pricing-packages"

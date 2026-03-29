@@ -12,10 +12,10 @@ const BookingDocumentation = (props) => {
     <>
       <div className="booking-documentation-container10">
         <Head>
-          <title>Booking-Documentation - R & B Travels</title>
+          <title>Booking-Documentation - rnvtravels</title>
           <meta
             property="og:title"
-            content="Booking-Documentation - R &amp;  B Travels"
+            content="Booking-Documentation - rnvtravels"
           />
           <link
             rel="canonical"

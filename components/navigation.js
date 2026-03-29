@@ -30,7 +30,7 @@ const Navigation = (props) => {
                   </svg>
                 </div>
                 <span className="section-title navigation-brand-name">
-                  R &amp; B Travels
+                  R&amp;B Travels
                 </span>
               </div>
             </a>
@@ -195,7 +195,7 @@ const Navigation = (props) => {
                     </svg>
                   </div>
                   <span className="section-title navigation-brand-name">
-                    R &amp; B Travels
+                    R&amp;B Travels
                   </span>
                 </div>
               </a>

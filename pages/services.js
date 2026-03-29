@@ -12,8 +12,8 @@ const Services = (props) => {
     <>
       <div className="services-container1">
         <Head>
-          <title>Services - R & B Travels</title>
-          <meta property="og:title" content="Services - R &amp;  B Travels" />
+          <title>Services - rnvtravels</title>
+          <meta property="og:title" content="Services - rnvtravels" />
           <link
             rel="canonical"
             href="https://voyanta.teleporthq.site/services"

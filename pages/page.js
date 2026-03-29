@@ -8,8 +8,8 @@ const Page = (props) => {
     <>
       <div className="page-container">
         <Head>
-          <title>Page - R & B Travels</title>
-          <meta property="og:title" content="Page - R &amp;  B Travels" />
+          <title>Page - rnvtravels</title>
+          <meta property="og:title" content="Page - rnvtravels" />
           <link rel="canonical" href="https://voyanta.teleporthq.site/page" />
           <meta
             property="og:url"

@@ -12,10 +12,10 @@ const ItinerariesExperiences = (props) => {
     <>
       <div className="itineraries-experiences-container1">
         <Head>
-          <title>Itineraries-Experiences - R & B Travels</title>
+          <title>Itineraries-Experiences - rnvtravels</title>
           <meta
             property="og:title"
-            content="Itineraries-Experiences - R &amp;  B Travels"
+            content="Itineraries-Experiences - rnvtravels"
           />
           <link
             rel="canonical"
