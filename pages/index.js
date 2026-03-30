@@ -68,9 +68,13 @@ section {
                 </span>
               </h1>
               <p className="home-hero-subtitle hero-subtitle">
-                R&amp;B Travels offers expert travel consultancy, custom
-                itineraries, and small-group tours with vetted local partners
-                for an effortless experience.
+                <span>R</span>
+                <span className="home-text13">&amp;</span>
+                <span>
+                  B Travels offers expert travel consultancy, custom
+                  itineraries, and small-group tours with vetted local partners
+                  for an effortless experience.
+                </span>
               </p>
               <div className="hero-cta-group">
                 <a href="#plan">
@@ -395,7 +399,12 @@ section {
         <section className="how-we-work">
           <div className="work-container">
             <div className="work-header">
-              <h2 className="section-title">The Voyanta Process</h2>
+              <h2 className="section-title">
+                <span>The R</span>
+                <span className="home-text25">&amp;</span>
+                <span>B Process</span>
+                The Voyanta Process
+              </h2>
               <p className="section-content">
                 Transparent, thorough planning from initial spark to homecoming.
               </p>
@@ -477,10 +486,13 @@ section {
                   </svg>
                 </div>
                 <p className="section-content">
-                  &quot;R&amp;B Travels made our honeymoon in the Maldives
-                  completely effortless. The local partner they vetted was
-                  incredible, and the visa process was handled before we even
-                  asked.&quot;
+                  <span>&quot;R</span>
+                  <span className="home-text32">&amp;</span>
+                  <span>
+                    B Travels made our honeymoon in the Maldives completely
+                    effortless. The local partner they vetted was incredible,
+                    and the visa process was handled before we even asked.&quot;
+                  </span>
                 </p>
                 <div className="story-author">
                   <span className="home-author-name">Sarah &amp; Mark J.</span>
@@ -614,26 +626,28 @@ section {
                 Choose your preferred entry point and let our consultants handle
                 the rest. Effortless travel starts here.
               </p>
-              <div className="cta-contact-shortcut">
-                <div className="shortcut-item">
-                  <svg
-                    width="20"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="20"
-                    viewbox="0 0 24 24"
-                  >
-                    <path
-                      d="M22 16.92v3a2 2 0 0 1-2.18 2a19.79 19.79 0 0 1-8.63-3.07a19.5 19.5 0 0 1-6-6a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72a12.84 12.84 0 0 0 .7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45a12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    ></path>
-                  </svg>
-                  <span>Speak with an Expert: +2348062163748</span>
+              <a href="tel:+2348062163748">
+                <div className="home-thq-cta-contact-shortcut-elm cta-contact-shortcut">
+                  <div className="shortcut-item">
+                    <svg
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="20"
+                      viewbox="0 0 24 24"
+                    >
+                      <path
+                        d="M22 16.92v3a2 2 0 0 1-2.18 2a19.79 19.79 0 0 1-8.63-3.07a19.5 19.5 0 0 1-6-6a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72a12.84 12.84 0 0 0 .7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45a12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      ></path>
+                    </svg>
+                    <span>Speak with an Expert: +2348062163748</span>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
             <div className="cta-feature-right">
               <div className="cta-card-stack">
@@ -821,6 +835,18 @@ section {
           .home-container3 {
             display: contents;
           }
+          .home-text13 {
+            color: var(--color-accent-dark);
+          }
+          .home-text25 {
+            color: var(--color-accent-dark);
+          }
+          .home-text32 {
+            color: var(--color-accent-dark);
+          }
+          .home-thq-cta-contact-shortcut-elm {
+            text-decoration: none;
+          }
           .home-thq-map-elm {
             width: 100%;
             height: 40vh;
@@ -851,6 +877,9 @@ section {
             }
           }
           @media (max-width: 767px) {
+            .home-text25 {
+              color: var(--color-accent-dark);
+            }
             .home-thq-map-elm {
               width: 100%;
             }
@@ -859,6 +888,12 @@ section {
             }
           }
           @media (max-width: 479px) {
+            .home-text25 {
+              color: var(--color-accent-dark);
+            }
+            .home-text32 {
+              color: var(--color-accent-dark);
+            }
             .home-thq-map-elm {
               width: 100%;
               height: 40vh;

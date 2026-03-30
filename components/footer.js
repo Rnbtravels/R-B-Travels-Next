@@ -42,10 +42,14 @@ const Footer = (props) => {
                       <path d="M12 2a14.5 14.5 0 0 0 0 20a14.5 14.5 0 0 0 0-20M2 12h20"></path>
                     </svg>
                   </div>
-                  <span className="footer-brand-name">R &amp; B Travels</span>
+                  <span className="footer-brand-name">
+                    <span>R</span>
+                    <span className="footer-text11">&amp;</span>
+                    <span>B Travels</span>
+                  </span>
                 </div>
                 <p className="footer-brand-desc section-content">
-                  Crafting effortless journeys with vetted local partners. From
+                  Charting effortless journeys with vetted local partners. From
                   custom itineraries to visa support, we handle the details so
                   you can embrace the adventure.
                 </p>
@@ -252,7 +256,7 @@ const Footer = (props) => {
                         <circle r="3" cx="12" cy="10"></circle>
                       </svg>
                     </div>
-                    <h1 className="footer-text22">
+                    <h1 className="footer-text25">
                       Mohammadu Buhari Wy, Central Business Dis, Abuja 900103,
                       Federal Capital Territory
                     </h1>
@@ -275,26 +279,40 @@ const Footer = (props) => {
                       </svg>
                     </div>
                     <span className="section-content">
-                      hello@RnBTravelsltd.com
+                      <span>hello@MyR</span>
+                      <span className="footer-text27">n</span>
+                      <span>BTravels.com</span>
                     </span>
                   </li>
                   <li className="footer-contact-item">
                     <div className="footer-contact-icon">
-                      <svg
-                        fill="none"
-                        width="24"
-                        xmlns="http://www.w3.org/2000/svg"
-                        height="24"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
+                      <a
+                        href="https://+2348062163748"
+                        target="_blank"
+                        rel="noreferrer noopener"
                       >
-                        <path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384"></path>
-                      </svg>
+                        <svg
+                          fill="none"
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                          height="24"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="footer-icon28"
+                        >
+                          <path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384"></path>
+                        </svg>
+                      </a>
                     </div>
-                    <span className="section-content">08062163748</span>
+                    <a
+                      href="tel:+2348062163748"
+                      className="footer-thq-section-content-elm3 section-content"
+                    >
+                      08062163748
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -302,7 +320,7 @@ const Footer = (props) => {
             <div className="footer-bottom-bar">
               <div className="footer-legal-container">
                 <p className="section-content footer-copyright">
-                  2026 R &amp; B Travels. All rights reserved.
+                  2026 R&amp;B Travels. All rights reserved.
                 </p>
                 <a
                   href="https://www.volues.com"
@@ -310,7 +328,8 @@ const Footer = (props) => {
                   rel="noreferrer noopener"
                 >
                   <p className="footer-thq-section-content-elm5 section-content footer-copyright">
-                    Developed by www.volues.com
+                    <span className="footer-text29">Developed by</span>
+                    <span> www.volues.com</span>
                   </p>
                 </a>
                 <div className="footer-trust-badges">
@@ -372,6 +391,9 @@ const Footer = (props) => {
           .footer-container1 {
             display: contents;
           }
+          .footer-text11 {
+            color: var(--color-accent-dark);
+          }
           .footer-li10 {
             text-decoration: none;
           }
@@ -393,11 +415,20 @@ const Footer = (props) => {
           .footer-li16 {
             text-decoration: none;
           }
-          .footer-text22 {
-            font-size: 14px;
+          .footer-text25 {
+            font-size: 16px;
             font-style: normal;
             font-family: 'Inter';
             font-weight: 300;
+          }
+          .footer-text27 {
+            color: var(--color-accent-dark);
+          }
+          .footer-icon28 {
+            text-decoration: none;
+          }
+          .footer-thq-section-content-elm3 {
+            text-decoration: none;
           }
           .footer-thq-section-content-elm5 {
             color: var(--color-primary-light);
@@ -405,6 +436,9 @@ const Footer = (props) => {
             font-family: 'Inter';
             font-weight: 600;
             text-decoration: none;
+          }
+          .footer-text29 {
+            color: var(--color-scrim-light);
           }
           .footer-container2 {
             display: none;
@@ -419,7 +453,7 @@ const Footer = (props) => {
             display: contents;
           }
           @media (max-width: 767px) {
-            .footer-text22 {
+            .footer-text25 {
               font-size: 14px;
               font-style: normal;
               font-family: Inter;
@@ -430,8 +464,8 @@ const Footer = (props) => {
             }
           }
           @media (max-width: 479px) {
-            .footer-text22 {
-              font-size: 10px;
+            .footer-text25 {
+              font-size: 16px;
               font-style: normal;
               font-family: Inter;
               font-weight: 200;

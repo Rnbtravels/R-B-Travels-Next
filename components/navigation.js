@@ -30,7 +30,9 @@ const Navigation = (props) => {
                   </svg>
                 </div>
                 <span className="section-title navigation-brand-name">
-                  R&amp;B Travels
+                  <span>R</span>
+                  <span className="navigation-text11">&amp;</span>
+                  <span>B Travels</span>
                 </span>
               </div>
             </a>
@@ -433,6 +435,9 @@ const Navigation = (props) => {
           .navigation-container1 {
             display: contents;
           }
+          .navigation-text11 {
+            color: var(--color-accent-dark);
+          }
           .navigation-thq-dropdown1 {
             cursor: pointer;
             display: inline-block;
@@ -507,6 +512,11 @@ const Navigation = (props) => {
           }
           .navigation-container5 {
             display: contents;
+          }
+          @media (max-width: 991px) {
+            .navigation-text11 {
+              color: var(--color-accent-dark);
+            }
           }
         `}
       </style>
