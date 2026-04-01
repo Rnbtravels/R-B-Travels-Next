@@ -399,12 +399,11 @@ section {
         <section className="how-we-work">
           <div className="work-container">
             <div className="work-header">
-              <h2 className="section-title">
+              <h1 className="home-text24">
                 <span>The R</span>
-                <span className="home-text25">&amp;</span>
+                <span className="home-text26">&amp;</span>
                 <span>B Process</span>
-                The Voyanta Process
-              </h2>
+              </h1>
               <p className="section-content">
                 Transparent, thorough planning from initial spark to homecoming.
               </p>
@@ -427,7 +426,7 @@ section {
                 <div className="home-timeline-dot">
                   <span>2</span>
                 </div>
-                <div className="home-timeline-content">
+                <div className="home-thq-timeline-content-elm2 home-timeline-content">
                   <h3 className="section-subtitle">Custom Planning</h3>
                   <p className="section-content">
                     Our consultants draft a detailed itinerary featuring vetted
@@ -451,7 +450,7 @@ section {
                 <div className="home-timeline-dot">
                   <span>4</span>
                 </div>
-                <div className="home-timeline-content">
+                <div className="home-thq-timeline-content-elm4 home-timeline-content">
                   <h3 className="section-subtitle">On-Trip Support</h3>
                   <p className="section-content">
                     Travel with peace of mind knowing our team and local
@@ -487,7 +486,7 @@ section {
                 </div>
                 <p className="section-content">
                   <span>&quot;R</span>
-                  <span className="home-text32">&amp;</span>
+                  <span className="home-text33">&amp;</span>
                   <span>
                     B Travels made our honeymoon in the Maldives completely
                     effortless. The local partner they vetted was incredible,
@@ -850,10 +849,22 @@ section {
           .home-thq-btn-elm2 {
             text-decoration: none;
           }
-          .home-text25 {
-            color: var(--color-accent-dark);
+          .home-text24 {
+            font-size: 40px;
+            font-family: 'Inter';
+            font-weight: 700;
           }
-          .home-text32 {
+          .home-text26 {
+            color: var(--color-accent-dark);
+            font-family: 'Poppins';
+          }
+          .home-thq-timeline-content-elm2 {
+            padding-top: var(--dl-layout-space-threeunits);
+          }
+          .home-thq-timeline-content-elm4 {
+            padding-top: var(--dl-layout-space-threeunits);
+          }
+          .home-text33 {
             color: var(--color-accent-dark);
           }
           .home-thq-cta-contact-shortcut-elm {
@@ -895,9 +906,6 @@ section {
             }
           }
           @media (max-width: 767px) {
-            .home-text25 {
-              color: var(--color-accent-dark);
-            }
             .home-thq-map-elm {
               width: 100%;
             }
@@ -909,10 +917,7 @@ section {
             .home-text13 {
               color: var(--color-neutral-light);
             }
-            .home-text25 {
-              color: var(--color-accent-dark);
-            }
-            .home-text32 {
+            .home-text33 {
               color: var(--color-accent-dark);
             }
             .home-thq-map-elm {
