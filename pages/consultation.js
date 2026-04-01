@@ -55,6 +55,7 @@ Cal("init", "initial", {origin:"https://app.cal.com"});
             min-height: 100vh;
             align-items: center;
             flex-direction: column;
+            background-color: #050505;
           }
           .consultation-thq-plan-a-consultation-elm {
             flex: 0 0 auto;
@@ -62,12 +63,20 @@ Cal("init", "initial", {origin:"https://app.cal.com"});
             height: 80vh;
             display: flex;
             align-self: center;
+            margin-top: var(--dl-layout-space-fourunits);
             align-items: center;
+            margin-bottom: var(--dl-layout-space-twounits);
             flex-direction: column;
             justify-content: center;
+            background-color: #050505;
           }
           .consultation-container3 {
             display: contents;
+          }
+          @media (max-width: 991px) {
+            .consultation-thq-plan-a-consultation-elm {
+              background-color: #050505;
+            }
           }
           @media (max-width: 767px) {
             .consultation-thq-plan-a-consultation-elm {
@@ -77,13 +86,19 @@ Cal("init", "initial", {origin:"https://app.cal.com"});
               margin-top: var(--dl-layout-space-twounits);
               align-items: center;
               justify-content: center;
+              background-color: #050505;
             }
           }
           @media (max-width: 479px) {
+            .consultation-container1 {
+              background-color: #050505;
+            }
             .consultation-thq-plan-a-consultation-elm {
               width: 100%;
               height: 65vh;
-              margin-top: var(--dl-layout-space-threeunits);
+              margin-top: var(--dl-layout-space-fourunits);
+              margin-bottom: var(--dl-layout-space-twounits);
+              background-color: #050505;
             }
           }
         `}
