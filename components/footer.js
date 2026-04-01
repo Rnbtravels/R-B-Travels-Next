@@ -2,12 +2,13 @@ import React from 'react'
 import Link from 'next/link'
 
 import Script from 'dangerous-html/react'
+import PropTypes from 'prop-types'
 import { useTranslations } from 'next-intl'
 
 const Footer = (props) => {
   return (
     <>
-      <div className="footer-container1">
+      <div className={`footer-container1 ${props.rootClassName} `}>
         <footer className="footer-section">
           <div className="footer-wave-container">
             <svg
@@ -71,8 +72,15 @@ const Footer = (props) => {
                       </svg>
                     </div>
                   </a>
-                  <a href="#">
-                    <div aria-label="Instagram" className="footer-social-icon">
+                  <a
+                    href="https://www.instagram.com/rnbtravels?igsh=NnU0NjZwb3J2cnpl"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    <div
+                      aria-label="Instagram"
+                      className="footer-thq-footer-social-icon-elm2 footer-social-icon"
+                    >
                       <svg
                         fill="none"
                         width="24"
@@ -190,6 +198,24 @@ const Footer = (props) => {
                       </li>
                     </a>
                   </Link>
+                  <Link href="/plan">
+                    <a>
+                      <li className="footer-li17">
+                        <div className="footer-link">
+                          <span>Plan</span>
+                        </div>
+                      </li>
+                    </a>
+                  </Link>
+                  <Link href="/consultation">
+                    <a>
+                      <li className="footer-li18">
+                        <div className="footer-link">
+                          <span>Consultation</span>
+                        </div>
+                      </li>
+                    </a>
+                  </Link>
                 </ul>
               </nav>
               <div className="footer-nav-column">
@@ -256,7 +282,7 @@ const Footer = (props) => {
                         <circle r="3" cx="12" cy="10"></circle>
                       </svg>
                     </div>
-                    <h1 className="footer-text25">
+                    <h1 className="footer-text27">
                       Mohammadu Buhari Wy, Central Business Dis, Abuja 900103,
                       Federal Capital Territory
                     </h1>
@@ -280,7 +306,7 @@ const Footer = (props) => {
                     </div>
                     <span className="section-content">
                       <span>hello@MyR</span>
-                      <span className="footer-text27">n</span>
+                      <span className="footer-text29">n</span>
                       <span>BTravels.com</span>
                     </span>
                   </li>
@@ -328,7 +354,7 @@ const Footer = (props) => {
                   rel="noreferrer noopener"
                 >
                   <p className="footer-thq-section-content-elm5 section-content footer-copyright">
-                    <span className="footer-text29">Developed by</span>
+                    <span className="footer-text31">Developed by</span>
                     <span> www.volues.com</span>
                   </p>
                 </a>
@@ -394,6 +420,9 @@ const Footer = (props) => {
           .footer-text11 {
             color: var(--color-accent-dark);
           }
+          .footer-thq-footer-social-icon-elm2 {
+            text-decoration: none;
+          }
           .footer-li10 {
             text-decoration: none;
           }
@@ -415,13 +444,19 @@ const Footer = (props) => {
           .footer-li16 {
             text-decoration: none;
           }
-          .footer-text25 {
+          .footer-li17 {
+            text-decoration: none;
+          }
+          .footer-li18 {
+            text-decoration: none;
+          }
+          .footer-text27 {
             font-size: 16px;
             font-style: normal;
             font-family: 'Inter';
             font-weight: 300;
           }
-          .footer-text27 {
+          .footer-text29 {
             color: var(--color-accent-dark);
           }
           .footer-icon28 {
@@ -437,7 +472,7 @@ const Footer = (props) => {
             font-weight: 600;
             text-decoration: none;
           }
-          .footer-text29 {
+          .footer-text31 {
             color: var(--color-scrim-light);
           }
           .footer-container2 {
@@ -453,7 +488,7 @@ const Footer = (props) => {
             display: contents;
           }
           @media (max-width: 767px) {
-            .footer-text25 {
+            .footer-text27 {
               font-size: 14px;
               font-style: normal;
               font-family: Inter;
@@ -464,7 +499,7 @@ const Footer = (props) => {
             }
           }
           @media (max-width: 479px) {
-            .footer-text25 {
+            .footer-text27 {
               font-size: 16px;
               font-style: normal;
               font-family: Inter;
@@ -478,6 +513,14 @@ const Footer = (props) => {
       </style>
     </>
   )
+}
+
+Footer.defaultProps = {
+  rootClassName: '',
+}
+
+Footer.propTypes = {
+  rootClassName: PropTypes.string,
 }
 
 export default Footer

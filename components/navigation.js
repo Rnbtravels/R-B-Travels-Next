@@ -2,12 +2,13 @@ import React from 'react'
 import Link from 'next/link'
 
 import Script from 'dangerous-html/react'
+import PropTypes from 'prop-types'
 import { useTranslations } from 'next-intl'
 
 const Navigation = (props) => {
   return (
     <>
-      <div className="navigation-container1">
+      <div className={`navigation-container1 ${props.rootClassName} `}>
         <nav className="navigation-wrapper">
           <div className="navigation-container">
             <a href="Homepage">
@@ -95,6 +96,20 @@ const Navigation = (props) => {
                     <a>
                       <div className="navigation-link">
                         <span>Page</span>
+                      </div>
+                    </a>
+                  </Link>
+                  <Link href="/plan">
+                    <a>
+                      <div className="navigation-link">
+                        <span>Plan</span>
+                      </div>
+                    </a>
+                  </Link>
+                  <Link href="/consultation">
+                    <a>
+                      <div className="navigation-link">
+                        <span>Consultation</span>
                       </div>
                     </a>
                   </Link>
@@ -296,6 +311,20 @@ const Navigation = (props) => {
                       <a>
                         <div className="navigation-mobile-link">
                           <span>Page</span>
+                        </div>
+                      </a>
+                    </Link>
+                    <Link href="/plan">
+                      <a>
+                        <div className="navigation-mobile-link">
+                          <span>Plan</span>
+                        </div>
+                      </a>
+                    </Link>
+                    <Link href="/consultation">
+                      <a>
+                        <div className="navigation-mobile-link">
+                          <span>Consultation</span>
                         </div>
                       </a>
                     </Link>
@@ -513,6 +542,7 @@ const Navigation = (props) => {
           .navigation-container5 {
             display: contents;
           }
+
           @media (max-width: 991px) {
             .navigation-text11 {
               color: var(--color-accent-dark);
@@ -522,6 +552,14 @@ const Navigation = (props) => {
       </style>
     </>
   )
+}
+
+Navigation.defaultProps = {
+  rootClassName: '',
+}
+
+Navigation.propTypes = {
+  rootClassName: PropTypes.string,
 }
 
 export default Navigation

@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import Head from 'next/head'
 
 import Script from 'dangerous-html/react'
@@ -56,7 +57,6 @@ section {
                     }}
                   />
                 </span>
-                <br></br>
                 <span>
                   {' '}
                   Perfectly Planned.
@@ -77,19 +77,23 @@ section {
                 </span>
               </p>
               <div className="hero-cta-group">
-                <a href="#plan">
-                  <div className="btn-lg btn-primary btn">
-                    <span>Plan a Trip</span>
-                  </div>
-                </a>
-                <a href="#tours">
-                  <div className="btn-lg btn btn-outline">
-                    <span>Book a Consultation</span>
-                  </div>
-                </a>
+                <Link href="/plan">
+                  <a>
+                    <div className="home-thq-btn-elm1 btn-lg btn-primary btn">
+                      <span>Plan a Trip</span>
+                    </div>
+                  </a>
+                </Link>
+                <Link href="/consultation">
+                  <a>
+                    <div className="home-thq-btn-elm2 btn-lg btn btn-outline">
+                      <span>Book a Consultation</span>
+                    </div>
+                  </a>
+                </Link>
                 <a href="#quote">
                   <div className="btn-lg btn btn-link">
-                    <span>Get a Quote</span>
+                    <span>Chat With Us</span>
                   </div>
                 </a>
               </div>
@@ -276,7 +280,6 @@ section {
                     src="https://images.pexels.com/photos/775687/pexels-photo-775687.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                     className="itinerary-img"
                   />
-                  <span className="itinerary-tag">10 Days</span>
                 </div>
                 <div className="itinerary-info">
                   <h3 className="section-subtitle">Bali Bliss &amp; Culture</h3>
@@ -298,7 +301,6 @@ section {
                     src="https://images.pexels.com/photos/1456297/pexels-photo-1456297.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                     className="itinerary-img"
                   />
-                  <span className="itinerary-tag">7 Days</span>
                 </div>
                 <div className="itinerary-info">
                   <h3 className="section-subtitle">Maldives Escape</h3>
@@ -320,7 +322,6 @@ section {
                     src="https://images.pexels.com/photos/8322903/pexels-photo-8322903.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                     className="itinerary-img"
                   />
-                  <span className="itinerary-tag">12 Days</span>
                 </div>
                 <div className="itinerary-info">
                   <h3 className="section-subtitle">Alpine Adventure</h3>
@@ -342,7 +343,6 @@ section {
                     src="https://images.pexels.com/photos/2253821/pexels-photo-2253821.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                     className="itinerary-img"
                   />
-                  <span className="itinerary-tag">14 Days</span>
                 </div>
                 <div className="itinerary-info">
                   <h3 className="section-subtitle">Serengeti Safari</h3>
@@ -651,33 +651,35 @@ section {
             </div>
             <div className="cta-feature-right">
               <div className="cta-card-stack">
-                <a href="#">
-                  <div className="cta-action-card">
-                    <div className="action-icon">
-                      <svg
-                        width="24"
-                        xmlns="http://www.w3.org/2000/svg"
-                        height="24"
-                        viewbox="0 0 24 24"
-                      >
-                        <path
-                          d="M11 19l-1.106-.552a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0l4.212 2.106a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619V12m-6-6.236V12m3 3v6m3-3h-6M9 3.236v15"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        ></path>
-                      </svg>
+                <Link href="/plan">
+                  <a>
+                    <div className="home-thq-cta-action-card-elm1 cta-action-card">
+                      <div className="action-icon">
+                        <svg
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                          height="24"
+                          viewbox="0 0 24 24"
+                        >
+                          <path
+                            d="M11 19l-1.106-.552a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0l4.212 2.106a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619V12m-6-6.236V12m3 3v6m3-3h-6M9 3.236v15"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          ></path>
+                        </svg>
+                      </div>
+                      <div className="action-text">
+                        <span className="action-label">Start Custom Plan</span>
+                        <span className="action-desc">
+                          Tailor every detail of your next trip.
+                        </span>
+                      </div>
                     </div>
-                    <div className="action-text">
-                      <span className="action-label">Start Custom Plan</span>
-                      <span className="action-desc">
-                        Tailor every detail of your next trip.
-                      </span>
-                    </div>
-                  </div>
-                </a>
+                  </a>
+                </Link>
                 <a href="#">
                   <div className="cta-action-card">
                     <div className="action-icon">
@@ -708,42 +710,46 @@ section {
                     </div>
                   </div>
                 </a>
-                <a href="#">
-                  <div className="highlight cta-action-card">
-                    <div className="action-icon">
-                      <svg
-                        width="24"
-                        xmlns="http://www.w3.org/2000/svg"
-                        height="24"
-                        viewbox="0 0 24 24"
-                      >
-                        <g
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
+                <Link href="/consultation">
+                  <a>
+                    <div className="home-thq-cta-action-card-elm3 highlight cta-action-card">
+                      <div className="action-icon">
+                        <svg
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                          height="24"
+                          viewbox="0 0 24 24"
                         >
-                          <path d="M8 2v4m8-4v4"></path>
-                          <rect
-                            x="3"
-                            y="4"
-                            rx="2"
-                            width="18"
-                            height="18"
-                          ></rect>
-                          <path d="M3 10h18"></path>
-                        </g>
-                      </svg>
+                          <g
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          >
+                            <path d="M8 2v4m8-4v4"></path>
+                            <rect
+                              x="3"
+                              y="4"
+                              rx="2"
+                              width="18"
+                              height="18"
+                            ></rect>
+                            <path d="M3 10h18"></path>
+                          </g>
+                        </svg>
+                      </div>
+                      <div className="action-text">
+                        <span className="action-label">
+                          Request Consultation
+                        </span>
+                        <span className="action-desc">
+                          Chat with a travel expert today.
+                        </span>
+                      </div>
                     </div>
-                    <div className="action-text">
-                      <span className="action-label">Request Consultation</span>
-                      <span className="action-desc">
-                        Chat with a travel expert today.
-                      </span>
-                    </div>
-                  </div>
-                </a>
+                  </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -836,7 +842,13 @@ section {
             display: contents;
           }
           .home-text13 {
-            color: var(--color-accent-dark);
+            color: var(--color-neutral-light);
+          }
+          .home-thq-btn-elm1 {
+            text-decoration: none;
+          }
+          .home-thq-btn-elm2 {
+            text-decoration: none;
           }
           .home-text25 {
             color: var(--color-accent-dark);
@@ -845,6 +857,12 @@ section {
             color: var(--color-accent-dark);
           }
           .home-thq-cta-contact-shortcut-elm {
+            text-decoration: none;
+          }
+          .home-thq-cta-action-card-elm1 {
+            text-decoration: none;
+          }
+          .home-thq-cta-action-card-elm3 {
             text-decoration: none;
           }
           .home-thq-map-elm {
@@ -888,6 +906,9 @@ section {
             }
           }
           @media (max-width: 479px) {
+            .home-text13 {
+              color: var(--color-neutral-light);
+            }
             .home-text25 {
               color: var(--color-accent-dark);
             }
