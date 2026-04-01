@@ -61,8 +61,10 @@ Cal("init", "initial", {origin:"https://app.cal.com"});
             width: 100%;
             height: 80vh;
             display: flex;
-            align-items: flex-start;
+            align-self: center;
+            align-items: center;
             flex-direction: column;
+            justify-content: center;
           }
           .consultation-container3 {
             display: contents;
