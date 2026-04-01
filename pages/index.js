@@ -43,7 +43,7 @@ section {
               playsInline="true"
               className="hero-bg-video"
             ></video>
-            <div className="hero-overlay"></div>
+            <div className="hero-overlay home-thq-hero-overlay-elm"></div>
           </div>
           <div className="hero-diagonal-split">
             <div className="hero-content-left">
@@ -897,6 +897,9 @@ section {
             display: contents;
           }
           @media (max-width: 991px) {
+            .home-thq-hero-overlay-elm {
+              background-color: rgba(5, 5, 5, 0.14);
+            }
             .home-thq-map-elm {
               width: 100%;
             }
@@ -906,6 +909,9 @@ section {
             }
           }
           @media (max-width: 767px) {
+            .home-thq-hero-overlay-elm {
+              background-color: rgba(5, 5, 5, 0.14);
+            }
             .home-thq-map-elm {
               width: 100%;
             }
@@ -914,6 +920,10 @@ section {
             }
           }
           @media (max-width: 479px) {
+            .home-thq-hero-overlay-elm {
+              display: flex;
+              background-color: rgba(5, 5, 5, 0.14);
+            }
             .home-text13 {
               color: var(--color-neutral-light);
             }
