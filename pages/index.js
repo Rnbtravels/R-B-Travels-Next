@@ -32,7 +32,7 @@ section {
             ></Script>
           </div>
         </div>
-        <section className="hero-journey">
+        <section className="hero-journey home-thq-hero-journey-elm">
           <div className="hero-video-wrapper">
             <video
               src="https://videos.pexels.com/video-files/2169880/2169880-hd_1920_1080_30fps.mp4"
@@ -1238,6 +1238,9 @@ section {
             }
           }
           @media (max-width: 479px) {
+            .home-thq-hero-journey-elm {
+              padding-bottom: var(--dl-layout-space-threeunits);
+            }
             .home-thq-hero-title-elm {
               font-size: 30px;
               margin-top: var(--dl-layout-space-threeunits);
