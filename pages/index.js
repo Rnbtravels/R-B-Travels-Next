@@ -47,54 +47,119 @@ section {
           <div className="hero-diagonal-split">
             <div className="hero-content-left">
               <h1 className="hero-title home-hero-title">
-                <span>
-                  {' '}
-                  Your Journey,
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span>
-                  {' '}
-                  Perfectly Planned.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
+                <span>Your Trusted Partner for</span>
+                <span>Global Travel, Study &amp; Visa Solutions</span>
               </h1>
               <p className="home-hero-subtitle hero-subtitle">
-                <span>R</span>
-                <span className="home-text13">&amp;</span>
                 <span>
-                  B Travels offers expert travel consultancy, custom
-                  itineraries, and small-group tours with vetted local partners
-                  for an effortless experience.
+                  We simplify international travel with expert visa assistance,
+                  study abroad guidance, travel documentation, itinerary
+                  planning, airport transfers, and 24/7 support.
                 </span>
               </p>
               <div className="hero-cta-group">
                 <Link href="/plan">
                   <a>
                     <div className="home-thq-btn-elm1 btn-lg btn-primary btn">
-                      <span>Plan a Trip</span>
+                      <span>Start Your Journey</span>
                     </div>
                   </a>
                 </Link>
                 <Link href="/consultation">
                   <a>
                     <div className="home-thq-btn-elm2 btn-lg btn btn-outline">
-                      <span>Book a Consultation</span>
+                      <span>Book Consultation</span>
                     </div>
                   </a>
                 </Link>
-                <a href="#quote">
-                  <div className="btn-lg btn btn-link">
-                    <span>Chat With Us</span>
+              </div>
+              <div className="home-thq-hero-trust-bar-elm">
+                <div className="trust-item">
+                  <div className="trust-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                    >
+                      <g
+                        fill="none"
+                        stroke="currentColor"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                      >
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M12 6v6l4 2"></path>
+                      </g>
+                    </svg>
                   </div>
-                </a>
+                  <span>Fast Processing</span>
+                </div>
+                <div className="trust-item">
+                  <div className="trust-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="none"
+                        stroke="currentColor"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M20 6L9 17l-5-5"
+                      ></path>
+                    </svg>
+                  </div>
+                  <span>Professional Guidance</span>
+                </div>
+                <div className="trust-item">
+                  <div className="trust-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                    >
+                      <g
+                        fill="none"
+                        stroke="currentColor"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                      >
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M12 2a14.5 14.5 0 0 0 0 20a14.5 14.5 0 0 0 0-20M2 12h20"></path>
+                      </g>
+                    </svg>
+                  </div>
+                  <span>Global Destinations</span>
+                </div>
+                <div className="trust-item">
+                  <div className="trust-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                    >
+                      <g
+                        fill="none"
+                        stroke="currentColor"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                      >
+                        <path d="M3 11h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2zm0 0a9 9 0 1 1 18 0m0 0v5a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2z"></path>
+                        <path d="M21 16v2a4 4 0 0 1-4 4h-5"></path>
+                      </g>
+                    </svg>
+                  </div>
+                  <span>24/7 Support</span>
+                </div>
               </div>
             </div>
             <div className="hero-visual-right">
@@ -146,118 +211,224 @@ section {
         <section className="handle-services">
           <div className="handle-container">
             <div className="handle-header">
-              <h2 className="section-title">Effortless Travel Logistics</h2>
+              <h2 className="section-title">Our Services</h2>
               <p className="section-content">
-                We handle every detail so you can focus on the destination.
+                Comprehensive travel solutions designed to make your journey
+                effortless.
               </p>
             </div>
-            <div className="handle-bento-grid">
-              <div className="handle-cell bento-hero">
-                <img
-                  alt="Luxury Resort"
-                  src="https://images.pexels.com/photos/14524363/pexels-photo-14524363.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                  className="home-bento-img"
-                />
-                <div className="home-bento-content">
-                  <h3 className="section-subtitle">Custom Itineraries</h3>
-                  <p className="section-content">
-                    Tailor-made plans that reflect your unique travel style and
-                    preferences.
-                  </p>
-                </div>
-              </div>
-              <div className="handle-cell bento-small">
-                <div className="bento-icon">
+            <div className="home-thq-handle-bento-grid-elm">
+              <div className="home-thq-handle-cell-elm1 service-card">
+                <div className="home-thq-bento-content-elm service-icon">
                   <svg
-                    width="24"
                     xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewbox="0 0 24 24"
+                    width="28"
+                    height="28"
+                    viewBox="0 0 24 24"
                   >
                     <g
                       fill="none"
                       stroke="currentColor"
-                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
+                      strokeWidth="2"
                     >
-                      <path d="M2 7a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2z"></path>
-                      <path d="M9 12a3 3 0 1 0 6 0a3 3 0 1 0-6 0m0 0H2m13 0h7"></path>
+                      <path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0zM22 10v6"></path>
+                      <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
                     </g>
                   </svg>
                 </div>
-                <h3 className="section-subtitle">Visas &amp; Documents</h3>
+                <h3 className="section-subtitle">Study Abroad</h3>
                 <p className="section-content">
-                  Stress-free handling of all required travel documentation.
+                  Professional guidance for international admissions,
+                  applications, and student travel preparation.
                 </p>
               </div>
-              <div className="handle-cell bento-small">
-                <div className="bento-icon">
+              <div className="home-thq-handle-cell-elm2 service-card">
+                <div className="home-thq-bento-icon-elm1 service-icon">
                   <svg
-                    width="24"
                     xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewbox="0 0 24 24"
+                    width="28"
+                    height="28"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                    >
+                      <path d="M8 2v4m8-4v4"></path>
+                      <rect width="18" height="18" x="3" y="4" rx="2"></rect>
+                      <path d="M3 10h18"></path>
+                    </g>
+                  </svg>
+                </div>
+                <h3 className="section-subtitle">Visa Appointment Booking</h3>
+                <p className="section-content">
+                  Fast and stress-free embassy appointment scheduling
+                  assistance.
+                </p>
+              </div>
+              <div className="home-thq-handle-cell-elm3 service-card">
+                <div className="home-thq-bento-icon-elm2 service-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="28"
+                    height="28"
+                    viewBox="0 0 24 24"
                   >
                     <path
-                      d="M3.478 2.404a.75.75 0 0 0-.926.941l2.432 7.905H13.5a.75.75 0 0 1 0 1.5H4.984l-2.432 7.905a.75.75 0 0 0 .926.94a60.5 60.5 0 0 0 18.445-8.986a.75.75 0 0 0 0-1.218A60.5 60.5 0 0 0 3.478 2.404"
-                      fill="currentColor"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                      d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"
                     ></path>
                   </svg>
                 </div>
-                <h3 className="section-subtitle">Flights &amp; Stays</h3>
+                <h3 className="section-subtitle">Travel Documentation</h3>
                 <p className="section-content">
-                  Premium bookings for comfortable journeys and exceptional
-                  stays.
+                  Support for passport processing, visa applications, proof of
+                  funds, and essential travel documents.
                 </p>
               </div>
-              <div className="handle-cell bento-small">
-                <div className="bento-icon">
+              <div className="home-thq-handle-cell-elm4 service-card">
+                <div className="home-thq-bento-icon-elm3 service-icon">
                   <svg
-                    width="24"
                     xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewbox="0 0 24 24"
-                  >
-                    <g
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M16 3.128a4 4 0 0 1 0 7.744M22 21v-2a4 4 0 0 0-3-3.87"></path>
-                      <circle r="4" cx="9" cy="7"></circle>
-                    </g>
-                  </svg>
-                </div>
-                <h3 className="section-subtitle">Local Partners</h3>
-                <p className="section-content">
-                  Expert local guides and vetted partners in every destination.
-                </p>
-              </div>
-              <div className="handle-cell bento-small">
-                <div className="bento-icon">
-                  <svg
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewbox="0 0 24 24"
+                    width="28"
+                    height="28"
+                    viewBox="0 0 24 24"
                   >
                     <path
+                      fill="none"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0zm.894.211v15M9 3.236v15"
+                    ></path>
+                  </svg>
+                </div>
+                <h3 className="section-subtitle">
+                  Comprehensive Itinerary Planning
+                </h3>
+                <p className="section-content">
+                  Personalized travel schedules designed for comfort,
+                  efficiency, and memorable experiences.
+                </p>
+              </div>
+              <div className="home-thq-handle-cell-elm5 service-card">
+                <div className="home-thq-bento-icon-elm4 service-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="28"
+                    height="28"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="none"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
                     ></path>
                   </svg>
                 </div>
-                <h3 className="section-subtitle">Insurance &amp; Support</h3>
+                <h3 className="section-subtitle">Travel Insurance</h3>
                 <p className="section-content">
-                  Comprehensive coverage and 24/7 assistance throughout your
-                  trip.
+                  Reliable insurance options for international trips, studies,
+                  tours, and emergencies.
+                </p>
+              </div>
+              <div className="service-card">
+                <div className="service-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="28"
+                    height="28"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                    >
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <path d="M12 2a14.5 14.5 0 0 0 0 20a14.5 14.5 0 0 0 0-20M2 12h20"></path>
+                    </g>
+                  </svg>
+                </div>
+                <h3 className="section-subtitle">
+                  Tour Packages &amp; Guided Experiences
+                </h3>
+                <p className="section-content">
+                  Curated travel experiences, vacation packages, and guided
+                  international tours.
+                </p>
+              </div>
+              <div className="service-card">
+                <div className="service-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="28"
+                    height="28"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                    >
+                      <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"></path>
+                      <circle cx="7" cy="17" r="2"></circle>
+                      <path d="M9 17h6"></path>
+                      <circle cx="17" cy="17" r="2"></circle>
+                    </g>
+                  </svg>
+                </div>
+                <h3 className="section-subtitle">
+                  Airport Transfer Arrangements
+                </h3>
+                <p className="section-content">
+                  Convenient pickup and drop-off arrangements for smooth travel
+                  experiences.
+                </p>
+              </div>
+              <div className="service-card">
+                <div className="service-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="28"
+                    height="28"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                    >
+                      <path d="M3 11h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2zm0 0a9 9 0 1 1 18 0m0 0v5a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2z"></path>
+                      <path d="M21 16v2a4 4 0 0 1-4 4h-5"></path>
+                    </g>
+                  </svg>
+                </div>
+                <h3 className="section-subtitle">
+                  24/7 Travel Support &amp; Emergency Assistance
+                </h3>
+                <p className="section-content">
+                  Round-the-clock assistance to help travelers anytime,
+                  anywhere.
                 </p>
               </div>
             </div>
@@ -398,13 +569,9 @@ section {
         <section className="how-we-work">
           <div className="work-container">
             <div className="work-header">
-              <h1 className="home-text24">
-                <span>The R</span>
-                <span className="home-text26">&amp;</span>
-                <span>B Process</span>
-              </h1>
+              <h1 className="home-text25">How It Works</h1>
               <p className="section-content">
-                Transparent, thorough planning from initial spark to homecoming.
+                A simple, transparent process from first contact to departure.
               </p>
             </div>
             <div className="work-timeline">
@@ -414,10 +581,10 @@ section {
                   <span>1</span>
                 </div>
                 <div className="home-timeline-content">
-                  <h3 className="section-subtitle">Research &amp; Discovery</h3>
+                  <h3 className="section-subtitle">Consultation</h3>
                   <p className="section-content">
-                    We start by understanding your travel dreams, budget, and
-                    style to find the perfect match.
+                    We discuss your travel goals, budget, and preferences to
+                    understand exactly what you need.
                   </p>
                 </div>
               </div>
@@ -426,10 +593,10 @@ section {
                   <span>2</span>
                 </div>
                 <div className="home-thq-timeline-content-elm2 home-timeline-content">
-                  <h3 className="section-subtitle">Custom Planning</h3>
+                  <h3 className="section-subtitle">Document Review</h3>
                   <p className="section-content">
-                    Our consultants draft a detailed itinerary featuring vetted
-                    local partners and unique stays.
+                    Our team reviews your passport, visa requirements, and all
+                    necessary paperwork.
                   </p>
                 </div>
               </div>
@@ -438,10 +605,12 @@ section {
                   <span>3</span>
                 </div>
                 <div className="home-timeline-content">
-                  <h3 className="section-subtitle">Booking &amp; Logistics</h3>
+                  <h3 className="section-subtitle">
+                    Application &amp; Booking
+                  </h3>
                   <p className="section-content">
-                    We handle flights, visas, insurance, and all confirmations
-                    so you don&apos;t have to.
+                    We handle embassy appointments, flight reservations,
+                    accommodations, and insurance.
                   </p>
                 </div>
               </div>
@@ -450,10 +619,24 @@ section {
                   <span>4</span>
                 </div>
                 <div className="home-thq-timeline-content-elm4 home-timeline-content">
-                  <h3 className="section-subtitle">On-Trip Support</h3>
+                  <h3 className="section-subtitle">
+                    Processing &amp; Confirmation
+                  </h3>
                   <p className="section-content">
-                    Travel with peace of mind knowing our team and local
-                    partners are available 24/7.
+                    Track your application status and receive confirmed bookings
+                    with all details.
+                  </p>
+                </div>
+              </div>
+              <div className="home-timeline-item right">
+                <div className="home-timeline-dot">
+                  <span>5</span>
+                </div>
+                <div className="home-timeline-content">
+                  <h3 className="section-subtitle">Travel Support</h3>
+                  <p className="section-content">
+                    Enjoy 24/7 assistance before, during, and after your trip
+                    for complete peace of mind.
                   </p>
                 </div>
               </div>
@@ -485,7 +668,7 @@ section {
                 </div>
                 <p className="section-content">
                   <span>&quot;R</span>
-                  <span className="home-text33">&amp;</span>
+                  <span className="home-text32">&amp;</span>
                   <span>
                     B Travels made our honeymoon in the Maldives completely
                     effortless. The local partner they vetted was incredible,
@@ -878,23 +1061,107 @@ section {
           .home-container3 {
             display: contents;
           }
-          .home-text13 {
-            color: var(--color-neutral-light);
-          }
           .home-thq-btn-elm1 {
             text-decoration: none;
           }
           .home-thq-btn-elm2 {
             text-decoration: none;
           }
-          .home-text24 {
-            font-size: 40px;
-            font-family: '' 'Inter' '';
-            font-weight: 700;
+          .home-thq-hero-trust-bar-elm {
+            gap: var(--spacing-lg);
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: var(--spacing-2xl);
+            align-items: center;
           }
-          .home-text26 {
-            color: var(--color-accent-dark);
-            font-family: '' 'Poppins' '';
+          .home-thq-handle-bento-grid-elm {
+            gap: var(--spacing-lg);
+            display: grid;
+            grid-template-rows: repeat(2, 250px);
+            grid-template-columns: repeat(4, 1fr);
+          }
+          .home-thq-handle-cell-elm1 {
+            border: 1px solid var(--color-border);
+            display: flex;
+            padding: 0;
+            grid-row: span 2;
+            overflow: hidden;
+            position: relative;
+            background: var(--color-surface);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            grid-column: span 2;
+            border-radius: var(--border-radius-card);
+            flex-direction: column;
+            justify-content: flex-end;
+          }
+          .home-thq-bento-content-elm {
+            color: var(--color-surface);
+            width: 100%;
+            padding: var(--spacing-xl);
+            z-index: 2;
+            position: relative;
+            background: var(--color-scrim);
+          }
+          .home-thq-handle-cell-elm2 {
+            border: 1px solid var(--color-border);
+            display: flex;
+            padding: var(--spacing-xl);
+            background: var(--color-surface);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-radius: var(--border-radius-card);
+            flex-direction: column;
+            justify-content: flex-end;
+          }
+          .home-thq-bento-icon-elm1 {
+            color: var(--color-primary);
+            margin-bottom: var(--spacing-md);
+          }
+          .home-thq-handle-cell-elm3 {
+            border: 1px solid var(--color-border);
+            display: flex;
+            padding: var(--spacing-xl);
+            background: var(--color-surface);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-radius: var(--border-radius-card);
+            flex-direction: column;
+            justify-content: flex-end;
+          }
+          .home-thq-bento-icon-elm2 {
+            color: var(--color-primary);
+            margin-bottom: var(--spacing-md);
+          }
+          .home-thq-handle-cell-elm4 {
+            border: 1px solid var(--color-border);
+            display: flex;
+            padding: var(--spacing-xl);
+            background: var(--color-surface);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-radius: var(--border-radius-card);
+            flex-direction: column;
+            justify-content: flex-end;
+          }
+          .home-thq-bento-icon-elm3 {
+            color: var(--color-primary);
+            margin-bottom: var(--spacing-md);
+          }
+          .home-thq-handle-cell-elm5 {
+            border: 1px solid var(--color-border);
+            display: flex;
+            padding: var(--spacing-xl);
+            background: var(--color-surface);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-radius: var(--border-radius-card);
+            flex-direction: column;
+            justify-content: flex-end;
+          }
+          .home-thq-bento-icon-elm4 {
+            color: var(--color-primary);
+            margin-bottom: var(--spacing-md);
+          }
+          .home-text25 {
+            font-size: 40px;
+            font-family: '' '' Inter '' '';
+            font-weight: 700;
           }
           .home-thq-timeline-content-elm2 {
             padding-top: var(--dl-layout-space-threeunits);
@@ -902,7 +1169,7 @@ section {
           .home-thq-timeline-content-elm4 {
             padding-top: var(--dl-layout-space-threeunits);
           }
-          .home-text33 {
+          .home-text32 {
             color: var(--color-accent-dark);
           }
           .home-thq-cta-contact-shortcut-elm {
@@ -935,6 +1202,13 @@ section {
             display: contents;
           }
           @media (max-width: 991px) {
+            .home-thq-hero-trust-bar-elm {
+              justify-content: center;
+            }
+            .home-thq-handle-bento-grid-elm {
+              grid-template-rows: auto;
+              grid-template-columns: repeat(2, 1fr);
+            }
             .home-thq-map-elm {
               width: 100%;
             }
@@ -952,10 +1226,14 @@ section {
             }
           }
           @media (max-width: 479px) {
-            .home-text13 {
-              color: var(--color-neutral-light);
+            .home-thq-handle-bento-grid-elm {
+              grid-template-columns: 1fr;
             }
-            .home-text33 {
+            .home-thq-handle-cell-elm1 {
+              height: 350px;
+              grid-column: span 1;
+            }
+            .home-text32 {
               color: var(--color-accent-dark);
             }
             .home-thq-map-elm {
