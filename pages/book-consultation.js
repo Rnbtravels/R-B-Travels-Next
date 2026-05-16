@@ -26,20 +26,12 @@ const BookConsultation = (props) => {
         <Navigation></Navigation>
         <section className="hero-section">
           <div className="hero-section__container">
-            <div className="hero-section__media">
-              <img
-                src="https://images.pexels.com/photos/5302804/pexels-photo-5302804.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                alt="Voyanta Travel Planning"
-                className="hero-section__image"
-              />
-              <div className="hero-section__overlay"></div>
-            </div>
             <div className="hero-section__content">
-              <h1 className="hero-title">Choose the date suitable for you</h1>
+              <h1 className="hero-title">R&amp;B Travels</h1>
               <p className="hero-subtitle">
-                Secure your personalized travel consultation with Voyanta. Our
-                experts are ready to transform your travel dreams into
-                effortless, expertly planned realities.
+                Secure your personalized travel consultation with R&amp;B
+                Travels. Our experts are ready to transform your travel dreams
+                into effortless, expertly planned realities.
               </p>
             </div>
           </div>
@@ -49,13 +41,69 @@ const BookConsultation = (props) => {
             <div
               id="my-cal-inline-consultation"
               className="book-consultation-container2"
-            ></div>
+            >
+              <div
+                id="my-cal-inline-consultation__inner"
+                className="book-consultation-container3"
+              ></div>
+              <div className="book-consultation-container4">
+                <div className="book-consultation-container5">
+                  <Script
+                    html={`<script>
+(function(){
+          ;(function (C, A, L) {
+            let p = function (a, ar) {
+              a.q.push(ar)
+            }
+            let d = C.document
+            C.Cal =
+              C.Cal ||
+              function () {
+                let cal = C.Cal
+                let ar = arguments
+                if (!cal.loaded) {
+                  cal.ns = {}
+                  cal.q = cal.q || []
+                  d.head.appendChild(d.createElement("script")).src = A
+                  cal.loaded = true
+                }
+                if (ar[0] === L) {
+                  const api = function () {
+                    p(api, arguments)
+                  }
+                  const namespace = ar[1]
+                  api.q = api.q || []
+                  if (typeof namespace === "string") {
+                    cal.ns[namespace] = cal.ns[namespace] || api
+                    p(cal.ns[namespace], ar)
+                    p(cal, ["initNamespace", namespace])
+                  } else p(cal, ar)
+                  return
+                }
+                p(cal, ar)
+              }
+          })(window, "https://app.cal.com/embed/embed.js", "init")
+          Cal("init", "consultation", { origin: "https://app.cal.com" })
+
+          Cal.ns.consultation("inline", {
+            elementOrSelector: "#my-cal-inline-consultation__inner",
+            config: { layout: "month_view", useSlotsViewOnSmallScreen: "true", theme: "light" },
+            calLink: "r-btravels/consultation",
+          })
+
+          Cal.ns.consultation("ui", { theme: "light", cssVarsPerTheme: { light: { "cal-brand": "#ffffff" } }, hideEventTypeDetails: false, layout: "month_view" })
+        })()
+</script>`}
+                  ></Script>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
         <section className="service-overview">
           <div className="service-overview__container">
             <div className="service-overview__header">
-              <h2 className="section-title">The Voyanta Advantage</h2>
+              <h2 className="section-title">The R&amp;B Travels Advantage</h2>
               <p className="section-content">
                 Comprehensive support from the first spark of inspiration until
                 you return home.
@@ -166,65 +214,6 @@ const BookConsultation = (props) => {
             </div>
           </div>
         </section>
-        <div className="book-consultation-container3">
-          <div className="book-consultation-container4">
-            <Script
-              html={`<script defer data-name="voyanta-booking-init">
-(function(){
-  ;(function (C, A, L) {
-    let p = function (a, ar) {
-      a.q.push(ar)
-    }
-    let d = C.document
-    C.Cal =
-      C.Cal ||
-      function () {
-        let cal = C.Cal
-        let ar = arguments
-        if (!cal.loaded) {
-          cal.ns = {}
-          cal.q = cal.q || []
-          d.head.appendChild(d.createElement("script")).src = A
-          cal.loaded = true
-        }
-        if (ar[0] === L) {
-          const api = function () {
-            p(api, arguments)
-          }
-          const namespace = ar[1]
-          api.q = api.q || []
-          if (typeof namespace === "string") {
-            cal.ns[namespace] = cal.ns[namespace] || api
-            p(cal.ns[namespace], ar)
-            p(cal, ["initNamespace", namespace])
-          } else p(cal, ar)
-          return
-        }
-        p(cal, ar)
-      }
-  })(window, "https://app.cal.com/embed/embed.js", "init")
-
-  Cal("init", "consultation", { origin: "https://app.cal.com" })
-
-  Cal.ns.consultation("inline", {
-    elementOrSelector: "#my-cal-inline-consultation",
-    config: { layout: "month_view", useSlotsViewOnSmallScreen: "true" },
-    calLink: "r-btravels/consultation",
-  })
-
-  Cal.ns.consultation("ui", {
-    cssVarsPerTheme: {
-      light: { "cal-brand": "#ffffff" },
-      dark: { "cal-brand": "#121212" },
-    },
-    hideEventTypeDetails: false,
-    layout: "month_view",
-  })
-})()
-</script>`}
-            ></Script>
-          </div>
-        </div>
         <Footer></Footer>
       </div>
       <style jsx>
@@ -239,9 +228,14 @@ const BookConsultation = (props) => {
             overflow: scroll;
           }
           .book-consultation-container3 {
-            display: none;
+            width: 100%;
+            height: 100%;
+            overflow: scroll;
           }
           .book-consultation-container4 {
+            display: none;
+          }
+          .book-consultation-container5 {
             display: contents;
           }
         `}

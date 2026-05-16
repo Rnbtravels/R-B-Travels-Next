@@ -12,7 +12,10 @@ const Navigation = (props) => {
         <nav className="navigation-wrapper">
           <div className="navigation-container">
             <a href="Homepage">
-              <div aria-label="Voyanta Home" className="navigation-brand">
+              <div
+                aria-label="R&amp;B Travels Home"
+                className="navigation-brand"
+              >
                 <div className="navigation-logo-icon">
                   <svg
                     width="24"
