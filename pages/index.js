@@ -850,12 +850,12 @@ section {
           }
           .home-text24 {
             font-size: 40px;
-            font-family: 'Inter';
+            font-family: '' Inter '';
             font-weight: 700;
           }
           .home-text26 {
             color: var(--color-accent-dark);
-            font-family: 'Poppins';
+            font-family: '' Poppins '';
           }
           .home-thq-timeline-content-elm2 {
             padding-top: var(--dl-layout-space-threeunits);
