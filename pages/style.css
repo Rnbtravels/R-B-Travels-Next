@@ -4066,6 +4066,12 @@
   color: var(--color-on-primary);
 }
  
+.navigation-mobile-overlay.active {
+  opacity: 1;
+  transform: translateX(0);
+  visibility: visible;
+}
+ 
 .Content {
   font-size: 16px;
   font-family: Inter;

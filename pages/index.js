@@ -774,54 +774,93 @@ section {
         <div className="home-container6">
           <div className="home-container7">
             <Script
-              html={`<script defer data-name="voyanta-interactions">
-(function(){
-  const initCarousels = () => {
-    const setupCarousel = (id, prevId, nextId) => {
-      const carousel = document.getElementById(id)
-      const prevBtn = document.getElementById(prevId)
-      const nextBtn = document.getElementById(nextId)
-
-      if (!carousel || !prevBtn || !nextBtn) return
-
-      nextBtn.addEventListener("click", () => {
-        carousel.scrollBy({ left: 340, behavior: "smooth" })
-      })
-
-      prevBtn.addEventListener("click", () => {
-        carousel.scrollBy({ left: -340, behavior: "smooth" })
-      })
-    }
-
-    setupCarousel("itineraryCarousel", "prevItinerary", "nextItinerary")
-  }
-
-  const initTimelineObserver = () => {
-    const items = document.querySelectorAll(".timeline-item")
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.style.opacity = "1"
-            entry.target.style.transform = "translateY(0)"
+              html={`<script>
+        ;(function () {
+          const initCarousels = () => {
+            const setupCarousel = (id, prevId, nextId) => {
+              const carousel = document.getElementById(id)
+              const prevBtn = document.getElementById(prevId)
+              const nextBtn = document.getElementById(nextId)
+              if (!carousel || !prevBtn || !nextBtn) return
+              nextBtn.addEventListener("click", () => {
+                carousel.scrollBy({ left: 340, behavior: "smooth" })
+              })
+              prevBtn.addEventListener("click", () => {
+                carousel.scrollBy({ left: -340, behavior: "smooth" })
+              })
+            }
+            setupCarousel("itineraryCarousel", "prevItinerary", "nextItinerary")
           }
-        })
-      },
-      { threshold: 0.2 }
-    )
+          const initTimelineObserver = () => {
+            const items = document.querySelectorAll(".timeline-item")
+            const observer = new IntersectionObserver(
+              (entries) => {
+                entries.forEach((entry) => {
+                  if (entry.isIntersecting) {
+                    entry.target.style.opacity = "1"
+                    entry.target.style.transform = "translateY(0)"
+                  }
+                })
+              },
+              { threshold: 0.2 }
+            )
+            items.forEach((item) => {
+              item.style.opacity = "0"
+              item.style.transform = "translateY(30px)"
+              item.style.transition = "all 0.6s ease-out"
+              observer.observe(item)
+            })
+          }
+          initCarousels()
+          initTimelineObserver()
 
-    items.forEach((item) => {
-      item.style.opacity = "0"
-      item.style.transform = "translateY(30px)"
-      item.style.transition = "all 0.6s ease-out"
-      observer.observe(item)
-    })
-  }
+          const initMobileMenu = () => {
+            const toggleBtn = document.getElementById("mobileMenuToggle")
+            const closeBtn = document.getElementById("mobileMenuClose")
+            const overlay = document.getElementById("mobileOverlay")
+            if (!toggleBtn || !overlay) return
 
-  initCarousels()
-  initTimelineObserver()
-})()
-</script>`}
+            const openMenu = () => {
+              overlay.classList.add("active")
+              toggleBtn.setAttribute("aria-expanded", "true")
+              toggleBtn.setAttribute("aria-label", "Close menu")
+              document.body.style.overflow = "hidden"
+            }
+
+            const closeMenu = () => {
+              overlay.classList.remove("active")
+              toggleBtn.setAttribute("aria-expanded", "false")
+              toggleBtn.setAttribute("aria-label", "Open menu")
+              document.body.style.overflow = ""
+            }
+
+            toggleBtn.addEventListener("click", () => {
+              if (overlay.classList.contains("active")) {
+                closeMenu()
+              } else {
+                openMenu()
+              }
+            })
+
+            if (closeBtn) {
+              closeBtn.addEventListener("click", closeMenu)
+            }
+
+            overlay.addEventListener("click", (e) => {
+              if (e.target === overlay) {
+                closeMenu()
+              }
+            })
+
+            document.addEventListener("keydown", (e) => {
+              if (e.key === "Escape" && overlay.classList.contains("active")) {
+                closeMenu()
+              }
+            })
+          }
+          initMobileMenu()
+        })()
+      </script>`}
             ></Script>
           </div>
         </div>
@@ -850,12 +889,12 @@ section {
           }
           .home-text24 {
             font-size: 40px;
-            font-family: '' Inter '';
+            font-family: '' 'Inter' '';
             font-weight: 700;
           }
           .home-text26 {
             color: var(--color-accent-dark);
-            font-family: '' Poppins '';
+            font-family: '' 'Poppins' '';
           }
           .home-thq-timeline-content-elm2 {
             padding-top: var(--dl-layout-space-threeunits);
