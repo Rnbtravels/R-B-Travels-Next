@@ -44,6 +44,7 @@ section {
               className="hero-bg-video"
             ></video>
           </div>
+          <div className="home-thq-hero-blue-overlay-elm"></div>
           <div className="hero-diagonal-split">
             <div className="hero-content-left">
               <h1 className="hero-title home-hero-title home-thq-hero-title-elm">
@@ -1061,6 +1062,18 @@ section {
           .home-container3 {
             display: contents;
           }
+          .home-thq-hero-blue-overlay-elm {
+            top: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            bottom: 0;
+            height: 100%;
+            z-index: 1;
+            position: absolute;
+            background: rgba(11, 61, 145, 0.65);
+            pointer-events: none;
+          }
           .home-thq-btn-elm1 {
             text-decoration: none;
           }
@@ -1074,7 +1087,7 @@ section {
             z-index: 3;
             position: relative;
             flex-wrap: wrap;
-            background: rgba(11, 61, 145, 0.35);
+            background: rgba(11, 61, 145, 0.65);
             margin-top: var(--spacing-2xl);
             align-items: center;
             border-radius: var(--border-radius-md);
@@ -1165,7 +1178,7 @@ section {
           }
           .home-text25 {
             font-size: 40px;
-            font-family: '' '' '' '' Inter '' '' '' '';
+            font-family: '' '' '' '' '' 'Inter' '' '' '' '' '';
             font-weight: 700;
           }
           .home-thq-timeline-content-elm2 {
