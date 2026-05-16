@@ -1249,6 +1249,7 @@ section {
             .home-thq-hero-trust-bar-elm {
               gap: var(--spacing-sm);
               margin-top: var(--spacing-md);
+              margin-bottom: var(--dl-layout-space-threeunits);
             }
             .home-thq-handle-bento-grid-elm {
               grid-template-columns: 1fr;
