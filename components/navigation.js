@@ -8,7 +8,7 @@ import { useTranslations } from 'next-intl'
 const Navigation = (props) => {
   return (
     <>
-      <div className={`navigation-container1 ${props.rootClassName} `}>
+      <div className={`navigation ${props.rootClassName} `}>
         <nav className="navigation-wrapper">
           <div className="navigation-container">
             <a href="Homepage">
@@ -73,6 +73,34 @@ const Navigation = (props) => {
                   </div>
                 </a>
               </Link>
+              <div data-thq="thq-dropdown" className="navigation-thq-dropdown1">
+                <div
+                  data-thq="thq-dropdown-toggle"
+                  className="navigation-thq-dropdown-toggle1"
+                >
+                  <span>More</span>
+                  <div
+                    data-thq="thq-dropdown-arrow"
+                    className="navigation-thq-dropdown-arrow1"
+                  >
+                    <svg viewBox="0 0 1024 1024" className="navigation-icon12">
+                      <path d="M426 726v-428l214 214z"></path>
+                    </svg>
+                  </div>
+                </div>
+                <ul
+                  data-thq="thq-dropdown-list"
+                  className="navigation-thq-dropdown-list1"
+                >
+                  <Link href="/book-consultation">
+                    <a>
+                      <div className="navigation-link">
+                        <span>Book Consultation</span>
+                      </div>
+                    </a>
+                  </Link>
+                </ul>
+              </div>
             </div>
             <div className="navigation-actions">
               <Link href="/booking-documentation">
@@ -187,6 +215,40 @@ const Navigation = (props) => {
                     </div>
                   </a>
                 </Link>
+                <div
+                  data-thq="thq-dropdown"
+                  className="navigation-thq-dropdown2"
+                >
+                  <div
+                    data-thq="thq-dropdown-toggle"
+                    className="navigation-thq-dropdown-toggle2"
+                  >
+                    <span>More</span>
+                    <div
+                      data-thq="thq-dropdown-arrow"
+                      className="navigation-thq-dropdown-arrow2"
+                    >
+                      <svg
+                        viewBox="0 0 1024 1024"
+                        className="navigation-icon24"
+                      >
+                        <path d="M426 726v-428l214 214z"></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <ul
+                    data-thq="thq-dropdown-list"
+                    className="navigation-thq-dropdown-list2"
+                  >
+                    <Link href="/book-consultation">
+                      <a>
+                        <div className="navigation-mobile-link">
+                          <span>Book Consultation</span>
+                        </div>
+                      </a>
+                    </Link>
+                  </ul>
+                </div>
               </div>
               <div className="navigation-mobile-footer">
                 <Link href="/booking-documentation">
@@ -204,125 +266,169 @@ const Navigation = (props) => {
           <div className="navigation-container3">
             <Script
               html={`<style>
-[data-theme="dark"] .navigation-theme-icon-light {
-  display: none;
-}
-[data-theme="dark"] .navigation-theme-icon-dark {
-  display: block;
-}
-@media (prefers-reduced-motion: reduce) {
-.navigation-mobile-overlay, .navigation-link::after, .navigation-mobile-link {
-  transition: none;
-}
-}
-</style>`}
+            .navigation-theme-icon-light {
+              display: block;
+            }
+            .navigation-theme-icon-dark {
+              display: none;
+            }
+            @media (prefers-reduced-motion: reduce) {
+              .navigation-mobile-overlay,
+              .navigation-link::after,
+              .navigation-mobile-link {
+                transition: none;
+              }
+            }
+          </style>`}
             ></Script>
           </div>
         </div>
         <div className="navigation-container4">
           <div className="navigation-container5">
             <Script
-              html={`<script defer data-name="navigation-controls">
-(function(){
-  const mobileToggle = document.getElementById("mobileMenuToggle")
-  const mobileClose = document.getElementById("mobileMenuClose")
-  const mobileOverlay = document.getElementById("mobileOverlay")
-  const body = document.body
-
-  function openMenu() {
-    mobileOverlay.style.display = "flex"
-    // Small timeout to allow display:flex to register for transition
-    setTimeout(() => {
-      mobileOverlay.classList.add("is-active")
-      mobileToggle.setAttribute("aria-expanded", "true")
-      body.style.overflow = "hidden"
-    }, 10)
-  }
-
-  function closeMenu() {
-    mobileOverlay.classList.remove("is-active")
-    mobileToggle.setAttribute("aria-expanded", "false")
-    body.style.overflow = ""
-
-    // Wait for transition then hide
-    setTimeout(() => {
-      if (!mobileOverlay.classList.contains("is-active")) {
-        mobileOverlay.style.display = "none"
-      }
-    }, 300)
-  }
-
-  mobileToggle.addEventListener("click", openMenu)
-  mobileClose.addEventListener("click", closeMenu)
-
-  // Close menu on link click
-  const mobileLinks = mobileOverlay.querySelectorAll(".navigation-mobile-link")
-  mobileLinks.forEach((link) => {
-    link.addEventListener("click", closeMenu)
-  })
-
-  // Handle escape key
-  document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape" && mobileOverlay.classList.contains("is-active")) {
-      closeMenu()
-    }
-  })
-
-  const themeToggle = document.getElementById("themeToggle")
-  const html = document.documentElement
-
-  // Initialize theme from localStorage or system preference
-  const storedTheme = localStorage.getItem("theme") || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")
-
-  applyTheme(storedTheme)
-
-  function applyTheme(theme) {
-    const suffix = theme === "dark" ? "dark" : "light"
-
-    // Update ALL active color variables to point to the correct theme
-    html.style.setProperty("--color-primary", \`var(--color-primary-\${suffix})\`)
-    html.style.setProperty("--color-secondary", \`var(--color-secondary-\${suffix})\`)
-    html.style.setProperty("--color-accent", \`var(--color-accent-\${suffix})\`)
-    html.style.setProperty("--color-neutral", \`var(--color-neutral-\${suffix})\`)
-    html.style.setProperty("--color-surface", \`var(--color-surface-\${suffix})\`)
-    html.style.setProperty("--color-on-surface", \`var(--color-on-surface-\${suffix})\`)
-    html.style.setProperty("--color-on-surface-secondary", \`var(--color-on-surface-secondary-\${suffix})\`)
-    html.style.setProperty("--color-on-primary", \`var(--color-on-primary-\${suffix})\`)
-    html.style.setProperty("--color-surface-elevated", \`var(--color-surface-elevated-\${suffix})\`)
-    html.style.setProperty("--color-on-secondary", \`var(--color-on-secondary-\${suffix})\`)
-    html.style.setProperty("--color-on-accent", \`var(--color-on-accent-\${suffix})\`)
-    html.style.setProperty("--color-border", \`var(--color-border-\${suffix})\`)
-    html.style.setProperty("--color-outline", \`var(--color-outline-\${suffix})\`)
-    html.style.setProperty("--color-overlay", \`var(--color-overlay-\${suffix})\`)
-    html.style.setProperty("--color-backplate", \`var(--color-backplate-\${suffix})\`)
-    html.style.setProperty("--color-scrim", \`var(--color-scrim-\${suffix})\`)
-
-    html.setAttribute("data-theme", theme)
-    localStorage.setItem("theme", theme)
-  }
-
-  function toggleTheme() {
-    const currentTheme = html.getAttribute("data-theme")
-    const newTheme = currentTheme === "light" ? "dark" : "light"
-    applyTheme(newTheme)
-  }
-
-  if (themeToggle) {
-    themeToggle.addEventListener("click", toggleTheme)
-  }
-})()
-</script>`}
+              html={`<script>
+            ;(function () {
+              const mobileToggle = document.getElementById("mobileMenuToggle")
+              const mobileClose = document.getElementById("mobileMenuClose")
+              const mobileOverlay = document.getElementById("mobileOverlay")
+              const body = document.body
+              function openMenu() {
+                mobileOverlay.style.display = "flex"
+                // Small timeout to allow display:flex to register for transition
+                setTimeout(() => {
+                  mobileOverlay.classList.add("is-active")
+                  mobileToggle.setAttribute("aria-expanded", "true")
+                  body.style.overflow = "hidden"
+                }, 10)
+              }
+              function closeMenu() {
+                mobileOverlay.classList.remove("is-active")
+                mobileToggle.setAttribute("aria-expanded", "false")
+                body.style.overflow = ""
+                // Wait for transition then hide
+                setTimeout(() => {
+                  if (!mobileOverlay.classList.contains("is-active")) {
+                    mobileOverlay.style.display = "none"
+                  }
+                }, 300)
+              }
+              mobileToggle.addEventListener("click", openMenu)
+              mobileClose.addEventListener("click", closeMenu)
+              // Close menu on link click
+              const mobileLinks = mobileOverlay.querySelectorAll(".navigation-mobile-link")
+              mobileLinks.forEach((link) => {
+                link.addEventListener("click", closeMenu)
+              })
+              // Handle escape key
+              document.addEventListener("keydown", (e) => {
+                if (e.key === "Escape" && mobileOverlay.classList.contains("is-active")) {
+                  closeMenu()
+                }
+              })
+              const themeToggle = document.getElementById("themeToggle")
+              const html = document.documentElement
+              // Force light mode always
+              const storedTheme = "light"
+              applyTheme(storedTheme)
+              function applyTheme(theme) {
+                const suffix = theme === "dark" ? "dark" : "light"
+                // Update ALL active color variables to point to the correct theme
+                html.style.setProperty("--color-primary", \`var(--color-primary-\\\${suffix})\`)
+                html.style.setProperty("--color-secondary", \`var(--color-secondary-\\\${suffix})\`)
+                html.style.setProperty("--color-accent", \`var(--color-accent-\\\${suffix})\`)
+                html.style.setProperty("--color-neutral", \`var(--color-neutral-\\\${suffix})\`)
+                html.style.setProperty("--color-surface", \`var(--color-surface-\\\${suffix})\`)
+                html.style.setProperty("--color-on-surface", \`var(--color-on-surface-\\\${suffix})\`)
+                html.style.setProperty("--color-on-surface-secondary", \`var(--color-on-surface-secondary-\\\${suffix})\`)
+                html.style.setProperty("--color-on-primary", \`var(--color-on-primary-\\\${suffix})\`)
+                html.style.setProperty("--color-surface-elevated", \`var(--color-surface-elevated-\\\${suffix})\`)
+                html.style.setProperty("--color-on-secondary", \`var(--color-on-secondary-\\\${suffix})\`)
+                html.style.setProperty("--color-on-accent", \`var(--color-on-accent-\\\${suffix})\`)
+                html.style.setProperty("--color-border", \`var(--color-border-\\\${suffix})\`)
+                html.style.setProperty("--color-outline", \`var(--color-outline-\\\${suffix})\`)
+                html.style.setProperty("--color-overlay", \`var(--color-overlay-\\\${suffix})\`)
+                html.style.setProperty("--color-backplate", \`var(--color-backplate-\\\${suffix})\`)
+                html.style.setProperty("--color-scrim", \`var(--color-scrim-\\\${suffix})\`)
+                html.setAttribute("data-theme", theme)
+                localStorage.setItem("theme", theme)
+              }
+              function toggleTheme() {
+                // Theme toggle disabled - light mode only
+                applyTheme("light")
+              }
+              if (themeToggle) {
+                themeToggle.addEventListener("click", toggleTheme)
+              }
+            })()
+          </script>`}
             ></Script>
           </div>
         </div>
       </div>
       <style jsx>
         {`
-          .navigation-container1 {
-            display: contents;
-          }
           .navigation-text11 {
             color: var(--color-accent);
+          }
+          .navigation-thq-dropdown1 {
+            cursor: pointer;
+            display: inline-block;
+            padding: 4px 8px;
+            position: relative;
+            border-color: rgba(0, 0, 0, 0.45);
+            border-style: solid;
+            border-width: 1px;
+            border-radius: 4px;
+          }
+          .navigation-thq-dropdown-toggle1 {
+            gap: 4px;
+            display: inline-flex;
+            align-items: center;
+          }
+          .navigation-thq-dropdown-arrow1 {
+            transition: 0.3s;
+          }
+          .navigation-icon12 {
+            width: 18px;
+            height: 18px;
+          }
+          .navigation-thq-dropdown-list1 {
+            display: none;
+            z-index: 100;
+            position: absolute;
+            min-width: 100%;
+            flex-direction: column;
+            list-style-type: none;
+          }
+          .navigation-thq-dropdown2 {
+            cursor: pointer;
+            display: inline-block;
+            padding: 4px 8px;
+            position: relative;
+            border-color: rgba(0, 0, 0, 0.45);
+            border-style: solid;
+            border-width: 1px;
+            border-radius: 4px;
+          }
+          .navigation-thq-dropdown-toggle2 {
+            gap: 4px;
+            display: inline-flex;
+            align-items: center;
+          }
+          .navigation-thq-dropdown-arrow2 {
+            transition: 0.3s;
+          }
+          .navigation-icon24 {
+            width: 18px;
+            height: 18px;
+          }
+          .navigation-thq-dropdown-list2 {
+            display: none;
+            z-index: 100;
+            position: absolute;
+            min-width: 100%;
+            flex-direction: column;
+            list-style-type: none;
           }
           .navigation-container2 {
             display: none;

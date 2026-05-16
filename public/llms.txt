@@ -13,3 +13,4 @@
 - [Pricing-Packages - rnvtravels](https://voyanta.teleporthq.site/pricing-packages)
 - [rnvtravels](https://voyanta.teleporthq.site)
 - [Booking-Documentation - rnvtravels](https://voyanta.teleporthq.site/booking-documentation)
+- [Book-Consultation - rnvtravels](https://voyanta.teleporthq.site/book-consultation)
