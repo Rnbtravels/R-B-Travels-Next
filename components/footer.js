@@ -312,11 +312,7 @@ const Footer = (props) => {
                   </li>
                   <li className="footer-contact-item">
                     <div className="footer-contact-icon">
-                      <a
-                        href="https://+2348062163748"
-                        target="_blank"
-                        rel="noreferrer noopener"
-                      >
+                      <a href="tel:+2348062163748">
                         <svg
                           fill="none"
                           width="24"
@@ -354,7 +350,9 @@ const Footer = (props) => {
                   rel="noreferrer noopener"
                 >
                   <p className="footer-thq-section-content-elm5 section-content footer-copyright">
-                    <span className="footer-text31">Developed by</span>
+                    <span className="footer-text31">
+                      Design &amp; Developed by
+                    </span>
                     <span> www.volues.com</span>
                   </p>
                 </a>
@@ -453,7 +451,7 @@ const Footer = (props) => {
           .footer-text27 {
             font-size: 16px;
             font-style: normal;
-            font-family: '' '' Inter '' '';
+            font-family: '' '' 'Inter' '' '';
             font-weight: 300;
           }
           .footer-text29 {
@@ -468,7 +466,7 @@ const Footer = (props) => {
           .footer-thq-section-content-elm5 {
             color: var(--color-primary-light);
             font-style: normal;
-            font-family: '' '' Inter '' '';
+            font-family: '' '' 'Inter' '' '';
             font-weight: 600;
             text-decoration: none;
           }

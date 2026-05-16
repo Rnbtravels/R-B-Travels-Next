@@ -47,7 +47,7 @@ section {
           <div className="hero-diagonal-split">
             <div className="hero-content-left">
               <h1 className="hero-title home-hero-title">
-                <span>Your Trusted Partner for</span>
+                <span>Your Trusted Partner for </span>
                 <span>Global Travel, Study &amp; Visa Solutions</span>
               </h1>
               <p className="home-hero-subtitle hero-subtitle">
@@ -1160,7 +1160,7 @@ section {
           }
           .home-text25 {
             font-size: 40px;
-            font-family: '' '' Inter '' '';
+            font-family: '' '' 'Inter' '' '';
             font-weight: 700;
           }
           .home-thq-timeline-content-elm2 {
@@ -1218,6 +1218,10 @@ section {
             }
           }
           @media (max-width: 767px) {
+            .home-thq-hero-trust-bar-elm {
+              gap: var(--spacing-md);
+              margin-top: var(--spacing-lg);
+            }
             .home-thq-map-elm {
               width: 100%;
             }
@@ -1226,6 +1230,10 @@ section {
             }
           }
           @media (max-width: 479px) {
+            .home-thq-hero-trust-bar-elm {
+              gap: var(--spacing-sm);
+              margin-top: var(--spacing-md);
+            }
             .home-thq-handle-bento-grid-elm {
               grid-template-columns: 1fr;
             }
