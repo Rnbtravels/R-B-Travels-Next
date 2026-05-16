@@ -878,20 +878,6 @@
   text-decoration: none;
 }
  
-.navigation-theme-btn {
-  color: var(--color-on-surface);
-  width: 40px;
-  border: 1px solid var(--color-border);
-  cursor: pointer;
-  height: 40px;
-  display: flex;
-  background: none;
-  transition: all 0.2s ease;
-  align-items: center;
-  border-radius: var(--border-radius-full);
-  justify-content: center;
-}
- 
 
  
 .navigation-mobile-toggle {
@@ -958,11 +944,6 @@
  
 .navigation-link:hover::after {
   width: 100%;
-}
- 
-.navigation-theme-btn:hover {
-  border-color: var(--color-primary);
-  background-color: var(--color-surface-elevated);
 }
  
 .navigation-mobile-overlay.is-active {

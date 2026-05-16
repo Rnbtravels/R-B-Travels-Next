@@ -117,48 +117,6 @@ const Navigation = (props) => {
               </div>
             </div>
             <div className="navigation-actions">
-              <button
-                id="themeToggle"
-                aria-label="Toggle theme"
-                className="navigation-theme-btn"
-              >
-                <span className="navigation-theme-icon-light">
-                  <svg
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <g
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <circle r="4" cx="12" cy="12"></circle>
-                      <path d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32l1.41 1.41M2 12h2m16 0h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path>
-                    </g>
-                  </svg>
-                </span>
-                <span className="navigation-thq-navigation-theme-icon-dark-elm">
-                  <svg
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    ></path>
-                  </svg>
-                </span>
-              </button>
               <Link href="/booking-documentation">
                 <a>
                   <div className="btn-primary btn navigation-cta btn-sm">
@@ -290,7 +248,7 @@ const Navigation = (props) => {
                     >
                       <svg
                         viewBox="0 0 1024 1024"
-                        className="navigation-icon28"
+                        className="navigation-icon22"
                       >
                         <path d="M426 726v-428l214 214z"></path>
                       </svg>
@@ -345,117 +303,12 @@ const Navigation = (props) => {
         </nav>
         <div className="navigation-container2">
           <div className="navigation-container3">
-            <Script
-              html={`<style>
-[data-theme="dark"] .navigation-theme-icon-light {
-  display: none;
-}
-[data-theme="dark"] .navigation-theme-icon-dark {
-  display: block;
-}
-@media (prefers-reduced-motion: reduce) {
-.navigation-mobile-overlay, .navigation-link::after, .navigation-mobile-link {
-  transition: none;
-}
-}
-</style>`}
-            ></Script>
+            <Script html={``}></Script>
           </div>
         </div>
         <div className="navigation-container4">
           <div className="navigation-container5">
-            <Script
-              html={`<script defer data-name="navigation-controls">
-(function(){
-  const mobileToggle = document.getElementById("mobileMenuToggle")
-  const mobileClose = document.getElementById("mobileMenuClose")
-  const mobileOverlay = document.getElementById("mobileOverlay")
-  const body = document.body
-
-  function openMenu() {
-    mobileOverlay.style.display = "flex"
-    // Small timeout to allow display:flex to register for transition
-    setTimeout(() => {
-      mobileOverlay.classList.add("is-active")
-      mobileToggle.setAttribute("aria-expanded", "true")
-      body.style.overflow = "hidden"
-    }, 10)
-  }
-
-  function closeMenu() {
-    mobileOverlay.classList.remove("is-active")
-    mobileToggle.setAttribute("aria-expanded", "false")
-    body.style.overflow = ""
-
-    // Wait for transition then hide
-    setTimeout(() => {
-      if (!mobileOverlay.classList.contains("is-active")) {
-        mobileOverlay.style.display = "none"
-      }
-    }, 300)
-  }
-
-  mobileToggle.addEventListener("click", openMenu)
-  mobileClose.addEventListener("click", closeMenu)
-
-  // Close menu on link click
-  const mobileLinks = mobileOverlay.querySelectorAll(".navigation-mobile-link")
-  mobileLinks.forEach((link) => {
-    link.addEventListener("click", closeMenu)
-  })
-
-  // Handle escape key
-  document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape" && mobileOverlay.classList.contains("is-active")) {
-      closeMenu()
-    }
-  })
-
-  const themeToggle = document.getElementById("themeToggle")
-  const html = document.documentElement
-
-  // Initialize theme from localStorage or system preference
-  const storedTheme = localStorage.getItem("theme") || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")
-
-  applyTheme(storedTheme)
-
-  function applyTheme(theme) {
-    const suffix = theme === "dark" ? "dark" : "light"
-
-    // Update ALL active color variables to point to the correct theme
-    html.style.setProperty("--color-primary", \`var(--color-primary-\${suffix})\`)
-    html.style.setProperty("--color-secondary", \`var(--color-secondary-\${suffix})\`)
-    html.style.setProperty("--color-accent", \`var(--color-accent-\${suffix})\`)
-    html.style.setProperty("--color-neutral", \`var(--color-neutral-\${suffix})\`)
-    html.style.setProperty("--color-surface", \`var(--color-surface-\${suffix})\`)
-    html.style.setProperty("--color-on-surface", \`var(--color-on-surface-\${suffix})\`)
-    html.style.setProperty("--color-on-surface-secondary", \`var(--color-on-surface-secondary-\${suffix})\`)
-    html.style.setProperty("--color-on-primary", \`var(--color-on-primary-\${suffix})\`)
-    html.style.setProperty("--color-surface-elevated", \`var(--color-surface-elevated-\${suffix})\`)
-    html.style.setProperty("--color-on-secondary", \`var(--color-on-secondary-\${suffix})\`)
-    html.style.setProperty("--color-on-accent", \`var(--color-on-accent-\${suffix})\`)
-    html.style.setProperty("--color-border", \`var(--color-border-\${suffix})\`)
-    html.style.setProperty("--color-outline", \`var(--color-outline-\${suffix})\`)
-    html.style.setProperty("--color-overlay", \`var(--color-overlay-\${suffix})\`)
-    html.style.setProperty("--color-backplate", \`var(--color-backplate-\${suffix})\`)
-    html.style.setProperty("--color-scrim", \`var(--color-scrim-\${suffix})\`)
-
-    html.setAttribute("data-theme", theme)
-    localStorage.setItem("theme", theme)
-  }
-
-  function toggleTheme() {
-    const currentTheme = html.getAttribute("data-theme")
-    const newTheme = currentTheme === "light" ? "dark" : "light"
-    applyTheme(newTheme)
-  }
-
-  if (themeToggle) {
-    themeToggle.addEventListener("click", toggleTheme)
-  }
-})()
-</script>`}
-            ></Script>
+            <Script html={``}></Script>
           </div>
         </div>
       </div>
@@ -465,7 +318,7 @@ const Navigation = (props) => {
             display: contents;
           }
           .navigation-text11 {
-            color: var(--color-accent-dark);
+            color: var(--color-accent);
           }
           .navigation-thq-dropdown1 {
             cursor: pointer;
@@ -497,9 +350,6 @@ const Navigation = (props) => {
             flex-direction: column;
             list-style-type: none;
           }
-          .navigation-thq-navigation-theme-icon-dark-elm {
-            display: none;
-          }
           .navigation-thq-dropdown2 {
             cursor: pointer;
             display: inline-block;
@@ -518,7 +368,7 @@ const Navigation = (props) => {
           .navigation-thq-dropdown-arrow2 {
             transition: 0.3s;
           }
-          .navigation-icon28 {
+          .navigation-icon22 {
             width: 18px;
             height: 18px;
           }
@@ -545,7 +395,7 @@ const Navigation = (props) => {
 
           @media (max-width: 991px) {
             .navigation-text11 {
-              color: var(--color-accent-dark);
+              color: var(--color-accent);
             }
           }
         `}
