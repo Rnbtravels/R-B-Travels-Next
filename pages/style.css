@@ -4549,7 +4549,7 @@
 }
  
 .hero-section__content {
-  color: #ffffff;
+  color: var(--color-surface);
   z-index: 3;
   position: relative;
 }
@@ -4567,12 +4567,12 @@
   height: 100%;
   z-index: 2;
   position: absolute;
-  background: rgba(0, 0, 0, 0.35);
+  background: var(--color-scrim);
 }
  
 .consultation-booking-section {
   padding: var(--spacing-4xl) 0;
-  background: #f8fafc;
+  background: var(--color-surface);
 }
  
 .consultation-booking-section__wrapper {
@@ -4580,7 +4580,7 @@
   margin: 0 auto;
   overflow: hidden;
   max-width: var(--content-max-width);
-  background: #ffffff;
+  background: var(--color-surface-elevated);
   box-shadow: var(--shadow-level-2);
   min-height: 700px;
   border-radius: var(--border-radius-xl);
@@ -4588,7 +4588,7 @@
  
 .service-overview {
   padding: var(--spacing-4xl) var(--spacing-xl);
-  background: #f1f5f9;
+  background: var(--color-surface-elevated);
 }
  
 .service-overview__container {
@@ -4610,10 +4610,10 @@
 .service-overview__card {
   gap: var(--spacing-md);
   flex: 1 1 calc(25% - var(--spacing-xl));
-  border: 1px solid #e2e8f0;
+  border: 1px solid var(--color-border);
   display: flex;
   padding: var(--spacing-2xl);
-  background: #ffffff;
+  background: var(--color-surface);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border-radius: var(--border-radius-lg);
   flex-direction: column;
@@ -4637,7 +4637,7 @@
 }
  
 .hero-section__content  .hero-subtitle {
-  color: #f1f5f9;
+  color: var(--color-surface);
   margin: 0 auto;
   max-width: 600px;
 }
@@ -4653,22 +4653,17 @@
 }
  
 .service-overview__card  .section-subtitle {
-  color: #0f1724;
+  color: var(--color-on-surface);
 }
  
 .service-overview__card  .section-content {
-  color: #334155;
+  color: var(--color-on-surface-secondary);
   font-size: var(--font-size-sm);
 }
  
 .service-overview__icon-box  svg {
   width: 32px;
   height: 32px;
-}
- 
-.navigation {
-  background: #ffffff;
-  border-bottom: 1px solid #e2e8f0;
 }
  
 .Content {

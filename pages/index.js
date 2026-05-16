@@ -66,7 +66,7 @@ section {
                     </div>
                   </a>
                 </Link>
-                <Link href="/consultation">
+                <Link href="/book-consultation">
                   <a>
                     <div className="home-thq-btn-elm2 btn-lg btn btn-outline">
                       <span>Book Consultation</span>

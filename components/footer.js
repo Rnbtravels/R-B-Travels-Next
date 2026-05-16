@@ -423,7 +423,7 @@ const Footer = (props) => {
             display: contents;
           }
           .footer-text11 {
-            color: var(--color-accent-light);
+            color: var(--color-accent-dark);
           }
           .footer-thq-footer-social-icon-elm2 {
             text-decoration: none;
@@ -461,11 +461,11 @@ const Footer = (props) => {
           .footer-text28 {
             font-size: 16px;
             font-style: normal;
-            font-family: '' '' '' '' '' '' '' '' Inter '' '' '' '' '' '' '' '';
+            font-family: '' '' '' '' '' '' '' 'Inter' '' '' '' '' '' '' '';
             font-weight: 300;
           }
           .footer-text30 {
-            color: var(--color-accent-light);
+            color: var(--color-accent-dark);
           }
           .footer-icon28 {
             text-decoration: none;
@@ -476,7 +476,7 @@ const Footer = (props) => {
           .footer-thq-section-content-elm5 {
             color: var(--color-primary-light);
             font-style: normal;
-            font-family: '' '' '' '' '' '' '' '' Inter '' '' '' '' '' '' '' '';
+            font-family: '' '' '' '' '' '' '' 'Inter' '' '' '' '' '' '' '';
             font-weight: 600;
             text-decoration: none;
           }

@@ -10,7 +10,7 @@ import Footer from '../components/footer'
 const BookConsultation = (props) => {
   return (
     <>
-      <div data-theme="light" className="book-consultation-container1">
+      <div className="book-consultation-container1">
         <Head>
           <title>Book-Consultation - rnvtravels</title>
           <meta property="og:title" content="Book-Consultation - rnvtravels" />
@@ -28,7 +28,7 @@ const BookConsultation = (props) => {
           <div className="hero-section__container">
             <div className="hero-section__media">
               <img
-                src="https://images.pexels.com/photos/5302804/pexels-photo-5302804.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=1500"
+                src="https://images.pexels.com/photos/5302804/pexels-photo-5302804.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                 alt="Voyanta Travel Planning"
                 className="hero-section__image"
               />
@@ -169,56 +169,59 @@ const BookConsultation = (props) => {
         <div className="book-consultation-container3">
           <div className="book-consultation-container4">
             <Script
-              html={`<script>
-        ;(function () {
-          ;(function (C, A, L) {
-            let p = function (a, ar) {
-              a.q.push(ar)
-            }
-            let d = C.document
-            C.Cal =
-              C.Cal ||
-              function () {
-                let cal = C.Cal
-                let ar = arguments
-                if (!cal.loaded) {
-                  cal.ns = {}
-                  cal.q = cal.q || []
-                  d.head.appendChild(d.createElement("script")).src = A
-                  cal.loaded = true
-                }
-                if (ar[0] === L) {
-                  const api = function () {
-                    p(api, arguments)
-                  }
-                  const namespace = ar[1]
-                  api.q = api.q || []
-                  if (typeof namespace === "string") {
-                    cal.ns[namespace] = cal.ns[namespace] || api
-                    p(cal.ns[namespace], ar)
-                    p(cal, ["initNamespace", namespace])
-                  } else p(cal, ar)
-                  return
-                }
-                p(cal, ar)
-              }
-          })(window, "https://app.cal.com/embed/embed.js", "init")
-          Cal("init", "consultation", { origin: "https://app.cal.com" })
-          Cal.ns.consultation("inline", {
-            elementOrSelector: "#my-cal-inline-consultation",
-            config: { layout: "month_view", useSlotsViewOnSmallScreen: "true" },
-            calLink: "r-btravels/consultation",
-          })
-          Cal.ns.consultation("ui", {
-            cssVarsPerTheme: {
-              light: { "cal-brand": "#ffffff" },
-              dark: { "cal-brand": "#ffffff" },
-            },
-            hideEventTypeDetails: false,
-            layout: "month_view",
-          })
-        })()
-      </script>`}
+              html={`<script defer data-name="voyanta-booking-init">
+(function(){
+  ;(function (C, A, L) {
+    let p = function (a, ar) {
+      a.q.push(ar)
+    }
+    let d = C.document
+    C.Cal =
+      C.Cal ||
+      function () {
+        let cal = C.Cal
+        let ar = arguments
+        if (!cal.loaded) {
+          cal.ns = {}
+          cal.q = cal.q || []
+          d.head.appendChild(d.createElement("script")).src = A
+          cal.loaded = true
+        }
+        if (ar[0] === L) {
+          const api = function () {
+            p(api, arguments)
+          }
+          const namespace = ar[1]
+          api.q = api.q || []
+          if (typeof namespace === "string") {
+            cal.ns[namespace] = cal.ns[namespace] || api
+            p(cal.ns[namespace], ar)
+            p(cal, ["initNamespace", namespace])
+          } else p(cal, ar)
+          return
+        }
+        p(cal, ar)
+      }
+  })(window, "https://app.cal.com/embed/embed.js", "init")
+
+  Cal("init", "consultation", { origin: "https://app.cal.com" })
+
+  Cal.ns.consultation("inline", {
+    elementOrSelector: "#my-cal-inline-consultation",
+    config: { layout: "month_view", useSlotsViewOnSmallScreen: "true" },
+    calLink: "r-btravels/consultation",
+  })
+
+  Cal.ns.consultation("ui", {
+    cssVarsPerTheme: {
+      light: { "cal-brand": "#ffffff" },
+      dark: { "cal-brand": "#121212" },
+    },
+    hideEventTypeDetails: false,
+    layout: "month_view",
+  })
+})()
+</script>`}
             ></Script>
           </div>
         </div>
@@ -228,7 +231,6 @@ const BookConsultation = (props) => {
         {`
           .book-consultation-container1 {
             width: 100%;
-            background: #f8fafc;
             min-height: 100vh;
           }
           .book-consultation-container2 {
