@@ -882,8 +882,10 @@
  
 .navigation-mobile-toggle {
   color: var(--color-on-surface);
+  width: 2.5rem;
   border: none;
   cursor: pointer;
+  height: 2.5rem;
   display: none;
   padding: var(--spacing-xs);
   background: none;
@@ -4471,6 +4473,54 @@
   box-shadow: 0 15px 30px color-mix(in srgb, var(--color-primary) 40%, transparent);
 }
  
+.thq-handle-cell-elm1 {
+  gap: var(--spacing-md);
+  border: none;
+  display: flex;
+  padding: 0;
+  grid-row: span 2;
+  overflow: hidden;
+  position: relative;
+  background: var(--color-surface);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  grid-column: span 2;
+  border-radius: var(--border-radius-card);
+  flex-direction: column;
+  justify-content: flex-end;
+}
+ 
+.thq-handle-cell-elm1.service-card {
+  border: none;
+}
+ 
+.thq-service-card-text {
+  color: #ffffff;
+  padding: var(--spacing-xl);
+  z-index: 2;
+  position: relative;
+}
+ 
+.thq-service-card-text  .section-subtitle {
+  color: #ffffff;
+  opacity: 1;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+}
+ 
+.thq-service-card-text  .section-content {
+  color: #f1f5f9;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+}
+ 
+.thq-handle-cell-elm1  .thq-bento-content-elm {
+  top: var(--spacing-lg);
+  left: var(--spacing-lg);
+  right: auto;
+  bottom: auto;
+  position: absolute;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ 
 .Content {
   font-size: 16px;
   font-family: Inter;
@@ -5142,5 +5192,10 @@
   }
   .tour-experience-item {
     height: 250px;
+  }
+  .thq-handle-cell-elm1 {
+    height: 350px;
+    min-height: 350px;
+    grid-column: span 1;
   }
 }

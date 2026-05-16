@@ -219,12 +219,13 @@ section {
               </p>
             </div>
             <div className="home-thq-handle-bento-grid-elm">
-              <div className="home-thq-handle-cell-elm1 service-card">
+              <div className="service-card thq-handle-cell-elm1">
                 <img
                   src="https://images.pexels.com/photos/3755759/pexels-photo-3755759.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                   alt="Smiling college student holding books in a park with a scenic background"
                   className="home-thq-service-card-image-elm"
                 />
+                <div className="home-thq-thq-service-card-overlay-elm"></div>
                 <div className="home-thq-bento-content-elm service-icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -244,11 +245,13 @@ section {
                     </g>
                   </svg>
                 </div>
-                <h3 className="section-subtitle">Study Abroad</h3>
-                <p className="section-content">
-                  Professional guidance for international admissions,
-                  applications, and student travel preparation.
-                </p>
+                <div className="thq-service-card-text">
+                  <h3 className="section-subtitle">Study Abroad</h3>
+                  <p className="section-content">
+                    Professional guidance for international admissions,
+                    applications, and student travel preparation.
+                  </p>
+                </div>
               </div>
               <div className="home-thq-handle-cell-elm2 service-card">
                 <div className="home-thq-bento-icon-elm1 service-icon">
@@ -1103,21 +1106,6 @@ section {
             grid-template-rows: repeat(2, 250px);
             grid-template-columns: repeat(4, 1fr);
           }
-          .home-thq-handle-cell-elm1 {
-            gap: var(--spacing-md);
-            border: 1px solid var(--color-border);
-            display: flex;
-            padding: 0;
-            grid-row: span 2;
-            overflow: hidden;
-            position: relative;
-            background: var(--color-surface);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            grid-column: span 2;
-            border-radius: var(--border-radius-card);
-            flex-direction: column;
-            justify-content: flex-end;
-          }
           .home-thq-service-card-image-elm {
             top: 0;
             left: 0;
@@ -1127,13 +1115,32 @@ section {
             position: absolute;
             object-fit: cover;
           }
-          .home-thq-bento-content-elm {
-            color: var(--color-surface);
+          .home-thq-thq-service-card-overlay-elm {
+            left: 0;
             width: 100%;
-            padding: var(--spacing-xl);
-            z-index: 2;
-            position: relative;
-            background: var(--color-scrim);
+            bottom: 0;
+            height: 55%;
+            z-index: 1;
+            position: absolute;
+            background: linear-gradient(
+              to top,
+              rgba(0, 0, 0, 0.85) 0%,
+              rgba(0, 0, 0, 0.5) 60%,
+              transparent 100%
+            );
+            pointer-events: none;
+          }
+          .home-thq-bento-content-elm {
+            top: var(--spacing-lg);
+            left: var(--spacing-lg);
+            color: var(--color-on-primary);
+            width: auto;
+            padding: var(--spacing-md);
+            z-index: 3;
+            position: absolute;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: var(--border-radius-md);
+            backdrop-filter: blur(4px);
           }
           .home-thq-handle-cell-elm2 {
             border: 1px solid var(--color-border);
@@ -1193,7 +1200,7 @@ section {
           }
           .home-text25 {
             font-size: 40px;
-            font-family: '' '' '' '' '' '' '' Inter '' '' '' '' '' '' '';
+            font-family: '' '' '' '' '' '' '' 'Inter' '' '' '' '' '' '' '';
             font-weight: 700;
           }
           .home-thq-timeline-content-elm2 {
@@ -1281,11 +1288,6 @@ section {
             }
             .home-thq-handle-bento-grid-elm {
               grid-template-columns: 1fr;
-            }
-            .home-thq-handle-cell-elm1 {
-              height: 350px;
-              min-height: 350px;
-              grid-column: span 1;
             }
             .home-text32 {
               color: var(--color-accent-dark);
