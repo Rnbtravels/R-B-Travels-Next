@@ -4737,10 +4737,17 @@
     padding: var(--spacing-xl) 0;
   }
   .home-timeline-item {
+    width: calc(100% - 60px);
+    text-align: left !important;
+    margin-left: 60px !important;
     margin-bottom: var(--spacing-3xl);
   }
   .home-timeline-item:last-child {
     margin-bottom: 0;
+  }
+  .home-timeline-dot {
+    left: -56px !important;
+    right: auto !important;
   }
   .gallery-masonry {
     column-count: 3;
@@ -4850,7 +4857,7 @@
     height: 250px;
   }
   .timeline-line {
-    left: 20px;
+    left: 38px;
   }
   .timeline-item {
     left: 0 !important;
@@ -4948,6 +4955,8 @@
     margin-bottom: 0;
   }
   .home-timeline-dot {
+    left: -56px !important;
+    right: auto !important;
     width: 36px;
     height: 36px;
     font-size: var(--font-size-base);
@@ -5025,7 +5034,7 @@
     padding-top: var(--spacing-3xl);
   }
   .timeline-line {
-    left: 14px;
+    left: 30px;
   }
   .logistics-bento {
     grid-template-columns: 1fr;
@@ -5093,11 +5102,13 @@
     padding: var(--spacing-lg) 0;
   }
   .home-timeline-item {
-    width: calc(100% - 46px);
-    margin-left: 46px !important;
+    width: calc(100% - 52px);
+    margin-left: 52px !important;
     margin-bottom: var(--spacing-3xl);
   }
   .home-timeline-dot {
+    left: -42px !important;
+    right: auto !important;
     width: 28px;
     height: 28px;
     font-size: var(--font-size-xs);
