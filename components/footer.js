@@ -350,9 +350,7 @@ const Footer = (props) => {
                   rel="noreferrer noopener"
                 >
                   <p className="footer-thq-section-content-elm5 section-content footer-copyright">
-                    <span className="footer-text31">
-                      Design &amp; Developed by
-                    </span>
+                    <span>Design &amp; Developed by</span>
                     <span> www.volues.com</span>
                   </p>
                 </a>
@@ -469,9 +467,6 @@ const Footer = (props) => {
             font-family: '' '' '' '' '' '' 'Inter' '' '' '' '' '' '';
             font-weight: 600;
             text-decoration: none;
-          }
-          .footer-text31 {
-            color: var(--color-scrim-light);
           }
           .footer-container2 {
             display: none;
