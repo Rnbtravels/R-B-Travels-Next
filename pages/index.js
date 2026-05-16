@@ -220,6 +220,11 @@ section {
             </div>
             <div className="home-thq-handle-bento-grid-elm">
               <div className="home-thq-handle-cell-elm1 service-card">
+                <img
+                  src="https://images.pexels.com/photos/3755759/pexels-photo-3755759.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                  alt="Smiling college student holding books in a park with a scenic background"
+                  className="home-thq-service-card-image-elm"
+                />
                 <div className="home-thq-bento-content-elm service-icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -1099,6 +1104,7 @@ section {
             grid-template-columns: repeat(4, 1fr);
           }
           .home-thq-handle-cell-elm1 {
+            gap: var(--spacing-md);
             border: 1px solid var(--color-border);
             display: flex;
             padding: 0;
@@ -1111,6 +1117,15 @@ section {
             border-radius: var(--border-radius-card);
             flex-direction: column;
             justify-content: flex-end;
+          }
+          .home-thq-service-card-image-elm {
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            position: absolute;
+            object-fit: cover;
           }
           .home-thq-bento-content-elm {
             color: var(--color-surface);
@@ -1178,7 +1193,7 @@ section {
           }
           .home-text25 {
             font-size: 40px;
-            font-family: '' '' '' '' '' '' 'Inter' '' '' '' '' '' '';
+            font-family: '' '' '' '' '' '' '' Inter '' '' '' '' '' '' '';
             font-weight: 700;
           }
           .home-thq-timeline-content-elm2 {
@@ -1269,6 +1284,7 @@ section {
             }
             .home-thq-handle-cell-elm1 {
               height: 350px;
+              min-height: 350px;
               grid-column: span 1;
             }
             .home-text32 {
