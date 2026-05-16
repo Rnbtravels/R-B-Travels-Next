@@ -3778,7 +3778,9 @@
 .home-timeline-item {
   width: 45%;
   position: relative;
+  word-break: break-word;
   margin-bottom: var(--spacing-4xl);
+  overflow-wrap: break-word;
 }
  
 .home-timeline-dot {
@@ -4728,6 +4730,18 @@
   .hero-visual-right {
     display: none;
   }
+  .work-container {
+    padding: 0 var(--spacing-lg);
+  }
+  .work-timeline {
+    padding: var(--spacing-xl) 0;
+  }
+  .home-timeline-item {
+    margin-bottom: var(--spacing-3xl);
+  }
+  .home-timeline-item:last-child {
+    margin-bottom: 0;
+  }
   .gallery-masonry {
     column-count: 3;
   }
@@ -4918,13 +4932,28 @@
   .hero-cta-group {
     gap: var(--spacing-sm);
   }
+  .work-container {
+    padding: 0 var(--spacing-lg);
+  }
+  .work-timeline {
+    padding: var(--spacing-xl) 0;
+  }
   .home-timeline-item {
     width: calc(100% - 60px);
     text-align: left !important;
     margin-left: 60px !important;
+    margin-bottom: var(--spacing-3xl);
   }
   .home-timeline-item:last-child {
     margin-bottom: 0;
+  }
+  .home-timeline-dot {
+    width: 36px;
+    height: 36px;
+    font-size: var(--font-size-base);
+  }
+  .home-timeline-content {
+    padding: var(--spacing-lg);
   }
   .gallery-masonry {
     column-count: 2;
@@ -4995,6 +5024,9 @@
   .footer-main-wrapper {
     padding-top: var(--spacing-3xl);
   }
+  .timeline-line {
+    left: 14px;
+  }
   .logistics-bento {
     grid-template-columns: 1fr;
   }
@@ -5053,6 +5085,25 @@
   .hero-cta-group {
     align-items: stretch;
     flex-direction: column;
+  }
+  .work-container {
+    padding: 0 var(--spacing-md);
+  }
+  .work-timeline {
+    padding: var(--spacing-lg) 0;
+  }
+  .home-timeline-item {
+    width: calc(100% - 46px);
+    margin-left: 46px !important;
+    margin-bottom: var(--spacing-3xl);
+  }
+  .home-timeline-dot {
+    width: 28px;
+    height: 28px;
+    font-size: var(--font-size-xs);
+  }
+  .home-timeline-content {
+    padding: var(--spacing-md);
   }
   .story-card {
     flex: 0 0 300px;
