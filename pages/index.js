@@ -1070,9 +1070,14 @@ section {
           .home-thq-hero-trust-bar-elm {
             gap: var(--spacing-lg);
             display: flex;
+            padding: var(--spacing-md) var(--spacing-lg);
+            z-index: 3;
+            position: relative;
             flex-wrap: wrap;
+            background: rgba(11, 61, 145, 0.35);
             margin-top: var(--spacing-2xl);
             align-items: center;
+            border-radius: var(--border-radius-md);
           }
           .home-thq-handle-bento-grid-elm {
             gap: var(--spacing-lg);
@@ -1160,7 +1165,7 @@ section {
           }
           .home-text25 {
             font-size: 40px;
-            font-family: '' '' 'Inter' '' '';
+            font-family: '' '' '' 'Inter' '' '' '';
             font-weight: 700;
           }
           .home-thq-timeline-content-elm2 {
