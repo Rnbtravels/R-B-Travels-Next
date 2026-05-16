@@ -46,7 +46,7 @@ section {
           </div>
           <div className="hero-diagonal-split">
             <div className="hero-content-left">
-              <h1 className="hero-title home-hero-title">
+              <h1 className="hero-title home-hero-title home-thq-hero-title-elm">
                 <span>Your Trusted Partner for </span>
                 <span>Global Travel, Study &amp; Visa Solutions</span>
               </h1>
@@ -1223,6 +1223,9 @@ section {
             }
           }
           @media (max-width: 767px) {
+            .home-thq-hero-title-elm {
+              font-size: 35px;
+            }
             .home-thq-hero-trust-bar-elm {
               gap: var(--spacing-md);
               margin-top: var(--spacing-lg);
@@ -1235,6 +1238,11 @@ section {
             }
           }
           @media (max-width: 479px) {
+            .home-thq-hero-title-elm {
+              font-size: 30px;
+              margin-top: var(--dl-layout-space-threeunits);
+              margin-bottom: var(--dl-layout-space-halfunit);
+            }
             .home-thq-hero-trust-bar-elm {
               gap: var(--spacing-sm);
               margin-top: var(--spacing-md);
