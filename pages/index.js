@@ -78,19 +78,19 @@ section {
                 <div className="trust-item">
                   <div className="trust-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="20"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="20"
                       viewBox="0 0 24 24"
                     >
                       <g
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
                       >
-                        <circle cx="12" cy="12" r="10"></circle>
+                        <circle r="10" cx="12" cy="12"></circle>
                         <path d="M12 6v6l4 2"></path>
                       </g>
                     </svg>
@@ -100,18 +100,18 @@ section {
                 <div className="trust-item">
                   <div className="trust-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="20"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="20"
                       viewBox="0 0 24 24"
                     >
                       <path
+                        d="M20 6L9 17l-5-5"
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M20 6L9 17l-5-5"
                       ></path>
                     </svg>
                   </div>
@@ -120,19 +120,19 @@ section {
                 <div className="trust-item">
                   <div className="trust-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="20"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="20"
                       viewBox="0 0 24 24"
                     >
                       <g
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
                       >
-                        <circle cx="12" cy="12" r="10"></circle>
+                        <circle r="10" cx="12" cy="12"></circle>
                         <path d="M12 2a14.5 14.5 0 0 0 0 20a14.5 14.5 0 0 0 0-20M2 12h20"></path>
                       </g>
                     </svg>
@@ -142,17 +142,17 @@ section {
                 <div className="trust-item">
                   <div className="trust-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="20"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="20"
                       viewBox="0 0 24 24"
                     >
                       <g
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
                       >
                         <path d="M3 11h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2zm0 0a9 9 0 1 1 18 0m0 0v5a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2z"></path>
                         <path d="M21 16v2a4 4 0 0 1-4 4h-5"></path>
@@ -221,24 +221,24 @@ section {
             <div className="home-thq-handle-bento-grid-elm">
               <div className="service-card thq-handle-cell-elm1">
                 <img
-                  src="https://images.pexels.com/photos/3755759/pexels-photo-3755759.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                   alt="Smiling college student holding books in a park with a scenic background"
+                  src="https://images.pexels.com/photos/3755759/pexels-photo-3755759.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                   className="home-thq-service-card-image-elm"
                 />
                 <div className="home-thq-thq-service-card-overlay-elm"></div>
                 <div className="home-thq-bento-content-elm service-icon">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
                     width="28"
+                    xmlns="http://www.w3.org/2000/svg"
                     height="28"
                     viewBox="0 0 24 24"
                   >
                     <g
                       fill="none"
                       stroke="currentColor"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
                     >
                       <path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0zM22 10v6"></path>
                       <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
@@ -251,25 +251,26 @@ section {
                     Professional guidance for international admissions,
                     applications, and student travel preparation.
                   </p>
+                  <span className="service-cta">Start now</span>
                 </div>
               </div>
-              <div className="home-thq-handle-cell-elm2 service-card">
+              <div className="service-card thq-handle-cell-elm2">
                 <div className="home-thq-bento-icon-elm1 service-icon">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
                     width="28"
+                    xmlns="http://www.w3.org/2000/svg"
                     height="28"
                     viewBox="0 0 24 24"
                   >
                     <g
                       fill="none"
                       stroke="currentColor"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
                     >
                       <path d="M8 2v4m8-4v4"></path>
-                      <rect width="18" height="18" x="3" y="4" rx="2"></rect>
+                      <rect x="3" y="4" rx="2" width="18" height="18"></rect>
                       <path d="M3 10h18"></path>
                     </g>
                   </svg>
@@ -279,22 +280,23 @@ section {
                   Fast and stress-free embassy appointment scheduling
                   assistance.
                 </p>
+                <span className="service-cta">Start now</span>
               </div>
-              <div className="home-thq-handle-cell-elm3 service-card">
+              <div className="service-card thq-handle-cell-elm3">
                 <div className="home-thq-bento-icon-elm2 service-icon">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
                     width="28"
+                    xmlns="http://www.w3.org/2000/svg"
                     height="28"
                     viewBox="0 0 24 24"
                   >
                     <path
+                      d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"
                       fill="none"
                       stroke="currentColor"
+                      strokeWidth="1.5"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="1.5"
-                      d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"
                     ></path>
                   </svg>
                 </div>
@@ -303,22 +305,23 @@ section {
                   Support for passport processing, visa applications, proof of
                   funds, and essential travel documents.
                 </p>
+                <span className="service-cta">Start now</span>
               </div>
-              <div className="home-thq-handle-cell-elm4 service-card">
+              <div className="service-card thq-handle-cell-elm4">
                 <div className="home-thq-bento-icon-elm3 service-icon">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
                     width="28"
+                    xmlns="http://www.w3.org/2000/svg"
                     height="28"
                     viewBox="0 0 24 24"
                   >
                     <path
+                      d="M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0zm.894.211v15M9 3.236v15"
                       fill="none"
                       stroke="currentColor"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0zm.894.211v15M9 3.236v15"
                     ></path>
                   </svg>
                 </div>
@@ -329,22 +332,23 @@ section {
                   Personalized travel schedules designed for comfort,
                   efficiency, and memorable experiences.
                 </p>
+                <span className="service-cta">Start now</span>
               </div>
-              <div className="home-thq-handle-cell-elm5 service-card">
+              <div className="service-card thq-handle-cell-elm5">
                 <div className="home-thq-bento-icon-elm4 service-icon">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
                     width="28"
+                    xmlns="http://www.w3.org/2000/svg"
                     height="28"
                     viewBox="0 0 24 24"
                   >
                     <path
+                      d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
                       fill="none"
                       stroke="currentColor"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
                     ></path>
                   </svg>
                 </div>
@@ -353,23 +357,24 @@ section {
                   Reliable insurance options for international trips, studies,
                   tours, and emergencies.
                 </p>
+                <span className="service-cta">Start now</span>
               </div>
               <div className="service-card">
                 <div className="service-icon">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
                     width="28"
+                    xmlns="http://www.w3.org/2000/svg"
                     height="28"
                     viewBox="0 0 24 24"
                   >
                     <g
                       fill="none"
                       stroke="currentColor"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
                     >
-                      <circle cx="12" cy="12" r="10"></circle>
+                      <circle r="10" cx="12" cy="12"></circle>
                       <path d="M12 2a14.5 14.5 0 0 0 0 20a14.5 14.5 0 0 0 0-20M2 12h20"></path>
                     </g>
                   </svg>
@@ -381,26 +386,27 @@ section {
                   Curated travel experiences, vacation packages, and guided
                   international tours.
                 </p>
+                <span className="service-cta">Start now</span>
               </div>
               <div className="service-card">
                 <div className="service-icon">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
                     width="28"
+                    xmlns="http://www.w3.org/2000/svg"
                     height="28"
                     viewBox="0 0 24 24"
                   >
                     <g
                       fill="none"
                       stroke="currentColor"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
                     >
                       <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"></path>
-                      <circle cx="7" cy="17" r="2"></circle>
+                      <circle r="2" cx="7" cy="17"></circle>
                       <path d="M9 17h6"></path>
-                      <circle cx="17" cy="17" r="2"></circle>
+                      <circle r="2" cx="17" cy="17"></circle>
                     </g>
                   </svg>
                 </div>
@@ -411,21 +417,22 @@ section {
                   Convenient pickup and drop-off arrangements for smooth travel
                   experiences.
                 </p>
+                <span className="service-cta">Start now</span>
               </div>
               <div className="service-card">
                 <div className="service-icon">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
                     width="28"
+                    xmlns="http://www.w3.org/2000/svg"
                     height="28"
                     viewBox="0 0 24 24"
                   >
                     <g
                       fill="none"
                       stroke="currentColor"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
                     >
                       <path d="M3 11h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2zm0 0a9 9 0 1 1 18 0m0 0v5a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2z"></path>
                       <path d="M21 16v2a4 4 0 0 1-4 4h-5"></path>
@@ -439,6 +446,7 @@ section {
                   Round-the-clock assistance to help travelers anytime,
                   anywhere.
                 </p>
+                <span className="service-cta">Start now</span>
               </div>
             </div>
           </div>
@@ -1005,47 +1013,48 @@ section {
           }
           initCarousels()
           initTimelineObserver()
-
           const initMobileMenu = () => {
             const toggleBtn = document.getElementById("mobileMenuToggle")
             const closeBtn = document.getElementById("mobileMenuClose")
             const overlay = document.getElementById("mobileOverlay")
             if (!toggleBtn || !overlay) return
-
             const openMenu = () => {
-              overlay.classList.add("active")
+              overlay.style.display = "flex"
+              requestAnimationFrame(() => {
+                overlay.classList.add("is-active")
+              })
               toggleBtn.setAttribute("aria-expanded", "true")
               toggleBtn.setAttribute("aria-label", "Close menu")
               document.body.style.overflow = "hidden"
             }
-
             const closeMenu = () => {
-              overlay.classList.remove("active")
+              overlay.classList.remove("is-active")
               toggleBtn.setAttribute("aria-expanded", "false")
               toggleBtn.setAttribute("aria-label", "Open menu")
               document.body.style.overflow = ""
+              setTimeout(() => {
+                if (!overlay.classList.contains("is-active")) {
+                  overlay.style.display = "none"
+                }
+              }, 300)
             }
-
             toggleBtn.addEventListener("click", () => {
-              if (overlay.classList.contains("active")) {
+              if (overlay.classList.contains("is-active")) {
                 closeMenu()
               } else {
                 openMenu()
               }
             })
-
             if (closeBtn) {
               closeBtn.addEventListener("click", closeMenu)
             }
-
             overlay.addEventListener("click", (e) => {
               if (e.target === overlay) {
                 closeMenu()
               }
             })
-
             document.addEventListener("keydown", (e) => {
-              if (e.key === "Escape" && overlay.classList.contains("active")) {
+              if (e.key === "Escape" && overlay.classList.contains("is-active")) {
                 closeMenu()
               }
             })
@@ -1080,7 +1089,7 @@ section {
             z-index: 1;
             position: absolute;
             background: rgba(11, 61, 145, 0.65);
-            pointer-events: none;
+            pointer-events: none !important;
           }
           .home-thq-btn-elm1 {
             text-decoration: none;
@@ -1099,6 +1108,7 @@ section {
             margin-top: var(--spacing-2xl);
             align-items: center;
             border-radius: var(--border-radius-md);
+            pointer-events: auto;
           }
           .home-thq-handle-bento-grid-elm {
             gap: var(--spacing-lg);
@@ -1142,57 +1152,17 @@ section {
             border-radius: var(--border-radius-md);
             backdrop-filter: blur(4px);
           }
-          .home-thq-handle-cell-elm2 {
-            border: 1px solid var(--color-border);
-            display: flex;
-            padding: var(--spacing-xl);
-            background: var(--color-surface);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            border-radius: var(--border-radius-card);
-            flex-direction: column;
-            justify-content: flex-end;
-          }
           .home-thq-bento-icon-elm1 {
             color: var(--color-primary);
             margin-bottom: var(--spacing-md);
-          }
-          .home-thq-handle-cell-elm3 {
-            border: 1px solid var(--color-border);
-            display: flex;
-            padding: var(--spacing-xl);
-            background: var(--color-surface);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            border-radius: var(--border-radius-card);
-            flex-direction: column;
-            justify-content: flex-end;
           }
           .home-thq-bento-icon-elm2 {
             color: var(--color-primary);
             margin-bottom: var(--spacing-md);
           }
-          .home-thq-handle-cell-elm4 {
-            border: 1px solid var(--color-border);
-            display: flex;
-            padding: var(--spacing-xl);
-            background: var(--color-surface);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            border-radius: var(--border-radius-card);
-            flex-direction: column;
-            justify-content: flex-end;
-          }
           .home-thq-bento-icon-elm3 {
             color: var(--color-primary);
             margin-bottom: var(--spacing-md);
-          }
-          .home-thq-handle-cell-elm5 {
-            border: 1px solid var(--color-border);
-            display: flex;
-            padding: var(--spacing-xl);
-            background: var(--color-surface);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            border-radius: var(--border-radius-card);
-            flex-direction: column;
-            justify-content: flex-end;
           }
           .home-thq-bento-icon-elm4 {
             color: var(--color-primary);
@@ -1200,7 +1170,7 @@ section {
           }
           .home-text25 {
             font-size: 40px;
-            font-family: '' '' '' '' '' '' '' 'Inter' '' '' '' '' '' '' '';
+            font-family: '' '' '' '' '' '' '' '' 'Inter' '' '' '' '' '' '' '' '';
             font-weight: 700;
           }
           .home-thq-timeline-content-elm2 {

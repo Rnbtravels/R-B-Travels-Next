@@ -120,8 +120,8 @@ const Navigation = (props) => {
                 className="navigation-mobile-toggle"
               >
                 <svg
-                  height="100%"
                   width="100%"
+                  height="100%"
                   viewBox="0 0 16 16"
                   preserveAspectRatio="xMidYMid meet"
                 >
@@ -267,20 +267,112 @@ const Navigation = (props) => {
         </nav>
         <div className="navigation-container2">
           <div className="navigation-container3">
-            <Script html={``}></Script>
+            <Script
+              html={`<style>
+[data-theme="dark"] .navigation-theme-icon-light {
+  display: none;
+}
+[data-theme="dark"] .navigation-theme-icon-dark {
+  display: block;
+}
+@media (prefers-reduced-motion: reduce) {
+.navigation-mobile-overlay, .navigation-link::after, .navigation-mobile-link {
+  transition: none;
+}
+}
+</style>`}
+            ></Script>
           </div>
         </div>
         <div className="navigation-container4">
           <div className="navigation-container5">
-            <Script html={``}></Script>
+            <Script
+              html={`<script>
+            ;(function () {
+              const mobileToggle = document.getElementById("mobileMenuToggle")
+              const mobileClose = document.getElementById("mobileMenuClose")
+              const mobileOverlay = document.getElementById("mobileOverlay")
+              const body = document.body
+              function openMenu() {
+                mobileOverlay.style.display = "flex"
+                requestAnimationFrame(() => {
+                  mobileOverlay.classList.add("is-active")
+                  mobileToggle.setAttribute("aria-expanded", "true")
+                  body.style.overflow = "hidden"
+                })
+              }
+              function closeMenu() {
+                mobileOverlay.classList.remove("is-active")
+                mobileToggle.setAttribute("aria-expanded", "false")
+                body.style.overflow = ""
+                setTimeout(() => {
+                  if (!mobileOverlay.classList.contains("is-active")) {
+                    mobileOverlay.style.display = "none"
+                  }
+                }, 300)
+              }
+              mobileToggle.addEventListener("click", () => {
+                if (mobileOverlay.classList.contains("is-active")) {
+                  closeMenu()
+                } else {
+                  openMenu()
+                }
+              })
+              mobileClose.addEventListener("click", closeMenu)
+              // Close menu on link click
+              const mobileLinks = mobileOverlay.querySelectorAll(".navigation-mobile-link")
+              mobileLinks.forEach((link) => {
+                link.addEventListener("click", closeMenu)
+              })
+              // Handle escape key
+              document.addEventListener("keydown", (e) => {
+                if (e.key === "Escape" && mobileOverlay.classList.contains("is-active")) {
+                  closeMenu()
+                }
+              })
+              const themeToggle = document.getElementById("themeToggle")
+              const html = document.documentElement
+              // Initialize theme from localStorage or system preference
+              const storedTheme = localStorage.getItem("theme") || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")
+              applyTheme(storedTheme)
+              function applyTheme(theme) {
+                const suffix = theme === "dark" ? "dark" : "light"
+                // Update ALL active color variables to point to the correct theme
+                html.style.setProperty("--color-primary", \`var(--color-primary-\\\${suffix})\`)
+                html.style.setProperty("--color-secondary", \`var(--color-secondary-\\\${suffix})\`)
+                html.style.setProperty("--color-accent", \`var(--color-accent-\\\${suffix})\`)
+                html.style.setProperty("--color-neutral", \`var(--color-neutral-\\\${suffix})\`)
+                html.style.setProperty("--color-surface", \`var(--color-surface-\\\${suffix})\`)
+                html.style.setProperty("--color-on-surface", \`var(--color-on-surface-\\\${suffix})\`)
+                html.style.setProperty("--color-on-surface-secondary", \`var(--color-on-surface-secondary-\\\${suffix})\`)
+                html.style.setProperty("--color-on-primary", \`var(--color-on-primary-\\\${suffix})\`)
+                html.style.setProperty("--color-surface-elevated", \`var(--color-surface-elevated-\\\${suffix})\`)
+                html.style.setProperty("--color-on-secondary", \`var(--color-on-secondary-\\\${suffix})\`)
+                html.style.setProperty("--color-on-accent", \`var(--color-on-accent-\\\${suffix})\`)
+                html.style.setProperty("--color-border", \`var(--color-border-\\\${suffix})\`)
+                html.style.setProperty("--color-outline", \`var(--color-outline-\\\${suffix})\`)
+                html.style.setProperty("--color-overlay", \`var(--color-overlay-\\\${suffix})\`)
+                html.style.setProperty("--color-backplate", \`var(--color-backplate-\\\${suffix})\`)
+                html.style.setProperty("--color-scrim", \`var(--color-scrim-\\\${suffix})\`)
+                html.setAttribute("data-theme", theme)
+                localStorage.setItem("theme", theme)
+              }
+              function toggleTheme() {
+                const currentTheme = html.getAttribute("data-theme")
+                const newTheme = currentTheme === "light" ? "dark" : "light"
+                applyTheme(newTheme)
+              }
+              if (themeToggle) {
+                themeToggle.addEventListener("click", toggleTheme)
+              }
+            })()
+          </script>`}
+            ></Script>
           </div>
         </div>
       </div>
       <style jsx>
         {`
-          .navigation-container1 {
-            display: contents;
-          }
           .navigation-text11 {
             color: var(--color-accent);
           }

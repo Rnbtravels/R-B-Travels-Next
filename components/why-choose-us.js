@@ -25,8 +25,8 @@ const WhyChooseUs = (props) => {
               <div className="why-choose-us-card">
                 <div className="why-choose-us-thq-why-choose-us-icon-wrapper-elm1 why-choose-us-icon-wrapper">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
                     width="24"
+                    xmlns="http://www.w3.org/2000/svg"
                     height="24"
                     viewBox="0 0 24 24"
                     aria-hidden="true"
@@ -34,12 +34,12 @@ const WhyChooseUs = (props) => {
                     <g
                       fill="none"
                       stroke="currentColor"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
                     >
                       <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M16 3.128a4 4 0 0 1 0 7.744M22 21v-2a4 4 0 0 0-3-3.87"></path>
-                      <circle cx="9" cy="7" r="4"></circle>
+                      <circle r="4" cx="9" cy="7"></circle>
                     </g>
                   </svg>
                 </div>
@@ -56,8 +56,8 @@ const WhyChooseUs = (props) => {
               <div className="why-choose-us-card">
                 <div className="why-choose-us-thq-why-choose-us-icon-wrapper-elm2 why-choose-us-icon-wrapper">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
                     width="24"
+                    xmlns="http://www.w3.org/2000/svg"
                     height="24"
                     viewBox="0 0 24 24"
                     aria-hidden="true"
@@ -65,11 +65,11 @@ const WhyChooseUs = (props) => {
                     <g
                       fill="none"
                       stroke="currentColor"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
                     >
-                      <circle cx="12" cy="12" r="10"></circle>
+                      <circle r="10" cx="12" cy="12"></circle>
                       <path d="M12 6v6l4 2"></path>
                     </g>
                   </svg>
@@ -87,19 +87,19 @@ const WhyChooseUs = (props) => {
               <div className="why-choose-us-card">
                 <div className="why-choose-us-thq-why-choose-us-icon-wrapper-elm3 why-choose-us-icon-wrapper">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
                     width="24"
+                    xmlns="http://www.w3.org/2000/svg"
                     height="24"
                     viewBox="0 0 24 24"
                     aria-hidden="true"
                   >
                     <path
+                      d="M2.273 5.625A4.48 4.48 0 0 1 5.25 4.5h13.5c1.141 0 2.183.425 2.977 1.125A3 3 0 0 0 18.75 3H5.25a3 3 0 0 0-2.977 2.625m0 3A4.48 4.48 0 0 1 5.25 7.5h13.5c1.141 0 2.183.425 2.977 1.125A3 3 0 0 0 18.75 6H5.25a3 3 0 0 0-2.977 2.625M5.25 9a3 3 0 0 0-3 3v6a3 3 0 0 0 3 3h13.5a3 3 0 0 0 3-3v-6a3 3 0 0 0-3-3H15a.75.75 0 0 0-.75.75a2.25 2.25 0 0 1-4.5 0A.75.75 0 0 0 9 9z"
                       fill="none"
                       stroke="currentColor"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M2.273 5.625A4.48 4.48 0 0 1 5.25 4.5h13.5c1.141 0 2.183.425 2.977 1.125A3 3 0 0 0 18.75 3H5.25a3 3 0 0 0-2.977 2.625m0 3A4.48 4.48 0 0 1 5.25 7.5h13.5c1.141 0 2.183.425 2.977 1.125A3 3 0 0 0 18.75 6H5.25a3 3 0 0 0-2.977 2.625M5.25 9a3 3 0 0 0-3 3v6a3 3 0 0 0 3 3h13.5a3 3 0 0 0 3-3v-6a3 3 0 0 0-3-3H15a.75.75 0 0 0-.75.75a2.25 2.25 0 0 1-4.5 0A.75.75 0 0 0 9 9z"
                     ></path>
                   </svg>
                 </div>
@@ -116,8 +116,8 @@ const WhyChooseUs = (props) => {
               <div className="why-choose-us-card">
                 <div className="why-choose-us-thq-why-choose-us-icon-wrapper-elm4 why-choose-us-icon-wrapper">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
                     width="24"
+                    xmlns="http://www.w3.org/2000/svg"
                     height="24"
                     viewBox="0 0 24 24"
                     aria-hidden="true"
@@ -125,11 +125,11 @@ const WhyChooseUs = (props) => {
                     <g
                       fill="none"
                       stroke="currentColor"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
                     >
-                      <circle cx="12" cy="12" r="10"></circle>
+                      <circle r="10" cx="12" cy="12"></circle>
                       <path d="M12 2a14.5 14.5 0 0 0 0 20a14.5 14.5 0 0 0 0-20M2 12h20"></path>
                     </g>
                   </svg>
@@ -147,8 +147,8 @@ const WhyChooseUs = (props) => {
               <div className="why-choose-us-card">
                 <div className="why-choose-us-thq-why-choose-us-icon-wrapper-elm5 why-choose-us-icon-wrapper">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
                     width="24"
+                    xmlns="http://www.w3.org/2000/svg"
                     height="24"
                     viewBox="0 0 24 24"
                     aria-hidden="true"
@@ -156,9 +156,9 @@ const WhyChooseUs = (props) => {
                     <g
                       fill="none"
                       stroke="currentColor"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
                     >
                       <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
                       <path d="m9 12l2 2l4-4"></path>
@@ -178,8 +178,8 @@ const WhyChooseUs = (props) => {
               <div className="why-choose-us-card">
                 <div className="why-choose-us-thq-why-choose-us-icon-wrapper-elm6 why-choose-us-icon-wrapper">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
                     width="24"
+                    xmlns="http://www.w3.org/2000/svg"
                     height="24"
                     viewBox="0 0 24 24"
                     aria-hidden="true"
@@ -187,9 +187,9 @@ const WhyChooseUs = (props) => {
                     <g
                       fill="none"
                       stroke="currentColor"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
                     >
                       <path d="M11 14h2a2 2 0 0 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 16"></path>
                       <path d="m14.45 13.39l5.05-4.694C20.196 8 21 6.85 21 5.75a2.75 2.75 0 0 0-4.797-1.837a.276.276 0 0 1-.406 0A2.75 2.75 0 0 0 11 5.75c0 1.2.802 2.248 1.5 2.946L16 11.95M2 15l6 6"></path>

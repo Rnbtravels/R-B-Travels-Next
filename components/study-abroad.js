@@ -13,12 +13,12 @@ const StudyAbroad = (props) => {
             <header className="study-abroad-header">
               <div className="study-abroad-badge">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
                   fill="none"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="20"
                   stroke="currentColor"
+                  viewBox="0 0 24 24"
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
@@ -41,24 +41,24 @@ const StudyAbroad = (props) => {
                 <article className="study-abroad-card">
                   <div className="study-abroad-image-container">
                     <img
-                      src="https://images.pexels.com/photos/22039129/pexels-photo-22039129.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
                       alt="University campus in Canada"
+                      src="https://images.pexels.com/photos/22039129/pexels-photo-22039129.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
                       className="study-abroad-image"
                     />
                     <div className="study-abroad-location">
                       <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        viewBox="0 0 24 24"
                         fill="none"
+                        width="16"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="16"
                         stroke="currentColor"
+                        viewBox="0 0 24 24"
                         strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
                       >
                         <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
-                        <circle cx="12" cy="10" r="3"></circle>
+                        <circle r="3" cx="12" cy="10"></circle>
                       </svg>
                       <span>North America</span>
                     </div>
@@ -71,7 +71,7 @@ const StudyAbroad = (props) => {
                     </p>
                     <Link href="/services">
                       <a>
-                        <div className="study-abroad-cta btn btn-primary btn-sm">
+                        <div className="btn-primary study-abroad-cta btn btn-sm">
                           <span>Explore Options</span>
                         </div>
                       </a>
@@ -81,24 +81,24 @@ const StudyAbroad = (props) => {
                 <article className="study-abroad-card">
                   <div className="study-abroad-image-container">
                     <img
-                      src="https://images.pexels.com/photos/30529324/pexels-photo-30529324.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
                       alt="Historic university in UK"
+                      src="https://images.pexels.com/photos/30529324/pexels-photo-30529324.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
                       className="study-abroad-image"
                     />
                     <div className="study-abroad-location">
                       <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        viewBox="0 0 24 24"
                         fill="none"
+                        width="16"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="16"
                         stroke="currentColor"
+                        viewBox="0 0 24 24"
                         strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
                       >
                         <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
-                        <circle cx="12" cy="10" r="3"></circle>
+                        <circle r="3" cx="12" cy="10"></circle>
                       </svg>
                       <span>Europe</span>
                     </div>
@@ -111,7 +111,7 @@ const StudyAbroad = (props) => {
                     </p>
                     <Link href="/services">
                       <a>
-                        <div className="study-abroad-cta btn btn-primary btn-sm">
+                        <div className="btn-primary study-abroad-cta btn btn-sm">
                           <span>Explore Options</span>
                         </div>
                       </a>
@@ -121,24 +121,24 @@ const StudyAbroad = (props) => {
                 <article className="study-abroad-card">
                   <div className="study-abroad-image-container">
                     <img
-                      src="https://images.pexels.com/photos/5604180/pexels-photo-5604180.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
                       alt="Modern campus in USA"
+                      src="https://images.pexels.com/photos/5604180/pexels-photo-5604180.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
                       className="study-abroad-image"
                     />
                     <div className="study-abroad-location">
                       <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        viewBox="0 0 24 24"
                         fill="none"
+                        width="16"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="16"
                         stroke="currentColor"
+                        viewBox="0 0 24 24"
                         strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
                       >
                         <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
-                        <circle cx="12" cy="10" r="3"></circle>
+                        <circle r="3" cx="12" cy="10"></circle>
                       </svg>
                       <span>North America</span>
                     </div>
@@ -151,7 +151,7 @@ const StudyAbroad = (props) => {
                     </p>
                     <Link href="/services">
                       <a>
-                        <div className="study-abroad-cta btn btn-primary btn-sm">
+                        <div className="btn-primary study-abroad-cta btn btn-sm">
                           <span>Explore Options</span>
                         </div>
                       </a>
@@ -161,24 +161,24 @@ const StudyAbroad = (props) => {
                 <article className="study-abroad-card">
                   <div className="study-abroad-image-container">
                     <img
-                      src="https://images.pexels.com/photos/31070772/pexels-photo-31070772.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
                       alt="University campus in Australia"
+                      src="https://images.pexels.com/photos/31070772/pexels-photo-31070772.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
                       className="study-abroad-image"
                     />
                     <div className="study-abroad-location">
                       <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        viewBox="0 0 24 24"
                         fill="none"
+                        width="16"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="16"
                         stroke="currentColor"
+                        viewBox="0 0 24 24"
                         strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
                       >
                         <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
-                        <circle cx="12" cy="10" r="3"></circle>
+                        <circle r="3" cx="12" cy="10"></circle>
                       </svg>
                       <span>Oceania</span>
                     </div>
@@ -191,7 +191,7 @@ const StudyAbroad = (props) => {
                     </p>
                     <Link href="/services">
                       <a>
-                        <div className="study-abroad-cta btn btn-primary btn-sm">
+                        <div className="btn-primary study-abroad-cta btn btn-sm">
                           <span>Explore Options</span>
                         </div>
                       </a>
@@ -201,24 +201,24 @@ const StudyAbroad = (props) => {
                 <article className="study-abroad-card">
                   <div className="study-abroad-image-container">
                     <img
-                      src="https://images.pexels.com/photos/28167325/pexels-photo-28167325.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
                       alt="Technical university in Germany"
+                      src="https://images.pexels.com/photos/28167325/pexels-photo-28167325.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
                       className="study-abroad-image"
                     />
                     <div className="study-abroad-location">
                       <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        viewBox="0 0 24 24"
                         fill="none"
+                        width="16"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="16"
                         stroke="currentColor"
+                        viewBox="0 0 24 24"
                         strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
                       >
                         <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
-                        <circle cx="12" cy="10" r="3"></circle>
+                        <circle r="3" cx="12" cy="10"></circle>
                       </svg>
                       <span>Europe</span>
                     </div>
@@ -231,7 +231,7 @@ const StudyAbroad = (props) => {
                     </p>
                     <Link href="/services">
                       <a>
-                        <div className="study-abroad-cta btn btn-primary btn-sm">
+                        <div className="btn-primary study-abroad-cta btn btn-sm">
                           <span>Explore Options</span>
                         </div>
                       </a>

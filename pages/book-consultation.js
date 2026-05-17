@@ -113,17 +113,17 @@ const BookConsultation = (props) => {
               <div className="service-overview__card">
                 <div className="service-overview__icon-box">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
                     width="24"
+                    xmlns="http://www.w3.org/2000/svg"
                     height="24"
                     viewBox="0 0 24 24"
                   >
                     <g
                       fill="none"
                       stroke="currentColor"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
                     >
                       <path d="M2 7a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2z"></path>
                       <path d="M9 12a3 3 0 1 0 6 0a3 3 0 1 0-6 0m0 0H2m13 0h7"></path>
@@ -140,18 +140,18 @@ const BookConsultation = (props) => {
               <div className="service-overview__card">
                 <div className="service-overview__icon-box">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
                     width="24"
+                    xmlns="http://www.w3.org/2000/svg"
                     height="24"
                     viewBox="0 0 24 24"
                   >
                     <path
+                      d="M17.8 19.2L16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8L4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1l3 2l2 3l1-1v-3l3-2l3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2"
                       fill="none"
                       stroke="currentColor"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M17.8 19.2L16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8L4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1l3 2l2 3l1-1v-3l3-2l3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2"
                     ></path>
                   </svg>
                 </div>
@@ -165,18 +165,18 @@ const BookConsultation = (props) => {
               <div className="service-overview__card">
                 <div className="service-overview__icon-box">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
                     width="24"
+                    xmlns="http://www.w3.org/2000/svg"
                     height="24"
                     viewBox="0 0 24 24"
                   >
                     <path
+                      d="M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0zm.894.211v15M9 3.236v15"
                       fill="none"
                       stroke="currentColor"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0zm.894.211v15M9 3.236v15"
                     ></path>
                   </svg>
                 </div>
@@ -190,18 +190,18 @@ const BookConsultation = (props) => {
               <div className="service-overview__card">
                 <div className="service-overview__icon-box">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
                     width="24"
+                    xmlns="http://www.w3.org/2000/svg"
                     height="24"
                     viewBox="0 0 24 24"
                   >
                     <path
+                      d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
                       fill="none"
                       stroke="currentColor"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
                     ></path>
                   </svg>
                 </div>

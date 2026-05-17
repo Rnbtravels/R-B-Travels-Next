@@ -23,10 +23,10 @@ const TourExperience = (props) => {
               </p>
             </header>
             <div className="tour-experience-grid">
-              <div className="tour-experience-item item-large">
+              <div className="item-large tour-experience-item">
                 <img
-                  src="https://images.pexels.com/photos/16055206/pexels-photo-16055206.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
                   alt="Serene tropical beach with palm trees"
+                  src="https://images.pexels.com/photos/16055206/pexels-photo-16055206.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
                   loading="lazy"
                   className="tour-experience-img"
                 />
@@ -36,18 +36,18 @@ const TourExperience = (props) => {
                   </div>
                   <div className="tour-experience-location">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
                     >
                       <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
-                      <circle cx="12" cy="10" r="3"></circle>
+                      <circle r="3" cx="12" cy="10"></circle>
                     </svg>
                     <span>Tropical Bliss</span>
                   </div>
@@ -55,8 +55,8 @@ const TourExperience = (props) => {
               </div>
               <div className="tour-experience-item">
                 <img
-                  src="https://images.pexels.com/photos/33661381/pexels-photo-33661381.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
                   alt="Guided city tour group"
+                  src="https://images.pexels.com/photos/33661381/pexels-photo-33661381.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
                   loading="lazy"
                   className="tour-experience-img"
                 />
@@ -66,18 +66,18 @@ const TourExperience = (props) => {
                   </div>
                   <div className="tour-experience-location">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
                     >
                       <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
-                      <circle cx="12" cy="10" r="3"></circle>
+                      <circle r="3" cx="12" cy="10"></circle>
                     </svg>
                     <span>Hidden Gems</span>
                   </div>
@@ -85,8 +85,8 @@ const TourExperience = (props) => {
               </div>
               <div className="tour-experience-item">
                 <img
-                  src="https://images.pexels.com/photos/35026952/pexels-photo-35026952.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
                   alt="Luxury airport lounge experience"
+                  src="https://images.pexels.com/photos/35026952/pexels-photo-35026952.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
                   loading="lazy"
                   className="tour-experience-img"
                 />
@@ -96,18 +96,18 @@ const TourExperience = (props) => {
                   </div>
                   <div className="tour-experience-location">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
                     >
                       <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
-                      <circle cx="12" cy="10" r="3"></circle>
+                      <circle r="3" cx="12" cy="10"></circle>
                     </svg>
                     <span>Seamless Comfort</span>
                   </div>
@@ -115,8 +115,8 @@ const TourExperience = (props) => {
               </div>
               <div className="tour-experience-item">
                 <img
-                  src="https://images.pexels.com/photos/27046983/pexels-photo-27046983.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
                   alt="Happy travelers at sunset seaside café"
+                  src="https://images.pexels.com/photos/27046983/pexels-photo-27046983.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
                   loading="lazy"
                   className="tour-experience-img"
                 />
@@ -126,27 +126,27 @@ const TourExperience = (props) => {
                   </div>
                   <div className="tour-experience-location">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
                     >
                       <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
-                      <circle cx="12" cy="10" r="3"></circle>
+                      <circle r="3" cx="12" cy="10"></circle>
                     </svg>
                     <span>Shared Moments</span>
                   </div>
                 </div>
               </div>
-              <div className="tour-experience-item item-tall">
+              <div className="item-tall tour-experience-item">
                 <img
-                  src="https://images.pexels.com/photos/20656446/pexels-photo-20656446.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
                   alt="Airplane flying over tropical landscape"
+                  src="https://images.pexels.com/photos/20656446/pexels-photo-20656446.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
                   loading="lazy"
                   className="tour-experience-img"
                 />
@@ -156,18 +156,18 @@ const TourExperience = (props) => {
                   </div>
                   <div className="tour-experience-location">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
                     >
                       <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
-                      <circle cx="12" cy="10" r="3"></circle>
+                      <circle r="3" cx="12" cy="10"></circle>
                     </svg>
                     <span>Effortless Journeys</span>
                   </div>
@@ -175,8 +175,8 @@ const TourExperience = (props) => {
               </div>
               <div className="tour-experience-item">
                 <img
-                  src="https://images.pexels.com/photos/29180030/pexels-photo-29180030.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
                   alt="Cultural city tour experience"
+                  src="https://images.pexels.com/photos/29180030/pexels-photo-29180030.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
                   loading="lazy"
                   className="tour-experience-img"
                 />
@@ -186,18 +186,18 @@ const TourExperience = (props) => {
                   </div>
                   <div className="tour-experience-location">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
                     >
                       <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
-                      <circle cx="12" cy="10" r="3"></circle>
+                      <circle r="3" cx="12" cy="10"></circle>
                     </svg>
                     <span>Local Heritage</span>
                   </div>
@@ -207,18 +207,18 @@ const TourExperience = (props) => {
             <footer className="tour-experience-footer">
               <Link href="/plan">
                 <a>
-                  <div className="tour-experience-cta btn btn-primary btn-xl">
+                  <div className="btn-primary btn tour-experience-cta btn-xl">
                     <span>Plan Your Next Trip</span>
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
                     >
                       <path d="M5 12h14m-7-7l7 7l-7 7"></path>
                     </svg>
