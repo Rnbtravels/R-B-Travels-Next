@@ -137,7 +137,7 @@ const Footer = (props) => {
                 <ul className="footer-link-list">
                   <Link href="/consultation">
                     <a>
-                      <li className="footer-li1">
+                      <li className="footer-li10">
                         <div className="footer-link">
                           <span>Consultancy Services</span>
                         </div>
@@ -146,7 +146,7 @@ const Footer = (props) => {
                   </Link>
                   <Link href="/itineraries-experiences">
                     <a>
-                      <li className="footer-li2">
+                      <li className="footer-li11">
                         <div className="footer-link">
                           <span>Tours &amp; Itineraries</span>
                         </div>
@@ -155,7 +155,7 @@ const Footer = (props) => {
                   </Link>
                   <Link href="/pricing-packages">
                     <a>
-                      <li className="footer-li3">
+                      <li className="footer-li12">
                         <div className="footer-link">
                           <span>Pricing &amp; Packages</span>
                         </div>
@@ -164,9 +164,18 @@ const Footer = (props) => {
                   </Link>
                   <Link href="/terms">
                     <a>
-                      <li className="footer-li4">
+                      <li className="footer-li13">
                         <div className="footer-link">
                           <span>Terms</span>
+                        </div>
+                      </li>
+                    </a>
+                  </Link>
+                  <Link href="/safety">
+                    <a>
+                      <li className="footer-li14">
+                        <div className="footer-link">
+                          <span>Safety</span>
                         </div>
                       </li>
                     </a>
@@ -192,16 +201,18 @@ const Footer = (props) => {
                       </div>
                     </a>
                   </li>
-                  <li>
-                    <a href="#">
-                      <div className="footer-link">
-                        <span>Safety Guidelines</span>
-                      </div>
+                  <Link href="/safety">
+                    <a>
+                      <li className="footer-li17">
+                        <div className="footer-link">
+                          <span>Safety Guidelines</span>
+                        </div>
+                      </li>
                     </a>
-                  </li>
+                  </Link>
                   <Link href="/terms">
                     <a>
-                      <li className="footer-li8">
+                      <li className="footer-li18">
                         <div className="footer-link">
                           <span>Terms of Service</span>
                         </div>
@@ -210,7 +221,7 @@ const Footer = (props) => {
                   </Link>
                   <Link href="/privacy">
                     <a>
-                      <li className="footer-li9">
+                      <li className="footer-li19">
                         <div className="footer-link">
                           <span>Privacy Policy</span>
                         </div>
@@ -241,7 +252,7 @@ const Footer = (props) => {
                         <circle r="3" cx="12" cy="10"></circle>
                       </svg>
                     </div>
-                    <h1 className="footer-text22">
+                    <h1 className="footer-text23">
                       Nicon Plaza, Plot 242, Muhammadu Buhari Way, Central Area,
                       Federal Capital Territory.
                     </h1>
@@ -265,7 +276,7 @@ const Footer = (props) => {
                     </div>
                     <span className="section-content">
                       <span>Info@MyR</span>
-                      <span className="footer-text24">n</span>
+                      <span className="footer-text25">n</span>
                       <span>BTravels.com</span>
                     </span>
                   </li>
@@ -378,32 +389,38 @@ const Footer = (props) => {
           .footer-thq-footer-social-icon-elm2 {
             text-decoration: none;
           }
-          .footer-li1 {
+          .footer-li10 {
             text-decoration: none;
           }
-          .footer-li2 {
+          .footer-li11 {
             text-decoration: none;
           }
-          .footer-li3 {
+          .footer-li12 {
             text-decoration: none;
           }
-          .footer-li4 {
+          .footer-li13 {
             text-decoration: none;
           }
-          .footer-li8 {
+          .footer-li14 {
             text-decoration: none;
           }
-          .footer-li9 {
+          .footer-li17 {
             text-decoration: none;
           }
-          .footer-text22 {
+          .footer-li18 {
+            text-decoration: none;
+          }
+          .footer-li19 {
+            text-decoration: none;
+          }
+          .footer-text23 {
             font-size: 16px;
             font-style: normal;
             font-family: '' '' '' '' '' '' '' '' '' '' '' '' '' '' Inter '' ''
               '' '' '' '' '' '' '' '' '' '' '' '';
             font-weight: 300;
           }
-          .footer-text24 {
+          .footer-text25 {
             color: var(--color-accent-light);
           }
           .footer-icon28 {
@@ -433,7 +450,7 @@ const Footer = (props) => {
             display: contents;
           }
           @media (max-width: 767px) {
-            .footer-text22 {
+            .footer-text23 {
               font-size: 14px;
               font-style: normal;
               font-family: Inter;
@@ -444,13 +461,13 @@ const Footer = (props) => {
             }
           }
           @media (max-width: 479px) {
-            .footer-text22 {
+            .footer-text23 {
               font-size: 16px;
               font-style: normal;
               font-family: Inter;
               font-weight: 200;
             }
-            .footer-text24 {
+            .footer-text25 {
               color: var(--color-accent-light);
             }
             .footer-thq-section-content-elm5 {

@@ -12,3 +12,4 @@
 - [rnvtravels](https://voyanta.teleporthq.site)
 - [Privacy - rnvtravels](https://voyanta.teleporthq.site/privacy)
 - [Terms - rnvtravels](https://voyanta.teleporthq.site/terms)
+- [Safety - rnvtravels](https://voyanta.teleporthq.site/safety)
