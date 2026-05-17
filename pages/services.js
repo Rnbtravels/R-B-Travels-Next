@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import Head from 'next/head'
 
 import Script from 'dangerous-html/react'
@@ -78,14 +79,16 @@ section {
                   visitors immediately.
                 </p>
                 <div className="services-overview-actions">
-                  <a href="#contact">
-                    <div className="btn-lg btn-primary btn">
-                      <span>Start Planning</span>
-                    </div>
-                  </a>
+                  <Link href="/enquiry-form">
+                    <a>
+                      <div className="services-thq-btn-elm1 btn-lg btn-primary btn">
+                        <span>Start Planning</span>
+                      </div>
+                    </a>
+                  </Link>
                   <a href="#offerings">
                     <div className="btn-lg btn btn-outline">
-                      <span>Explore Services</span>
+                      <span className="services-text13">Explore Services</span>
                     </div>
                   </a>
                 </div>
@@ -761,6 +764,12 @@ transform: translateY(0);}}
           .services-container3 {
             display: contents;
           }
+          .services-thq-btn-elm1 {
+            text-decoration: none;
+          }
+          .services-text13 {
+            color: var(--color-primary-light);
+          }
           .services-container4 {
             display: none;
           }
@@ -772,6 +781,12 @@ transform: translateY(0);}}
           }
           .services-container7 {
             display: contents;
+          }
+          @media (max-width: 991px) {
+            .services-text13 {
+              fill: var(--color-primary-light);
+              color: var(--color-primary-light);
+            }
           }
         `}
       </style>

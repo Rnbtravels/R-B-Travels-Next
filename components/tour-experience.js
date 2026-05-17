@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link'
 
 import Script from 'dangerous-html/react'
 import { useTranslations } from 'next-intl'
@@ -205,26 +204,22 @@ const TourExperience = (props) => {
               </div>
             </div>
             <footer className="tour-experience-footer">
-              <Link href="/plan">
-                <a>
-                  <div className="btn-primary btn tour-experience-cta btn-xl">
-                    <span>Plan Your Next Trip</span>
-                    <svg
-                      fill="none"
-                      width="24"
-                      xmlns="http://www.w3.org/2000/svg"
-                      height="24"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <path d="M5 12h14m-7-7l7 7l-7 7"></path>
-                    </svg>
-                  </div>
-                </a>
-              </Link>
+              <div className="btn-primary btn tour-experience-cta btn-xl">
+                <span>Plan Your Next Trip</span>
+                <svg
+                  fill="none"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path d="M5 12h14m-7-7l7 7l-7 7"></path>
+                </svg>
+              </div>
             </footer>
           </div>
         </section>

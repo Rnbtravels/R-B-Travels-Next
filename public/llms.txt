@@ -5,13 +5,9 @@
 ## Pages
 
 - [Itineraries-Experiences - rnvtravels](https://voyanta.teleporthq.site/itineraries-experiences)
-- [Plan - rnvtravels](https://voyanta.teleporthq.site/plan)
-- [BookingSub - rnvtravels](https://voyanta.teleporthq.site/bookingsub)
 - [Services - rnvtravels](https://voyanta.teleporthq.site/services)
 - [Consultation - rnvtravels](https://voyanta.teleporthq.site/consultation)
 - [EnquiryForm - rnvtravels](https://voyanta.teleporthq.site/enquiryform)
-- [Page - rnvtravels](https://voyanta.teleporthq.site/page)
 - [Pricing-Packages - rnvtravels](https://voyanta.teleporthq.site/pricing-packages)
 - [rnvtravels](https://voyanta.teleporthq.site)
-- [Book-Consultation - rnvtravels](https://voyanta.teleporthq.site/book-consultation)
 - [Booking-Documentation - rnvtravels](https://voyanta.teleporthq.site/booking-documentation)

@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import Head from 'next/head'
 
 import Script from 'dangerous-html/react'
@@ -57,11 +58,13 @@ section {
                 itinerary, including comprehensive travel insurance.
               </p>
               <div className="booking-hero-actions">
-                <a href="#booking-form">
-                  <div className="btn-lg btn-primary btn">
-                    <span>Start Planning</span>
-                  </div>
-                </a>
+                <Link href="/enquiry-form">
+                  <a>
+                    <div className="booking-documentation-thq-btn-elm1 btn-lg btn-primary btn">
+                      <span>Start Planning</span>
+                    </div>
+                  </a>
+                </Link>
                 <a href="#packages">
                   <div className="btn-lg btn btn-outline">
                     <span>View Sample Packages</span>
@@ -860,6 +863,9 @@ section {
           }
           .booking-documentation-container12 {
             display: contents;
+          }
+          .booking-documentation-thq-btn-elm1 {
+            text-decoration: none;
           }
           .booking-documentation-text19 {
             font-weight: 700;

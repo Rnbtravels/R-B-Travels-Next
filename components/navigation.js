@@ -69,13 +69,6 @@ const Navigation = (props) => {
                   </div>
                 </a>
               </Link>
-              <Link href="/booking-sub">
-                <a>
-                  <div className="navigation-link">
-                    <span>BookingSub</span>
-                  </div>
-                </a>
-              </Link>
             </div>
             <div className="navigation-actions">
               <Link href="/enquiry-form">
