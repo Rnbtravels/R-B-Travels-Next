@@ -501,10 +501,15 @@ section {
                       R&amp;B Travels Support
                     </span>
                   </p>
-                  <p className="section-content">Email: support@voyanta.com</p>
-                  <p className="section-content">Phone: +1 (555) 123-4567</p>
                   <p className="section-content">
-                    Address: 123 Global Way, Suite 400, Travel Hub City
+                    <span>Email: Info@myR</span>
+                    <span className="privacy-text18">n</span>
+                    <span>BTravels.com</span>
+                  </p>
+                  <p className="section-content">Phone: +2348062163748</p>
+                  <p className="section-content">
+                    Address: Nicon Plaza, Plot 242, Muhammadu Buhari Way,
+                    Central Area, Federal Capital Territory.
                   </p>
                   <button className="privacy-thq-btn-elm3 btn btn-primary btn-sm">
                     Message Support
@@ -820,6 +825,11 @@ to {opacity: 1;}}
           }
           .privacy-container7 {
             display: contents;
+          }
+          @media (max-width: 479px) {
+            .privacy-text18 {
+              color: var(--color-accent-light);
+            }
           }
         `}
       </style>
