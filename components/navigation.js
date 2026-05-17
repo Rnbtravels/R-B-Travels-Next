@@ -102,6 +102,13 @@ const Navigation = (props) => {
                       </div>
                     </a>
                   </Link>
+                  <Link href="/insurance">
+                    <a>
+                      <div className="navigation-link">
+                        <span>Insurance</span>
+                      </div>
+                    </a>
+                  </Link>
                 </ul>
               </div>
             </div>
@@ -254,6 +261,13 @@ const Navigation = (props) => {
                       <a>
                         <div className="navigation-mobile-link">
                           <span>Safety</span>
+                        </div>
+                      </a>
+                    </Link>
+                    <Link href="/insurance">
+                      <a>
+                        <div className="navigation-mobile-link">
+                          <span>Insurance</span>
                         </div>
                       </a>
                     </Link>

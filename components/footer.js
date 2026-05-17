@@ -194,13 +194,15 @@ const Footer = (props) => {
                       </div>
                     </a>
                   </li>
-                  <li>
-                    <a href="#">
-                      <div className="footer-link">
-                        <span>Travel Insurance</span>
-                      </div>
+                  <Link href="/insurance">
+                    <a>
+                      <li className="footer-li16">
+                        <div className="footer-link">
+                          <span>Insurance</span>
+                        </div>
+                      </li>
                     </a>
-                  </li>
+                  </Link>
                   <Link href="/safety">
                     <a>
                       <li className="footer-li17">
@@ -224,6 +226,15 @@ const Footer = (props) => {
                       <li className="footer-li19">
                         <div className="footer-link">
                           <span>Privacy Policy</span>
+                        </div>
+                      </li>
+                    </a>
+                  </Link>
+                  <Link href="/insurance">
+                    <a>
+                      <li className="footer-li20">
+                        <div className="footer-link">
+                          <span>Insurance</span>
                         </div>
                       </li>
                     </a>
@@ -252,7 +263,7 @@ const Footer = (props) => {
                         <circle r="3" cx="12" cy="10"></circle>
                       </svg>
                     </div>
-                    <h1 className="footer-text23">
+                    <h1 className="footer-text24">
                       Nicon Plaza, Plot 242, Muhammadu Buhari Way, Central Area,
                       Federal Capital Territory.
                     </h1>
@@ -276,7 +287,7 @@ const Footer = (props) => {
                     </div>
                     <span className="section-content">
                       <span>Info@MyR</span>
-                      <span className="footer-text25">n</span>
+                      <span className="footer-text26">n</span>
                       <span>BTravels.com</span>
                     </span>
                   </li>
@@ -404,6 +415,9 @@ const Footer = (props) => {
           .footer-li14 {
             text-decoration: none;
           }
+          .footer-li16 {
+            text-decoration: none;
+          }
           .footer-li17 {
             text-decoration: none;
           }
@@ -413,14 +427,17 @@ const Footer = (props) => {
           .footer-li19 {
             text-decoration: none;
           }
-          .footer-text23 {
+          .footer-li20 {
+            text-decoration: none;
+          }
+          .footer-text24 {
             font-size: 16px;
             font-style: normal;
             font-family: '' '' '' '' '' '' '' '' '' '' '' '' '' '' Inter '' ''
               '' '' '' '' '' '' '' '' '' '' '' '';
             font-weight: 300;
           }
-          .footer-text25 {
+          .footer-text26 {
             color: var(--color-accent-light);
           }
           .footer-icon28 {
@@ -450,7 +467,7 @@ const Footer = (props) => {
             display: contents;
           }
           @media (max-width: 767px) {
-            .footer-text23 {
+            .footer-text24 {
               font-size: 14px;
               font-style: normal;
               font-family: Inter;
@@ -461,13 +478,13 @@ const Footer = (props) => {
             }
           }
           @media (max-width: 479px) {
-            .footer-text23 {
+            .footer-text24 {
               font-size: 16px;
               font-style: normal;
               font-family: Inter;
               font-weight: 200;
             }
-            .footer-text25 {
+            .footer-text26 {
               color: var(--color-accent-light);
             }
             .footer-thq-section-content-elm5 {
