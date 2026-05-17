@@ -1116,7 +1116,7 @@ section {
           .home-thq-handle-bento-grid-elm {
             gap: var(--spacing-lg);
             display: grid;
-            grid-template-rows: repeat(2, 250px);
+            grid-template-rows: repeat(2, 320px);
             grid-template-columns: repeat(4, 1fr);
           }
           .home-thq-service-card-image-elm {
@@ -1173,7 +1173,7 @@ section {
           }
           .home-text25 {
             font-size: 40px;
-            font-family: '' '' '' '' '' '' '' '' '' Inter '' '' '' '' '' '' ''
+            font-family: '' '' '' '' '' '' '' '' '' 'Inter' '' '' '' '' '' '' ''
               '' '';
             font-weight: 700;
           }
