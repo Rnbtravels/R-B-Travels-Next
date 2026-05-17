@@ -135,9 +135,9 @@ const Footer = (props) => {
                   Explore
                 </h2>
                 <ul className="footer-link-list">
-                  <Link href="/services">
+                  <Link href="/consultation">
                     <a>
-                      <li className="footer-li10">
+                      <li className="footer-li1">
                         <div className="footer-link">
                           <span>Consultancy Services</span>
                         </div>
@@ -146,7 +146,7 @@ const Footer = (props) => {
                   </Link>
                   <Link href="/itineraries-experiences">
                     <a>
-                      <li className="footer-li11">
+                      <li className="footer-li2">
                         <div className="footer-link">
                           <span>Tours &amp; Itineraries</span>
                         </div>
@@ -155,7 +155,7 @@ const Footer = (props) => {
                   </Link>
                   <Link href="/pricing-packages">
                     <a>
-                      <li className="footer-li12">
+                      <li className="footer-li3">
                         <div className="footer-link">
                           <span>Pricing &amp; Packages</span>
                         </div>
@@ -164,36 +164,9 @@ const Footer = (props) => {
                   </Link>
                   <Link href="/booking-documentation">
                     <a>
-                      <li className="footer-li13">
+                      <li className="footer-li4">
                         <div className="footer-link">
                           <span>Booking &amp; Visas</span>
-                        </div>
-                      </li>
-                    </a>
-                  </Link>
-                  <Link href="/enquiry-form">
-                    <a>
-                      <li className="footer-li14">
-                        <div className="footer-link">
-                          <span>Consultation</span>
-                        </div>
-                      </li>
-                    </a>
-                  </Link>
-                  <Link href="/enquiry-form">
-                    <a>
-                      <li className="footer-li15">
-                        <div className="footer-link">
-                          <span>Book Consultation</span>
-                        </div>
-                      </li>
-                    </a>
-                  </Link>
-                  <Link href="/enquiry-form">
-                    <a>
-                      <li className="footer-li16">
-                        <div className="footer-link">
-                          <span>EnquiryForm</span>
                         </div>
                       </li>
                     </a>
@@ -264,7 +237,7 @@ const Footer = (props) => {
                         <circle r="3" cx="12" cy="10"></circle>
                       </svg>
                     </div>
-                    <h1 className="footer-text25">
+                    <h1 className="footer-text22">
                       Mohammadu Buhari Wy, Central Business Dis, Abuja 900103,
                       Federal Capital Territory
                     </h1>
@@ -288,7 +261,7 @@ const Footer = (props) => {
                     </div>
                     <span className="section-content">
                       <span>hello@MyR</span>
-                      <span className="footer-text27">n</span>
+                      <span className="footer-text24">n</span>
                       <span>BTravels.com</span>
                     </span>
                   </li>
@@ -401,35 +374,26 @@ const Footer = (props) => {
           .footer-thq-footer-social-icon-elm2 {
             text-decoration: none;
           }
-          .footer-li10 {
+          .footer-li1 {
             text-decoration: none;
           }
-          .footer-li11 {
+          .footer-li2 {
             text-decoration: none;
           }
-          .footer-li12 {
+          .footer-li3 {
             text-decoration: none;
           }
-          .footer-li13 {
+          .footer-li4 {
             text-decoration: none;
           }
-          .footer-li14 {
-            text-decoration: none;
-          }
-          .footer-li15 {
-            text-decoration: none;
-          }
-          .footer-li16 {
-            text-decoration: none;
-          }
-          .footer-text25 {
+          .footer-text22 {
             font-size: 16px;
             font-style: normal;
             font-family: '' '' '' '' '' '' '' '' '' '' '' '' '' 'Inter' '' '' ''
               '' '' '' '' '' '' '' '' '' '';
             font-weight: 300;
           }
-          .footer-text27 {
+          .footer-text24 {
             color: var(--color-accent-light);
           }
           .footer-icon28 {
@@ -459,7 +423,7 @@ const Footer = (props) => {
             display: contents;
           }
           @media (max-width: 767px) {
-            .footer-text25 {
+            .footer-text22 {
               font-size: 14px;
               font-style: normal;
               font-family: Inter;
@@ -470,7 +434,7 @@ const Footer = (props) => {
             }
           }
           @media (max-width: 479px) {
-            .footer-text25 {
+            .footer-text22 {
               font-size: 16px;
               font-style: normal;
               font-family: Inter;
