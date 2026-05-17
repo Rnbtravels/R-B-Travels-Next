@@ -260,7 +260,7 @@ const Footer = (props) => {
                       </svg>
                     </div>
                     <span className="section-content">
-                      <span>hello@MyR</span>
+                      <span>Info@MyR</span>
                       <span className="footer-text24">n</span>
                       <span>BTravels.com</span>
                     </span>
@@ -439,6 +439,9 @@ const Footer = (props) => {
               font-style: normal;
               font-family: Inter;
               font-weight: 200;
+            }
+            .footer-text24 {
+              color: var(--color-accent-light);
             }
             .footer-thq-section-content-elm5 {
               color: var(--color-primary-light);
