@@ -69,7 +69,7 @@ section {
                 <Link href="/consultation">
                   <a>
                     <div className="home-thq-btn-elm2 btn-lg btn btn-outline">
-                      <span>Book Consultation</span>
+                      <span className="home-text14">Book Consultation</span>
                     </div>
                   </a>
                 </Link>
@@ -1096,6 +1096,9 @@ section {
           }
           .home-thq-btn-elm2 {
             text-decoration: none;
+          }
+          .home-text14 {
+            color: var(--color-primary-light);
           }
           .home-thq-hero-trust-bar-elm {
             gap: var(--spacing-lg);
