@@ -27,6 +27,50 @@ const TravelEnquiryForm = (props) => {
           />
         </Head>
         <Navigation></Navigation>
+        <section data-section="travel-enquiry-hero" className="page-hero">
+          <div className="travel-enquiry-form-thq-page-hero-container-elm thq-page-hero-container-elm">
+            <div className="travel-enquiry-form-thq-page-hero-content-elm">
+              <div className="travel-enquiry-form-thq-page-hero-icon-elm thq-page-hero-icon-elm">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="48"
+                  height="48"
+                  viewBox="0 0 24 24"
+                >
+                  <g
+                    fill="none"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                  >
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="m16.24 7.76l-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z"></path>
+                  </g>
+                </svg>
+              </div>
+              <h1 className="travel-enquiry-form-thq-page-hero-title-elm thq-page-hero-title-elm">
+                Travel Enquiry
+              </h1>
+              <p className="travel-enquiry-form-thq-page-hero-subtitle-elm thq-page-hero-subtitle-elm">
+                Tell us about your dream journey and let our experts craft a
+                seamless, personalized travel experience for you.
+              </p>
+              <div className="travel-enquiry-form-thq-page-hero-divider-elm thq-page-hero-divider-elm"></div>
+              <p className="travel-enquiry-form-thq-page-hero-description-elm thq-page-hero-description-elm">
+                From visa applications and flight bookings to curated
+                itineraries and travel insurance — R&amp;B Travels handles every
+                detail so you can focus on the adventure ahead.
+              </p>
+            </div>
+            <div className="page-hero-image">
+              <img
+                src="https://images.pexels.com/photos/9123014/pexels-photo-9123014.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                alt="Stunning sunset view from mountain top with expansive seascape"
+              />
+            </div>
+          </div>
+        </section>
         <section id="step-1" className="service-selector">
           <div className="service-selector-container">
             <div className="service-selector-header">
@@ -37,23 +81,23 @@ const TravelEnquiryForm = (props) => {
             </div>
             <div className="service-selector-grid">
               <button
-                data-service="Study Abroad"
                 data-icon="🎓"
+                data-service="Study Abroad"
                 className="page1-service-card"
               >
                 <div className="travel-enquiry-form-thq-service-card-icon-elm1">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
                     width="24"
+                    xmlns="http://www.w3.org/2000/svg"
                     height="24"
                     viewBox="0 0 24 24"
                   >
                     <g
                       fill="none"
                       stroke="currentColor"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
                     >
                       <path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0zM22 10v6"></path>
                       <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
@@ -63,23 +107,23 @@ const TravelEnquiryForm = (props) => {
                 <span className="section-content">1. Study Abroad</span>
               </button>
               <button
-                data-service="Travel Documentation"
                 data-icon="📄"
+                data-service="Travel Documentation"
                 className="page1-service-card"
               >
                 <div className="travel-enquiry-form-thq-service-card-icon-elm2">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
                     width="24"
+                    xmlns="http://www.w3.org/2000/svg"
                     height="24"
                     viewBox="0 0 24 24"
                   >
                     <g
                       fill="none"
                       stroke="currentColor"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
                     >
                       <path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path>
                       <path d="M14 2v5a1 1 0 0 0 1 1h5M10 9H8m8 4H8m8 4H8"></path>
@@ -89,26 +133,26 @@ const TravelEnquiryForm = (props) => {
                 <span className="section-content">2. Travel Documentation</span>
               </button>
               <button
-                data-service="Comprehensive Itinerary Planning"
                 data-icon="🗺️"
+                data-service="Comprehensive Itinerary Planning"
                 className="page1-service-card"
               >
                 <div className="travel-enquiry-form-thq-service-card-icon-elm3">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
                     width="24"
+                    xmlns="http://www.w3.org/2000/svg"
                     height="24"
                     viewBox="0 0 24 24"
                   >
                     <g
                       fill="none"
                       stroke="currentColor"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
                     >
                       <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
-                      <circle cx="12" cy="10" r="3"></circle>
+                      <circle r="3" cx="12" cy="10"></circle>
                     </g>
                   </svg>
                 </div>
@@ -117,23 +161,23 @@ const TravelEnquiryForm = (props) => {
                 </span>
               </button>
               <button
-                data-service="Travel Insurance"
                 data-icon="🛡️"
+                data-service="Travel Insurance"
                 className="page1-service-card"
               >
                 <div className="travel-enquiry-form-thq-service-card-icon-elm4">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
                     width="24"
+                    xmlns="http://www.w3.org/2000/svg"
                     height="24"
                     viewBox="0 0 24 24"
                   >
                     <g
                       fill="none"
                       stroke="currentColor"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
                     >
                       <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
                       <path d="m9 12l2 2l4-4"></path>
@@ -143,24 +187,24 @@ const TravelEnquiryForm = (props) => {
                 <span className="section-content">4. Travel Insurance</span>
               </button>
               <button
-                data-service="Tour Packages &amp; Guided Experiences"
                 data-icon="✈️"
+                data-service="Tour Packages &amp; Guided Experiences"
                 className="page1-service-card"
               >
                 <div className="travel-enquiry-form-thq-service-card-icon-elm5">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
                     width="24"
+                    xmlns="http://www.w3.org/2000/svg"
                     height="24"
                     viewBox="0 0 24 24"
                   >
                     <path
+                      d="M2 22h20M6.36 17.4L4 17l-2-4l1.1-.55a2 2 0 0 1 1.8 0l.17.1a2 2 0 0 0 1.8 0L8 12L5 6l.9-.45a2 2 0 0 1 2.09.2l4.02 3a2 2 0 0 0 2.1.2l4.19-2.06a2.4 2.4 0 0 1 1.73-.17L21 7a1.4 1.4 0 0 1 .87 1.99l-.38.76c-.23.46-.6.84-1.07 1.08L7.58 17.2a2 2 0 0 1-1.22.18Z"
                       fill="none"
                       stroke="currentColor"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M2 22h20M6.36 17.4L4 17l-2-4l1.1-.55a2 2 0 0 1 1.8 0l.17.1a2 2 0 0 0 1.8 0L8 12L5 6l.9-.45a2 2 0 0 1 2.09.2l4.02 3a2 2 0 0 0 2.1.2l4.19-2.06a2.4 2.4 0 0 1 1.73-.17L21 7a1.4 1.4 0 0 1 .87 1.99l-.38.76c-.23.46-.6.84-1.07 1.08L7.58 17.2a2 2 0 0 1-1.22.18Z"
                     ></path>
                   </svg>
                 </div>
@@ -169,26 +213,26 @@ const TravelEnquiryForm = (props) => {
                 </span>
               </button>
               <button
-                data-service="Airport Transfer Arrangements"
                 data-icon="🚐"
+                data-service="Airport Transfer Arrangements"
                 className="page1-service-card"
               >
                 <div className="travel-enquiry-form-thq-service-card-icon-elm6">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
                     width="24"
+                    xmlns="http://www.w3.org/2000/svg"
                     height="24"
                     viewBox="0 0 24 24"
                   >
                     <g
                       fill="none"
                       stroke="currentColor"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
                     >
                       <path d="M4 6L2 7m8-1h4m8 1l-2-1"></path>
-                      <rect width="16" height="16" x="4" y="3" rx="2"></rect>
+                      <rect x="4" y="3" rx="2" width="16" height="16"></rect>
                       <path d="M4 11h16M8 15h.01M16 15h.01M6 19v2m12 0v-2"></path>
                     </g>
                   </svg>
@@ -198,27 +242,27 @@ const TravelEnquiryForm = (props) => {
                 </span>
               </button>
               <button
-                data-service="24/7 Travel Support &amp; Emergency Assistance"
                 data-icon="🆘"
+                data-service="24/7 Travel Support &amp; Emergency Assistance"
                 className="page1-service-card"
               >
                 <div className="travel-enquiry-form-thq-service-card-icon-elm7">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
                     width="24"
+                    xmlns="http://www.w3.org/2000/svg"
                     height="24"
                     viewBox="0 0 24 24"
                   >
                     <g
                       fill="none"
                       stroke="currentColor"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
                     >
-                      <circle cx="12" cy="12" r="10"></circle>
+                      <circle r="10" cx="12" cy="12"></circle>
                       <path d="m4.93 4.93l4.24 4.24m5.66 0l4.24-4.24m-4.24 9.9l4.24 4.24m-9.9-4.24l-4.24 4.24"></path>
-                      <circle cx="12" cy="12" r="4"></circle>
+                      <circle r="4" cx="12" cy="12"></circle>
                     </g>
                   </svg>
                 </div>
@@ -231,7 +275,7 @@ const TravelEnquiryForm = (props) => {
               <button
                 id="btn-continue-step-1"
                 disabled="true"
-                className="btn btn-accent btn-lg"
+                className="btn-lg btn btn-accent"
               >
                 Continue
               </button>
@@ -245,12 +289,12 @@ const TravelEnquiryForm = (props) => {
           <div className="form-container">
             <button id="btn-back-step-2" className="btn-back">
               <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                viewBox="0 0 24 24"
                 fill="none"
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+                height="20"
                 stroke="currentColor"
+                viewBox="0 0 24 24"
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -268,36 +312,36 @@ const TravelEnquiryForm = (props) => {
               </span>
             </button>
             <form
+              id="enquiry-form"
               action="https://api.web3forms.com/submit"
               method="POST"
-              id="enquiry-form"
               data-form-id="b23835c1-ae81-4385-9d2a-a32d276f3fea"
             >
               <input
                 type="hidden"
+                id="thq_access_key_z0yH"
                 name="access_key"
                 value="YOUR_WEB3FORMS_ACCESS_KEY_HERE"
-                id="thq_access_key_z0yH"
                 data-form-field-id="thq_access_key_z0yH"
               />
               <input
                 type="hidden"
-                name="subject"
                 id="hidden-subject"
+                name="subject"
                 value="R&amp;B Travels Enquiry"
                 data-form-field-id="hidden-subject"
               />
               <input
                 type="hidden"
+                id="thq_from_name_O45T"
                 name="from_name"
                 value="R&amp;B Travels Website"
-                id="thq_from_name_O45T"
                 data-form-field-id="thq_from_name_O45T"
               />
               <input
                 type="hidden"
-                name="selected_service"
                 id="hidden-service"
+                name="selected_service"
                 data-form-field-id="hidden-service"
               />
               <div className="form-section">
@@ -385,9 +429,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="radio"
+                            id="thq_school_status_jteC"
                             name="school_status"
                             value="Yes specific"
-                            id="thq_school_status_jteC"
                             data-form-field-id="thq_school_status_jteC"
                           />
                           <span>
@@ -403,9 +447,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="radio"
+                            id="thq_school_status_5vFr"
                             name="school_status"
                             value="Have shortlist"
-                            id="thq_school_status_5vFr"
                             data-form-field-id="thq_school_status_5vFr"
                           />
                           <span>
@@ -421,9 +465,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="radio"
+                            id="thq_school_status_nenu"
                             name="school_status"
                             value="Need guidance"
-                            id="thq_school_status_nenu"
                             data-form-field-id="thq_school_status_nenu"
                           />
                           <span>
@@ -458,9 +502,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="radio"
+                            id="thq_visa_support_k7aI"
                             name="visa_support"
                             value="Full support"
-                            id="thq_visa_support_k7aI"
                             data-form-field-id="thq_visa_support_k7aI"
                           />
                           <span>
@@ -476,9 +520,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="radio"
+                            id="thq_visa_support_CdIW"
                             name="visa_support"
                             value="Documents only"
-                            id="thq_visa_support_CdIW"
                             data-form-field-id="thq_visa_support_CdIW"
                           />
                           <span>
@@ -494,9 +538,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="radio"
+                            id="thq_visa_support_ovgu"
                             name="visa_support"
                             value="No"
-                            id="thq_visa_support_ovgu"
                             data-form-field-id="thq_visa_support_ovgu"
                           />
                           <span>
@@ -550,9 +594,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_docs[]_B8TU"
                             name="docs[]"
                             value="Passport"
-                            id="thq_docs[]_B8TU"
                             data-form-field-id="thq_docs[]_B8TU"
                           />
                           <span>
@@ -568,9 +612,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_docs[]_3DOd"
                             name="docs[]"
                             value="Visa Application"
-                            id="thq_docs[]_3DOd"
                             data-form-field-id="thq_docs[]_3DOd"
                           />
                           <span>
@@ -586,9 +630,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_docs[]_out_"
                             name="docs[]"
                             value="Proof of Funds"
-                            id="thq_docs[]_out_"
                             data-form-field-id="thq_docs[]_out_"
                           />
                           <span>
@@ -604,9 +648,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_docs[]_mfOL"
                             name="docs[]"
                             value="Travel Itinerary"
-                            id="thq_docs[]_mfOL"
                             data-form-field-id="thq_docs[]_mfOL"
                           />
                           <span>
@@ -622,9 +666,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_docs[]_DVVX"
                             name="docs[]"
                             value="Hotel Booking"
-                            id="thq_docs[]_DVVX"
                             data-form-field-id="thq_docs[]_DVVX"
                           />
                           <span>
@@ -640,9 +684,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_docs[]_02PO"
                             name="docs[]"
                             value="Flight Reservation"
-                            id="thq_docs[]_02PO"
                             data-form-field-id="thq_docs[]_02PO"
                           />
                           <span>
@@ -658,9 +702,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_docs[]_mE-3"
                             name="docs[]"
                             value="Reference Letter"
-                            id="thq_docs[]_mE-3"
                             data-form-field-id="thq_docs[]_mE-3"
                           />
                           <span>
@@ -676,9 +720,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_docs[]_tobo"
                             name="docs[]"
                             value="Other"
-                            id="thq_docs[]_tobo"
                             data-form-field-id="thq_docs[]_tobo"
                           />
                           <span>
@@ -717,9 +761,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="radio"
+                            id="thq_urgency_0kLu"
                             name="urgency"
                             value="Within 1 week"
-                            id="thq_urgency_0kLu"
                             data-form-field-id="thq_urgency_0kLu"
                           />
                           <span>
@@ -735,9 +779,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="radio"
+                            id="thq_urgency_p7cj"
                             name="urgency"
                             value="2–4 weeks"
-                            id="thq_urgency_p7cj"
                             data-form-field-id="thq_urgency_p7cj"
                           />
                           <span>
@@ -753,9 +797,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="radio"
+                            id="thq_urgency_0k-Y"
                             name="urgency"
                             value="1–3 months"
-                            id="thq_urgency_0k-Y"
                             data-form-field-id="thq_urgency_0k-Y"
                           />
                           <span>
@@ -776,9 +820,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="radio"
+                            id="thq_denial__ygt"
                             name="denial"
                             value="No"
-                            id="thq_denial__ygt"
                             data-form-field-id="thq_denial__ygt"
                           />
                           <span>
@@ -794,9 +838,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="radio"
+                            id="thq_denial_F1kz"
                             name="denial"
                             value="Yes same country"
-                            id="thq_denial_F1kz"
                             data-form-field-id="thq_denial_F1kz"
                           />
                           <span>
@@ -812,9 +856,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="radio"
+                            id="thq_denial_nz3Q"
                             name="denial"
                             value="Yes different country"
-                            id="thq_denial_nz3Q"
                             data-form-field-id="thq_denial_nz3Q"
                           />
                           <span>
@@ -918,9 +962,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="radio"
+                            id="thq_style_U16q"
                             name="style"
                             value="Budget"
-                            id="thq_style_U16q"
                             data-form-field-id="thq_style_U16q"
                           />
                           <span>
@@ -936,9 +980,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="radio"
+                            id="thq_style_yFbu"
                             name="style"
                             value="Mid-range"
-                            id="thq_style_yFbu"
                             data-form-field-id="thq_style_yFbu"
                           />
                           <span>
@@ -954,9 +998,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="radio"
+                            id="thq_style_-qAK"
                             name="style"
                             value="Luxury"
-                            id="thq_style_-qAK"
                             data-form-field-id="thq_style_-qAK"
                           />
                           <span>
@@ -977,9 +1021,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_interests[]_-EMl"
                             name="interests[]"
                             value="Beaches"
-                            id="thq_interests[]_-EMl"
                             data-form-field-id="thq_interests[]_-EMl"
                           />
                           <span>
@@ -995,9 +1039,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_interests[]_Llt7"
                             name="interests[]"
                             value="History"
-                            id="thq_interests[]_Llt7"
                             data-form-field-id="thq_interests[]_Llt7"
                           />
                           <span>
@@ -1013,9 +1057,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_interests[]_DMBQ"
                             name="interests[]"
                             value="Food"
-                            id="thq_interests[]_DMBQ"
                             data-form-field-id="thq_interests[]_DMBQ"
                           />
                           <span>
@@ -1031,9 +1075,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_interests[]_7G9e"
                             name="interests[]"
                             value="Adventure"
-                            id="thq_interests[]_7G9e"
                             data-form-field-id="thq_interests[]_7G9e"
                           />
                           <span>
@@ -1049,9 +1093,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_interests[]_w-C6"
                             name="interests[]"
                             value="Wildlife"
-                            id="thq_interests[]_w-C6"
                             data-form-field-id="thq_interests[]_w-C6"
                           />
                           <span>
@@ -1067,9 +1111,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_interests[]_4zdS"
                             name="interests[]"
                             value="Shopping"
-                            id="thq_interests[]_4zdS"
                             data-form-field-id="thq_interests[]_4zdS"
                           />
                           <span>
@@ -1085,9 +1129,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_interests[]_lbg2"
                             name="interests[]"
                             value="Nightlife"
-                            id="thq_interests[]_lbg2"
                             data-form-field-id="thq_interests[]_lbg2"
                           />
                           <span>
@@ -1103,9 +1147,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_interests[]_b5tz"
                             name="interests[]"
                             value="Wellness"
-                            id="thq_interests[]_b5tz"
                             data-form-field-id="thq_interests[]_b5tz"
                           />
                           <span>
@@ -1214,9 +1258,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="radio"
+                            id="thq_condition_9JcO"
                             name="condition"
                             value="No"
-                            id="thq_condition_9JcO"
                             data-form-field-id="thq_condition_9JcO"
                           />
                           <span>
@@ -1232,9 +1276,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="radio"
+                            id="thq_condition_Ky1f"
                             name="condition"
                             value="Minor"
-                            id="thq_condition_Ky1f"
                             data-form-field-id="thq_condition_Ky1f"
                           />
                           <span>
@@ -1250,9 +1294,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="radio"
+                            id="thq_condition_v-1M"
                             name="condition"
                             value="Serious"
-                            id="thq_condition_v-1M"
                             data-form-field-id="thq_condition_v-1M"
                           />
                           <span>
@@ -1273,9 +1317,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_coverage[]_4ZZa"
                             name="coverage[]"
                             value="Medical"
-                            id="thq_coverage[]_4ZZa"
                             data-form-field-id="thq_coverage[]_4ZZa"
                           />
                           <span>
@@ -1291,9 +1335,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_coverage[]_OS2P"
                             name="coverage[]"
                             value="Cancellation"
-                            id="thq_coverage[]_OS2P"
                             data-form-field-id="thq_coverage[]_OS2P"
                           />
                           <span>
@@ -1309,9 +1353,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_coverage[]_LRFu"
                             name="coverage[]"
                             value="Baggage"
-                            id="thq_coverage[]_LRFu"
                             data-form-field-id="thq_coverage[]_LRFu"
                           />
                           <span>
@@ -1327,9 +1371,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_coverage[]_prj0"
                             name="coverage[]"
                             value="Delays"
-                            id="thq_coverage[]_prj0"
                             data-form-field-id="thq_coverage[]_prj0"
                           />
                           <span>
@@ -1345,9 +1389,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_coverage[]_KuWA"
                             name="coverage[]"
                             value="Evacuation"
-                            id="thq_coverage[]_KuWA"
                             data-form-field-id="thq_coverage[]_KuWA"
                           />
                           <span>
@@ -1363,9 +1407,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_coverage[]_WPFd"
                             name="coverage[]"
                             value="Adventure sports"
-                            id="thq_coverage[]_WPFd"
                             data-form-field-id="thq_coverage[]_WPFd"
                           />
                           <span>
@@ -1381,9 +1425,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_coverage[]_aqrz"
                             name="coverage[]"
                             value="COVID"
-                            id="thq_coverage[]_aqrz"
                             data-form-field-id="thq_coverage[]_aqrz"
                           />
                           <span>
@@ -1496,9 +1540,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_exp[]_tOsq"
                             name="exp[]"
                             value="Beaches"
-                            id="thq_exp[]_tOsq"
                             data-form-field-id="thq_exp[]_tOsq"
                           />
                           <span>
@@ -1514,9 +1558,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_exp[]_MAht"
                             name="exp[]"
                             value="Safari"
-                            id="thq_exp[]_MAht"
                             data-form-field-id="thq_exp[]_MAht"
                           />
                           <span>
@@ -1532,9 +1576,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_exp[]_cLyj"
                             name="exp[]"
                             value="Culture"
-                            id="thq_exp[]_cLyj"
                             data-form-field-id="thq_exp[]_cLyj"
                           />
                           <span>
@@ -1550,9 +1594,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_exp[]_z2TR"
                             name="exp[]"
                             value="City"
-                            id="thq_exp[]_z2TR"
                             data-form-field-id="thq_exp[]_z2TR"
                           />
                           <span>
@@ -1568,9 +1612,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_exp[]_laBB"
                             name="exp[]"
                             value="Mountain"
-                            id="thq_exp[]_laBB"
                             data-form-field-id="thq_exp[]_laBB"
                           />
                           <span>
@@ -1591,9 +1635,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_inclusions[]_1qXx"
                             name="inclusions[]"
                             value="Flights"
-                            id="thq_inclusions[]_1qXx"
                             data-form-field-id="thq_inclusions[]_1qXx"
                           />
                           <span>
@@ -1609,9 +1653,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_inclusions[]_1uht"
                             name="inclusions[]"
                             value="Accommodation"
-                            id="thq_inclusions[]_1uht"
                             data-form-field-id="thq_inclusions[]_1uht"
                           />
                           <span>
@@ -1627,9 +1671,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_inclusions[]_EgtO"
                             name="inclusions[]"
                             value="Transport"
-                            id="thq_inclusions[]_EgtO"
                             data-form-field-id="thq_inclusions[]_EgtO"
                           />
                           <span>
@@ -1645,9 +1689,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_inclusions[]_uA3C"
                             name="inclusions[]"
                             value="Meals"
-                            id="thq_inclusions[]_uA3C"
                             data-form-field-id="thq_inclusions[]_uA3C"
                           />
                           <span>
@@ -1663,9 +1707,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_inclusions[]_RzjQ"
                             name="inclusions[]"
                             value="Excursions"
-                            id="thq_inclusions[]_RzjQ"
                             data-form-field-id="thq_inclusions[]_RzjQ"
                           />
                           <span>
@@ -1681,9 +1725,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_inclusions[]_J1NO"
                             name="inclusions[]"
                             value="Insurance"
-                            id="thq_inclusions[]_J1NO"
                             data-form-field-id="thq_inclusions[]_J1NO"
                           />
                           <span>
@@ -1699,9 +1743,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_inclusions[]_W3w2"
                             name="inclusions[]"
                             value="Visa"
-                            id="thq_inclusions[]_W3w2"
                             data-form-field-id="thq_inclusions[]_W3w2"
                           />
                           <span>
@@ -1739,9 +1783,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="radio"
+                            id="thq_transfer_type_DPrm"
                             name="transfer_type"
                             value="Arrival"
-                            id="thq_transfer_type_DPrm"
                             data-form-field-id="thq_transfer_type_DPrm"
                           />
                           <span>
@@ -1757,9 +1801,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="radio"
+                            id="thq_transfer_type_rYD2"
                             name="transfer_type"
                             value="Departure"
-                            id="thq_transfer_type_rYD2"
                             data-form-field-id="thq_transfer_type_rYD2"
                           />
                           <span>
@@ -1775,9 +1819,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="radio"
+                            id="thq_transfer_type_59Sx"
                             name="transfer_type"
                             value="Both"
-                            id="thq_transfer_type_59Sx"
                             data-form-field-id="thq_transfer_type_59Sx"
                           />
                           <span>
@@ -1793,9 +1837,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="radio"
+                            id="thq_transfer_type_4dsu"
                             name="transfer_type"
                             value="Inter-city"
-                            id="thq_transfer_type_4dsu"
                             data-form-field-id="thq_transfer_type_4dsu"
                           />
                           <span>
@@ -1811,9 +1855,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="radio"
+                            id="thq_transfer_type_OxYA"
                             name="transfer_type"
                             value="Hotel-to-attraction"
-                            id="thq_transfer_type_OxYA"
                             data-form-field-id="thq_transfer_type_OxYA"
                           />
                           <span>
@@ -1904,9 +1948,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="radio"
+                            id="thq_vehicle_ZT0X"
                             name="vehicle"
                             value="Economy"
-                            id="thq_vehicle_ZT0X"
                             data-form-field-id="thq_vehicle_ZT0X"
                           />
                           <span>
@@ -1922,9 +1966,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="radio"
+                            id="thq_vehicle_corJ"
                             name="vehicle"
                             value="Business"
-                            id="thq_vehicle_corJ"
                             data-form-field-id="thq_vehicle_corJ"
                           />
                           <span>
@@ -1940,9 +1984,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="radio"
+                            id="thq_vehicle_GMY1"
                             name="vehicle"
                             value="SUV"
-                            id="thq_vehicle_GMY1"
                             data-form-field-id="thq_vehicle_GMY1"
                           />
                           <span>
@@ -1958,9 +2002,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="radio"
+                            id="thq_vehicle_Dbpt"
                             name="vehicle"
                             value="Minivan"
-                            id="thq_vehicle_Dbpt"
                             data-form-field-id="thq_vehicle_Dbpt"
                           />
                           <span>
@@ -1976,9 +2020,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="radio"
+                            id="thq_vehicle_itkq"
                             name="vehicle"
                             value="Minibus"
-                            id="thq_vehicle_itkq"
                             data-form-field-id="thq_vehicle_itkq"
                           />
                           <span>
@@ -1994,9 +2038,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="radio"
+                            id="thq_vehicle_GMQQ"
                             name="vehicle"
                             value="No preference"
-                            id="thq_vehicle_GMQQ"
                             data-form-field-id="thq_vehicle_GMQQ"
                           />
                           <span>
@@ -2043,9 +2087,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_support[]_UrGJ"
                             name="support[]"
                             value="Lost docs"
-                            id="thq_support[]_UrGJ"
                             data-form-field-id="thq_support[]_UrGJ"
                           />
                           <span>
@@ -2061,9 +2105,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_support[]_4k4H"
                             name="support[]"
                             value="Medical"
-                            id="thq_support[]_4k4H"
                             data-form-field-id="thq_support[]_4k4H"
                           />
                           <span>
@@ -2079,9 +2123,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_support[]_2sRE"
                             name="support[]"
                             value="Flight rebooking"
-                            id="thq_support[]_2sRE"
                             data-form-field-id="thq_support[]_2sRE"
                           />
                           <span>
@@ -2097,9 +2141,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_support[]_tpaG"
                             name="support[]"
                             value="Accommodation"
-                            id="thq_support[]_tpaG"
                             data-form-field-id="thq_support[]_tpaG"
                           />
                           <span>
@@ -2115,9 +2159,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_support[]_Fcik"
                             name="support[]"
                             value="Security concern"
-                            id="thq_support[]_Fcik"
                             data-form-field-id="thq_support[]_Fcik"
                           />
                           <span>
@@ -2133,9 +2177,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_support[]_s2tf"
                             name="support[]"
                             value="Emergency funds"
-                            id="thq_support[]_s2tf"
                             data-form-field-id="thq_support[]_s2tf"
                           />
                           <span>
@@ -2151,9 +2195,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_support[]_lOPw"
                             name="support[]"
                             value="Embassy contact"
-                            id="thq_support[]_lOPw"
                             data-form-field-id="thq_support[]_lOPw"
                           />
                           <span>
@@ -2169,9 +2213,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="checkbox"
+                            id="thq_support[]_yJhl"
                             name="support[]"
                             value="General crisis"
-                            id="thq_support[]_yJhl"
                             data-form-field-id="thq_support[]_yJhl"
                           />
                           <span>
@@ -2219,9 +2263,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="radio"
+                            id="thq_emergency_level_5st1"
                             name="emergency_level"
                             value="🚨 Emergency"
-                            id="thq_emergency_level_5st1"
                             data-form-field-id="thq_emergency_level_5st1"
                           />
                           <span>
@@ -2237,9 +2281,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="radio"
+                            id="thq_emergency_level_R4SL"
                             name="emergency_level"
                             value="⚠️ Urgent"
-                            id="thq_emergency_level_R4SL"
                             data-form-field-id="thq_emergency_level_R4SL"
                           />
                           <span>
@@ -2255,9 +2299,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="radio"
+                            id="thq_emergency_level_wu2O"
                             name="emergency_level"
                             value="📋 Non-urgent"
-                            id="thq_emergency_level_wu2O"
                             data-form-field-id="thq_emergency_level_wu2O"
                           />
                           <span>
@@ -2278,9 +2322,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="radio"
+                            id="thq_contact_pref_Vrdw"
                             name="contact_pref"
                             value="Phone"
-                            id="thq_contact_pref_Vrdw"
                             data-form-field-id="thq_contact_pref_Vrdw"
                           />
                           <span>
@@ -2296,9 +2340,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="radio"
+                            id="thq_contact_pref_OieY"
                             name="contact_pref"
                             value="WhatsApp"
-                            id="thq_contact_pref_OieY"
                             data-form-field-id="thq_contact_pref_OieY"
                           />
                           <span>
@@ -2314,9 +2358,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="radio"
+                            id="thq_contact_pref_BDV1"
                             name="contact_pref"
                             value="Email"
-                            id="thq_contact_pref_BDV1"
                             data-form-field-id="thq_contact_pref_BDV1"
                           />
                           <span>
@@ -2332,9 +2376,9 @@ const TravelEnquiryForm = (props) => {
                         <label>
                           <input
                             type="radio"
+                            id="thq_contact_pref_PmPT"
                             name="contact_pref"
                             value="Any"
-                            id="thq_contact_pref_PmPT"
                             data-form-field-id="thq_contact_pref_PmPT"
                           />
                           <span>
@@ -2365,9 +2409,9 @@ const TravelEnquiryForm = (props) => {
               </div>
               <div className="form-actions">
                 <button
-                  type="submit"
                   id="thq_button_3g0S"
                   name="button"
+                  type="submit"
                   data-form-field-id="thq_button_3g0S"
                   className="btn btn-accent btn-xl"
                 >
@@ -2384,19 +2428,19 @@ const TravelEnquiryForm = (props) => {
           <div className="success-container">
             <div className="success-icon">
               <svg
-                xmlns="http://www.w3.org/2000/svg"
                 width="64"
+                xmlns="http://www.w3.org/2000/svg"
                 height="64"
                 viewBox="0 0 24 24"
               >
                 <g
                   fill="none"
                   stroke="currentColor"
+                  strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  strokeWidth="2"
                 >
-                  <circle cx="12" cy="12" r="10"></circle>
+                  <circle r="10" cx="12" cy="12"></circle>
                   <path d="m9 12l2 2l4-4"></path>
                 </g>
               </svg>
@@ -2465,7 +2509,7 @@ const TravelEnquiryForm = (props) => {
             <div className="success-footer">
               <p className="section-subtitle">Need immediate assistance?</p>
               <a href="tel:+2348062163748">
-                <div className="btn btn-lg btn-outline">
+                <div className="btn-lg btn btn-outline">
                   <span>+234 806 216 3748</span>
                 </div>
               </a>
@@ -2613,6 +2657,88 @@ to {transform: scale(1);}}
           </div>
         </div>
         <Footer></Footer>
+        <div>
+          <div className="travel-enquiry-form-container8">
+            <Script
+              html={`<style>
+@media (min-width: 768px) {
+.page-hero {
+  padding: var(--spacing-3xl) var(--spacing-lg);
+}
+.page-hero-image img {
+  max-height: 360px;
+  min-height: 280px;
+}
+}
+
+@media (min-width: 992px) {
+.page-hero {
+  padding: var(--spacing-4xl) var(--spacing-lg);
+}
+.page-hero-image {
+  margin: 0 auto;
+  max-width: 600px;
+}
+.page-hero-image img {
+  max-height: 420px;
+  min-height: 320px;
+}
+}
+
+@media (min-width: 768px) {
+.thq-page-hero-title-elm {
+  font-size: var(--font-size-3xl);
+  margin-bottom: var(--spacing-lg);
+}
+.thq-page-hero-subtitle-elm {
+  font-size: var(--font-size-xl);
+  margin-bottom: var(--spacing-xl);
+}
+.thq-page-hero-divider-elm {
+  margin-bottom: var(--spacing-xl);
+}
+.thq-page-hero-description-elm {
+  font-size: var(--font-size-base);
+}
+.thq-page-hero-container-elm {
+  gap: var(--spacing-3xl);
+}
+}
+
+@media (min-width: 992px) {
+.thq-page-hero-container-elm {
+  gap: var(--spacing-4xl);
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
+}
+.thq-page-hero-title-elm {
+  font-size: var(--font-size-4xl);
+  margin-bottom: var(--spacing-lg);
+}
+.thq-page-hero-subtitle-elm {
+  max-width: 540px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: var(--spacing-xl);
+}
+.thq-page-hero-icon-elm {
+  width: 64px;
+  height: 64px;
+  margin: 0 0 var(--spacing-xl) 0;
+}
+.thq-page-hero-divider-elm {
+  margin: 0 0 var(--spacing-xl) 0;
+}
+.thq-page-hero-description-elm {
+  max-width: 500px;
+  margin-left: 0;
+  margin-right: 0;
+}
+}
+</style>`}
+            ></Script>
+          </div>
+        </div>
       </div>
       <style jsx>
         {`
@@ -2620,12 +2746,76 @@ to {transform: scale(1);}}
             width: 100%;
             min-height: 100vh;
           }
+          .travel-enquiry-form-thq-page-hero-container-elm {
+            gap: var(--spacing-xl);
+            margin: 0 auto;
+            display: grid;
+            z-index: 1;
+            position: relative;
+            max-width: var(--content-max-width);
+            text-align: center;
+            align-items: center;
+            grid-template-columns: 1fr;
+          }
+          .travel-enquiry-form-thq-page-hero-content-elm {
+            color: #ffffff;
+          }
+          .travel-enquiry-form-thq-page-hero-icon-elm {
+            color: #f59e0b;
+            width: 48px;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            height: 48px;
+            margin: 0 auto var(--spacing-lg);
+            display: flex;
+            background: rgba(255, 255, 255, 0.12);
+            align-items: center;
+            border-radius: var(--border-radius-lg);
+            backdrop-filter: blur(8px);
+            justify-content: center;
+          }
+          .travel-enquiry-form-thq-page-hero-title-elm {
+            color: #ffffff;
+            font-size: var(--font-size-2xl);
+            font-family: var(--font-family-heading);
+            font-weight: var(--font-weight-heading);
+            line-height: var(--line-height-heading);
+            margin-bottom: var(--spacing-md);
+            letter-spacing: var(--letter-spacing-heading);
+          }
+          .travel-enquiry-form-thq-page-hero-subtitle-elm {
+            color: #e2e8f0;
+            font-size: var(--font-size-lg);
+            max-width: 100%;
+            font-family: var(--font-family-heading);
+            font-weight: var(--font-weight-medium);
+            line-height: 1.4;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: var(--spacing-lg);
+          }
+          .travel-enquiry-form-thq-page-hero-divider-elm {
+            width: 60px;
+            height: 3px;
+            margin: 0 auto var(--spacing-lg);
+            background: linear-gradient(90deg, #f59e0b, #e0a93a);
+            border-radius: 2px;
+          }
+          .travel-enquiry-form-thq-page-hero-description-elm {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: var(--font-size-sm);
+            max-width: 100%;
+            font-family: var(--font-family-body);
+            font-weight: var(--font-weight-body);
+            line-height: var(--line-height-body);
+            margin-left: auto;
+            margin-right: auto;
+          }
           .travel-enquiry-form-thq-service-card-icon-elm1 {
             color: #f59e0b;
             width: 48px;
             height: 48px;
             display: flex;
-            background: color-mix(in srgb, #f59e0b, transparent 90%);
+            background: color-mix(in srgb, #f59e0b, transparent 85%);
             transition: transform 0.3s ease;
             align-items: center;
             border-radius: var(--border-radius-md);
@@ -2636,7 +2826,7 @@ to {transform: scale(1);}}
             width: 48px;
             height: 48px;
             display: flex;
-            background: color-mix(in srgb, #f59e0b, transparent 90%);
+            background: color-mix(in srgb, #f59e0b, transparent 85%);
             transition: transform 0.3s ease;
             align-items: center;
             border-radius: var(--border-radius-md);
@@ -2647,7 +2837,7 @@ to {transform: scale(1);}}
             width: 48px;
             height: 48px;
             display: flex;
-            background: color-mix(in srgb, #f59e0b, transparent 90%);
+            background: color-mix(in srgb, #f59e0b, transparent 85%);
             transition: transform 0.3s ease;
             align-items: center;
             border-radius: var(--border-radius-md);
@@ -2658,7 +2848,7 @@ to {transform: scale(1);}}
             width: 48px;
             height: 48px;
             display: flex;
-            background: color-mix(in srgb, #f59e0b, transparent 90%);
+            background: color-mix(in srgb, #f59e0b, transparent 85%);
             transition: transform 0.3s ease;
             align-items: center;
             border-radius: var(--border-radius-md);
@@ -2669,7 +2859,7 @@ to {transform: scale(1);}}
             width: 48px;
             height: 48px;
             display: flex;
-            background: color-mix(in srgb, #f59e0b, transparent 90%);
+            background: color-mix(in srgb, #f59e0b, transparent 85%);
             transition: transform 0.3s ease;
             align-items: center;
             border-radius: var(--border-radius-md);
@@ -2680,7 +2870,7 @@ to {transform: scale(1);}}
             width: 48px;
             height: 48px;
             display: flex;
-            background: color-mix(in srgb, #f59e0b, transparent 90%);
+            background: color-mix(in srgb, #f59e0b, transparent 85%);
             transition: transform 0.3s ease;
             align-items: center;
             border-radius: var(--border-radius-md);
@@ -2691,7 +2881,7 @@ to {transform: scale(1);}}
             width: 48px;
             height: 48px;
             display: flex;
-            background: color-mix(in srgb, #f59e0b, transparent 90%);
+            background: color-mix(in srgb, #f59e0b, transparent 85%);
             transition: transform 0.3s ease;
             align-items: center;
             border-radius: var(--border-radius-md);
@@ -2742,6 +2932,9 @@ to {transform: scale(1);}}
             display: none;
           }
           .travel-enquiry-form-container6 {
+            display: contents;
+          }
+          .travel-enquiry-form-container8 {
             display: contents;
           }
         `}
