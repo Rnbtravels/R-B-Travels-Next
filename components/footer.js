@@ -231,8 +231,8 @@ const Footer = (props) => {
                       </svg>
                     </div>
                     <h1 className="footer-text21">
-                      Mohammadu Buhari Wy, Central Business Dis, Abuja 900103,
-                      Federal Capital Territory
+                      Nicon Plaza, Plot 242, Muhammadu Buhari Way, Central Area,
+                      Federal Capital Territory.
                     </h1>
                   </li>
                   <li className="footer-contact-item">
