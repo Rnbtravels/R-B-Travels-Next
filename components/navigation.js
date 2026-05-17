@@ -102,6 +102,13 @@ const Navigation = (props) => {
                       </div>
                     </a>
                   </Link>
+                  <Link href="/travel-enquiry-form">
+                    <a>
+                      <div className="navigation-link">
+                        <span>Travel Enquiry Form</span>
+                      </div>
+                    </a>
+                  </Link>
                 </ul>
               </div>
             </div>
@@ -247,6 +254,13 @@ const Navigation = (props) => {
                       <a>
                         <div className="navigation-mobile-link">
                           <span>Book Consultation</span>
+                        </div>
+                      </a>
+                    </Link>
+                    <Link href="/travel-enquiry-form">
+                      <a>
+                        <div className="navigation-mobile-link">
+                          <span>Travel Enquiry Form</span>
                         </div>
                       </a>
                     </Link>

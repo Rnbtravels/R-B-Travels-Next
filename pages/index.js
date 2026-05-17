@@ -59,7 +59,7 @@ section {
                 </span>
               </p>
               <div className="hero-cta-group">
-                <Link href="/plan">
+                <Link href="/travel-enquiry-form">
                   <a>
                     <div className="home-thq-btn-elm1 btn-lg btn-primary btn">
                       <span>Start Your Journey</span>

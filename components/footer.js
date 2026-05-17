@@ -225,6 +225,15 @@ const Footer = (props) => {
                       </li>
                     </a>
                   </Link>
+                  <Link href="/travel-enquiry-form">
+                    <a>
+                      <li className="footer-li20">
+                        <div className="footer-link">
+                          <span>Travel Enquiry Form</span>
+                        </div>
+                      </li>
+                    </a>
+                  </Link>
                 </ul>
               </nav>
               <div className="footer-nav-column">
@@ -291,7 +300,7 @@ const Footer = (props) => {
                         <circle r="3" cx="12" cy="10"></circle>
                       </svg>
                     </div>
-                    <h1 className="footer-text28">
+                    <h1 className="footer-text29">
                       Mohammadu Buhari Wy, Central Business Dis, Abuja 900103,
                       Federal Capital Territory
                     </h1>
@@ -315,7 +324,7 @@ const Footer = (props) => {
                     </div>
                     <span className="section-content">
                       <span>hello@MyR</span>
-                      <span className="footer-text30">n</span>
+                      <span className="footer-text31">n</span>
                       <span>BTravels.com</span>
                     </span>
                   </li>
@@ -458,14 +467,17 @@ const Footer = (props) => {
           .footer-li19 {
             text-decoration: none;
           }
-          .footer-text28 {
+          .footer-li20 {
+            text-decoration: none;
+          }
+          .footer-text29 {
             font-size: 16px;
             font-style: normal;
-            font-family: '' '' '' '' '' '' '' '' '' 'Inter' '' '' '' '' '' '' ''
-              '' '';
+            font-family: '' '' '' '' '' '' '' '' '' '' Inter '' '' '' '' '' ''
+              '' '' '' '';
             font-weight: 300;
           }
-          .footer-text30 {
+          .footer-text31 {
             color: var(--color-accent-light);
           }
           .footer-icon28 {
@@ -477,8 +489,8 @@ const Footer = (props) => {
           .footer-thq-section-content-elm5 {
             color: var(--color-primary-light);
             font-style: normal;
-            font-family: '' '' '' '' '' '' '' '' '' 'Inter' '' '' '' '' '' '' ''
-              '' '';
+            font-family: '' '' '' '' '' '' '' '' '' '' Inter '' '' '' '' '' ''
+              '' '' '' '';
             font-weight: 600;
             text-decoration: none;
           }
@@ -495,7 +507,7 @@ const Footer = (props) => {
             display: contents;
           }
           @media (max-width: 767px) {
-            .footer-text28 {
+            .footer-text29 {
               font-size: 14px;
               font-style: normal;
               font-family: Inter;
@@ -506,7 +518,7 @@ const Footer = (props) => {
             }
           }
           @media (max-width: 479px) {
-            .footer-text28 {
+            .footer-text29 {
               font-size: 16px;
               font-style: normal;
               font-family: Inter;
