@@ -577,10 +577,9 @@ const Terms = (props) => {
                     </span>
                   </p>
                   <p className="section-content">
-                    <span className="terms-text23">Email:</span>
+                    <span className="terms-text23">Email: </span>
                     <span>
-                      {' '}
-                      support@rbtravels.com
+                      Info@myRnBTravels.com
                       <span
                         dangerouslySetInnerHTML={{
                           __html: ' ',
@@ -592,7 +591,7 @@ const Terms = (props) => {
                     <span className="terms-text25">Phone:</span>
                     <span>
                       {' '}
-                      +1 (555) 123-4567
+                      +234 806 216 3748
                       <span
                         dangerouslySetInnerHTML={{
                           __html: ' ',
@@ -604,7 +603,8 @@ const Terms = (props) => {
                     <span className="terms-text27">Office:</span>
                     <span>
                       {' '}
-                      123 Global Way, Suite 400, Travel District
+                      Nicon Plaza, Plot 242, Muhammadu Buhari Way, Central Area,
+                      Federal Capital Territory.
                       <span
                         dangerouslySetInnerHTML={{
                           __html: ' ',
@@ -927,6 +927,17 @@ const Terms = (props) => {
           }
           .terms-container5 {
             display: contents;
+          }
+          @media (max-width: 479px) {
+            .terms-text23 {
+              font-weight: 700;
+            }
+            .terms-text25 {
+              font-weight: 700;
+            }
+            .terms-text27 {
+              font-weight: 700;
+            }
           }
         `}
       </style>
