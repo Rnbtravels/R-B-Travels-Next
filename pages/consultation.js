@@ -254,7 +254,7 @@ const Consultation = (props) => {
             min-height: 100vh;
             align-items: center;
             flex-direction: column;
-            background-color: #050505;
+            background-color: var(--dl-color-theme-accent2);
           }
           .consultation-thq-consultation-hero-elm {
             width: 100%;
@@ -355,11 +355,17 @@ const Consultation = (props) => {
             display: contents;
           }
           @media (max-width: 991px) {
+            .consultation-container1 {
+              background-color: var(--dl-color-theme-accent2);
+            }
             .consultation-thq-plan-a-consultation-elm {
               background-color: #050505;
             }
           }
           @media (max-width: 767px) {
+            .consultation-container1 {
+              background-color: var(--dl-color-theme-accent2);
+            }
             .consultation-thq-consultation-hero-elm {
               padding: var(--spacing-3xl) var(--spacing-lg);
               min-height: 40vh;
@@ -378,7 +384,7 @@ const Consultation = (props) => {
           }
           @media (max-width: 479px) {
             .consultation-container1 {
-              background-color: #050505;
+              background-color: var(--dl-color-theme-accent2);
             }
             .consultation-thq-consultation-hero-elm {
               padding: var(--spacing-2xl) var(--spacing-md);
