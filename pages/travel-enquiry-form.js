@@ -72,6 +72,90 @@ const TravelEnquiryForm = (props) => {
           </div>
         </section>
         <section
+          id="step-1"
+          className="travel-enquiry-form-thq-step1-section-elm"
+        >
+          <div className="step-1-container">
+            <h2 className="section-title">Select a Service</h2>
+            <p className="section-subtitle">
+              Choose the service you&apos;d like to enquire about
+            </p>
+            <div className="service-grid">
+              <div
+                data-service="Study Abroad"
+                data-icon="🎓"
+                className="service-card"
+              >
+                <span className="service-icon">🎓</span>
+                <span className="service-label">Study Abroad</span>
+              </div>
+              <div
+                data-service="Travel Documentation"
+                data-icon="📄"
+                className="service-card"
+              >
+                <span className="service-icon">📄</span>
+                <span className="service-label">Travel Documentation</span>
+              </div>
+              <div
+                data-service="Comprehensive Itinerary Planning"
+                data-icon="🗺️"
+                className="service-card"
+              >
+                <span className="service-icon">🗺️</span>
+                <span className="service-label">
+                  Comprehensive Itinerary Planning
+                </span>
+              </div>
+              <div
+                data-service="Travel Insurance"
+                data-icon="🛡️"
+                className="service-card"
+              >
+                <span className="service-icon">🛡️</span>
+                <span className="service-label">Travel Insurance</span>
+              </div>
+              <div
+                data-service="Tour Packages &amp; Guided Experiences"
+                data-icon="✈️"
+                className="service-card"
+              >
+                <span className="service-icon">✈️</span>
+                <span className="service-label">
+                  Tour Packages &amp; Guided Experiences
+                </span>
+              </div>
+              <div
+                data-service="Airport Transfer Arrangements"
+                data-icon="🚐"
+                className="service-card"
+              >
+                <span className="service-icon">🚐</span>
+                <span className="service-label">
+                  Airport Transfer Arrangements
+                </span>
+              </div>
+              <div
+                data-service="24/7 Travel Support &amp; Emergency Assistance"
+                data-icon="🆘"
+                className="service-card"
+              >
+                <span className="service-icon">🆘</span>
+                <span className="service-label">
+                  24/7 Travel Support &amp; Emergency Assistance
+                </span>
+              </div>
+            </div>
+            <button
+              id="btn-continue-step-1"
+              disabled="true"
+              className="btn btn-accent btn-lg button"
+            >
+              Continue
+            </button>
+          </div>
+        </section>
+        <section
           id="step-2"
           className="travel-enquiry-form-thq-dynamic-enquiry-form-elm dynamic-enquiry-form"
         >
@@ -2234,52 +2318,25 @@ const TravelEnquiryForm = (props) => {
                 </g>
               </svg>
             </div>
-            <h2 className="hero-title">Request Received</h2>
+            <h2>
+              <span>Thank you,</span>
+              <span>
+                !
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+            </h2>
             <div className="success-message">
               <p className="section-content">
-                <span>
-                  {' '}
-                  Thank you,
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span
-                  id="display-name"
-                  className="travel-enquiry-form-text320"
-                ></span>
-                <span>
-                  {' '}
-                  ! Your enquiry for
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
+                <span>Your enquiry for</span>
                 <span id="display-service"></span>
-                <span>
-                  {' '}
-                  has been successfully sent to our travel consultants.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
+                <span>has been received.</span>
               </p>
               <p className="section-content">
-                <span>
-                  {' '}
-                  We have also sent a confirmation to
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
+                <span>We&apos;ve sent a confirmation to</span>
                 <span
                   id="display-email"
                   className="travel-enquiry-form-text325"
@@ -2293,6 +2350,9 @@ const TravelEnquiryForm = (props) => {
                     }}
                   />
                 </span>
+              </p>
+              <p className="section-content">
+                Our team will contact you within 24 hours.
               </p>
             </div>
             <div className="success-footer">
@@ -2599,6 +2659,16 @@ to {transform: scale(1);}}
             margin-left: auto;
             margin-right: auto;
           }
+          .travel-enquiry-form-thq-step1-section-elm {
+            color: #f8fafc;
+            display: flex;
+            padding: var(--spacing-4xl) var(--spacing-lg);
+            min-height: 100vh;
+            transition: opacity 0.4s ease;
+            align-items: center;
+            justify-content: center;
+            background-color: #0a0f1a;
+          }
           .travel-enquiry-form-thq-dynamic-enquiry-form-elm {
             display: none;
           }
@@ -2625,10 +2695,6 @@ to {transform: scale(1);}}
           }
           .travel-enquiry-form-thq-success-state-elm {
             display: none;
-          }
-          .travel-enquiry-form-text320 {
-            color: var(--color-surface);
-            font-weight: 700;
           }
           .travel-enquiry-form-text325 {
             color: var(--color-surface);
