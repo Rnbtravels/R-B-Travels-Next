@@ -207,7 +207,7 @@ const Footer = (props) => {
                       </li>
                     </a>
                   </Link>
-                  <Link href="/consultation">
+                  <Link href="/enquiry-form">
                     <a>
                       <li className="footer-li18">
                         <div className="footer-link">
@@ -216,7 +216,7 @@ const Footer = (props) => {
                       </li>
                     </a>
                   </Link>
-                  <Link href="/book-consultation">
+                  <Link href="/enquiry-form">
                     <a>
                       <li className="footer-li19">
                         <div className="footer-link">
@@ -225,11 +225,11 @@ const Footer = (props) => {
                       </li>
                     </a>
                   </Link>
-                  <Link href="/travel-enquiry-form">
+                  <Link href="/enquiry-form">
                     <a>
                       <li className="footer-li20">
                         <div className="footer-link">
-                          <span>Travel Enquiry Form</span>
+                          <span>EnquiryForm</span>
                         </div>
                       </li>
                     </a>
@@ -473,7 +473,7 @@ const Footer = (props) => {
           .footer-text29 {
             font-size: 16px;
             font-style: normal;
-            font-family: '' '' '' '' '' '' '' '' '' '' '' '' '' Inter '' '' ''
+            font-family: '' '' '' '' '' '' '' '' '' '' '' '' '' 'Inter' '' '' ''
               '' '' '' '' '' '' '' '' '' '';
             font-weight: 300;
           }
@@ -489,7 +489,7 @@ const Footer = (props) => {
           .footer-thq-section-content-elm5 {
             color: var(--color-primary-light);
             font-style: normal;
-            font-family: '' '' '' '' '' '' '' '' '' '' '' '' '' Inter '' '' ''
+            font-family: '' '' '' '' '' '' '' '' '' '' '' '' '' 'Inter' '' '' ''
               '' '' '' '' '' '' '' '' '' '';
             font-weight: 600;
             text-decoration: none;

@@ -59,14 +59,14 @@ section {
                 </span>
               </p>
               <div className="hero-cta-group">
-                <Link href="/travel-enquiry-form">
+                <Link href="/enquiry-form">
                   <a>
                     <div className="home-thq-btn-elm1 btn-lg btn-primary btn">
                       <span>Start Your Journey</span>
                     </div>
                   </a>
                 </Link>
-                <Link href="/consultation">
+                <Link href="/enquiry-form">
                   <a>
                     <div className="home-thq-btn-elm2 btn-lg btn btn-outline">
                       <span className="home-text14">Book Consultation</span>
@@ -253,7 +253,9 @@ section {
                     Professional guidance for international admissions,
                     applications, and student travel preparation.
                   </p>
-                  <span className="service-cta">Start now</span>
+                  <Link href="/enquiry-form">
+                    <a className="home-link12 service-cta">Start now</a>
+                  </Link>
                 </div>
               </div>
               <div className="service-card thq-handle-cell-elm2">
@@ -282,7 +284,9 @@ section {
                   Fast and stress-free embassy appointment scheduling
                   assistance.
                 </p>
-                <span className="service-cta">Start now</span>
+                <Link href="/enquiry-form">
+                  <a className="home-link13 service-cta">Start now</a>
+                </Link>
               </div>
               <div className="service-card thq-handle-cell-elm3">
                 <div className="home-thq-bento-icon-elm2 service-icon">
@@ -307,7 +311,9 @@ section {
                   Support for passport processing, visa applications, proof of
                   funds, and essential travel documents.
                 </p>
-                <span className="service-cta">Start now</span>
+                <Link href="/enquiry-form">
+                  <a className="home-link14 service-cta">Start now</a>
+                </Link>
               </div>
               <div className="thq-handle-cell-elm4 service-card">
                 <div className="home-thq-bento-icon-elm3 service-icon">
@@ -334,7 +340,9 @@ section {
                   Personalized travel schedules designed for comfort,
                   efficiency, and memorable experiences.
                 </p>
-                <span className="service-cta">Start now</span>
+                <Link href="/enquiry-form">
+                  <a className="home-link15 service-cta">Start now</a>
+                </Link>
               </div>
               <div className="service-card thq-handle-cell-elm5">
                 <div className="home-thq-bento-icon-elm4 service-icon">
@@ -359,7 +367,9 @@ section {
                   Reliable insurance options for international trips, studies,
                   tours, and emergencies.
                 </p>
-                <span className="service-cta">Start now</span>
+                <Link href="/enquiry-form">
+                  <a className="home-link16 service-cta">Start now</a>
+                </Link>
               </div>
               <div className="service-card">
                 <div className="service-icon">
@@ -388,7 +398,9 @@ section {
                   Curated travel experiences, vacation packages, and guided
                   international tours.
                 </p>
-                <span className="service-cta">Start now</span>
+                <Link href="/enquiry-form">
+                  <a className="home-link17 service-cta">Start now</a>
+                </Link>
               </div>
               <div className="service-card">
                 <div className="service-icon">
@@ -419,7 +431,9 @@ section {
                   Convenient pickup and drop-off arrangements for smooth travel
                   experiences.
                 </p>
-                <span className="service-cta">Start now</span>
+                <Link href="/enquiry-form">
+                  <a className="home-link18 service-cta">Start now</a>
+                </Link>
               </div>
               <div className="service-card">
                 <div className="service-icon">
@@ -448,7 +462,9 @@ section {
                   Round-the-clock assistance to help travelers anytime,
                   anywhere.
                 </p>
-                <span className="service-cta">Start now</span>
+                <Link href="/enquiry-form">
+                  <a className="home-link19 service-cta">Start now</a>
+                </Link>
               </div>
             </div>
           </div>
@@ -851,7 +867,7 @@ section {
             </div>
             <div className="cta-feature-right">
               <div className="cta-card-stack">
-                <Link href="/plan">
+                <Link href="/enquiry-form">
                   <a>
                     <div className="home-thq-cta-action-card-elm1 cta-action-card">
                       <div className="action-icon">
@@ -880,37 +896,39 @@ section {
                     </div>
                   </a>
                 </Link>
-                <a href="#">
-                  <div className="cta-action-card">
-                    <div className="action-icon">
-                      <svg
-                        width="24"
-                        xmlns="http://www.w3.org/2000/svg"
-                        height="24"
-                        viewbox="0 0 24 24"
-                      >
-                        <path
-                          d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M16 3.128a4 4 0 0 1 0 7.744M22 21v-2a4 4 0 0 0-3-3.87"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        ></path>
-                        <circle r="4" cx="9" cy="7"></circle>
-                      </svg>
+                <Link href="/enquiry-form">
+                  <a>
+                    <div className="home-thq-cta-action-card-elm2 cta-action-card">
+                      <div className="action-icon">
+                        <svg
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                          height="24"
+                          viewbox="0 0 24 24"
+                        >
+                          <path
+                            d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M16 3.128a4 4 0 0 1 0 7.744M22 21v-2a4 4 0 0 0-3-3.87"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          ></path>
+                          <circle r="4" cx="9" cy="7"></circle>
+                        </svg>
+                      </div>
+                      <div className="action-text">
+                        <span className="action-label">
+                          Join Small-Group Tour
+                        </span>
+                        <span className="action-desc">
+                          Explore with like-minded travelers.
+                        </span>
+                      </div>
                     </div>
-                    <div className="action-text">
-                      <span className="action-label">
-                        Join Small-Group Tour
-                      </span>
-                      <span className="action-desc">
-                        Explore with like-minded travelers.
-                      </span>
-                    </div>
-                  </div>
-                </a>
-                <Link href="/consultation">
+                  </a>
+                </Link>
+                <Link href="/enquiry-form">
                   <a>
                     <div className="home-thq-cta-action-card-elm3 highlight cta-action-card">
                       <div className="action-icon">
@@ -1157,12 +1175,18 @@ section {
             border-radius: var(--border-radius-md);
             backdrop-filter: blur(4px);
           }
+          .home-link12 {
+            text-decoration: none;
+          }
           .home-thq-bento-icon-elm1 {
             color: var(--color-primary);
             margin-bottom: var(--spacing-md);
           }
           .home-thq-section-content-elm12 {
             text-align: left;
+          }
+          .home-link13 {
+            text-decoration: none;
           }
           .home-thq-bento-icon-elm2 {
             color: var(--color-primary);
@@ -1171,12 +1195,18 @@ section {
           .home-thq-section-content-elm13 {
             text-align: left;
           }
+          .home-link14 {
+            text-decoration: none;
+          }
           .home-thq-bento-icon-elm3 {
             color: var(--color-primary);
             margin-bottom: var(--spacing-md);
           }
           .home-thq-section-content-elm14 {
             text-align: left;
+          }
+          .home-link15 {
+            text-decoration: none;
           }
           .home-thq-bento-icon-elm4 {
             color: var(--color-primary);
@@ -1185,13 +1215,25 @@ section {
           .home-thq-section-content-elm15 {
             text-align: left;
           }
+          .home-link16 {
+            text-decoration: none;
+          }
+          .home-link17 {
+            text-decoration: none;
+          }
           .home-thq-section-content-elm17 {
             text-align: left;
           }
+          .home-link18 {
+            text-decoration: none;
+          }
+          .home-link19 {
+            text-decoration: none;
+          }
           .home-text25 {
             font-size: 40px;
-            font-family: '' '' '' '' '' '' '' '' '' 'Inter' '' '' '' '' '' '' ''
-              '' '';
+            font-family: '' '' '' '' '' '' '' '' '' '' Inter '' '' '' '' '' ''
+              '' '' '' '';
             font-weight: 700;
           }
           .home-thq-timeline-content-elm2 {
@@ -1207,6 +1249,9 @@ section {
             text-decoration: none;
           }
           .home-thq-cta-action-card-elm1 {
+            text-decoration: none;
+          }
+          .home-thq-cta-action-card-elm2 {
             text-decoration: none;
           }
           .home-thq-cta-action-card-elm3 {

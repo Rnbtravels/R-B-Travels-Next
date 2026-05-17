@@ -4705,6 +4705,7 @@
   font-weight: var(--font-weight-medium);
   padding-top: var(--spacing-md);
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
  
 .service-cta::after {

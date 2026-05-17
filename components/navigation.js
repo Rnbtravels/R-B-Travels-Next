@@ -78,7 +78,7 @@ const Navigation = (props) => {
               </Link>
             </div>
             <div className="navigation-actions">
-              <Link href="/booking-documentation">
+              <Link href="/enquiry-form">
                 <a>
                   <div className="btn-primary btn navigation-cta btn-sm">
                     <span>Start Planning</span>
@@ -192,7 +192,7 @@ const Navigation = (props) => {
                 </Link>
               </div>
               <div className="navigation-mobile-footer">
-                <Link href="/booking-documentation">
+                <Link href="/enquiry-form">
                   <a>
                     <div className="btn-lg btn-primary navigation-mobile-cta btn">
                       <span>Start Your Journey</span>

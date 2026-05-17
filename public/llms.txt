@@ -9,7 +9,7 @@
 - [BookingSub - rnvtravels](https://voyanta.teleporthq.site/bookingsub)
 - [Services - rnvtravels](https://voyanta.teleporthq.site/services)
 - [Consultation - rnvtravels](https://voyanta.teleporthq.site/consultation)
-- [Travel-Enquiry-Form - rnvtravels](https://voyanta.teleporthq.site/travel-enquiry-form)
+- [EnquiryForm - rnvtravels](https://voyanta.teleporthq.site/enquiryform)
 - [Page - rnvtravels](https://voyanta.teleporthq.site/page)
 - [Pricing-Packages - rnvtravels](https://voyanta.teleporthq.site/pricing-packages)
 - [rnvtravels](https://voyanta.teleporthq.site)
