@@ -6807,20 +6807,25 @@
   margin: 0 auto;
   padding: 0 var(--spacing-xl);
   max-width: var(--content-max-width);
+  box-sizing: border-box;
 }
  
 .tos-main-grid {
   gap: var(--spacing-xl);
   display: grid;
+  max-width: 100%;
   grid-template-columns: repeat(2, 1fr);
 }
  
 .tos-card {
   border: 1px solid var(--color-border);
   padding: var(--spacing-2xl);
+  max-width: 100%;
+  word-wrap: break-word;
   background: var(--color-surface-elevated);
   box-shadow: var(--shadow-level-1);
   border-radius: var(--border-radius-lg);
+  overflow-wrap: break-word;
 }
  
 .tos-card-contact {
@@ -6832,6 +6837,7 @@
 .tos-card-header {
   gap: var(--spacing-md);
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   margin-bottom: var(--spacing-lg);
 }
@@ -6855,6 +6861,7 @@
   color: var(--color-primary);
   width: 32px;
   height: 32px;
+  flex-shrink: 0;
 }
  
 .tos-faq {
@@ -6995,6 +7002,7 @@
 .tos-card-icon  svg {
   width: 100%;
   height: 100%;
+  display: block;
 }
  
 .tos-list  li::before {
@@ -7777,6 +7785,31 @@
   .tos-hero-grid {
     grid-template-columns: 1fr;
   }
+  .tos-main {
+    padding: var(--spacing-3xl) 0;
+  }
+  .tos-main-container {
+    padding: 0 var(--spacing-lg);
+    max-width: 100%;
+  }
+  .tos-main-grid {
+    gap: var(--spacing-lg);
+  }
+  .tos-card {
+    padding: var(--spacing-xl);
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  .tos-card-header {
+    gap: var(--spacing-sm);
+    flex-wrap: nowrap;
+  }
+  .tos-card-icon {
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+  }
   .tos-hero-actions  .btn {
     width: 100%;
   }
@@ -8062,11 +8095,40 @@
     width: 100%;
     justify-content: center;
   }
+  .tos-main {
+    padding: var(--spacing-2xl) 0;
+  }
+  .tos-main-container {
+    padding: 0 var(--spacing-md);
+    max-width: 100%;
+  }
+  .tos-main-grid {
+    gap: var(--spacing-lg);
+  }
+  .tos-card {
+    padding: var(--spacing-lg);
+    max-width: 100%;
+    word-wrap: break-word;
+    border-radius: var(--border-radius-md);
+    overflow-wrap: break-word;
+  }
+  .tos-card-header {
+    gap: var(--spacing-xs);
+    flex-wrap: nowrap;
+    margin-bottom: var(--spacing-md);
+  }
   .tos-list {
+    gap: var(--spacing-xs);
     grid-template-columns: 1fr;
   }
   .tos-contact-details {
+    gap: var(--spacing-md);
     grid-template-columns: 1fr;
+  }
+  .tos-card-icon {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
   }
   .tos-trust-grid {
     display: grid;

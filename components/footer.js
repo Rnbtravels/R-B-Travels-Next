@@ -399,8 +399,8 @@ const Footer = (props) => {
           .footer-text22 {
             font-size: 16px;
             font-style: normal;
-            font-family: '' '' '' '' '' '' '' '' '' '' '' '' '' 'Inter' '' '' ''
-              '' '' '' '' '' '' '' '' '' '';
+            font-family: '' '' '' '' '' '' '' '' '' '' '' '' '' '' Inter '' ''
+              '' '' '' '' '' '' '' '' '' '' '' '';
             font-weight: 300;
           }
           .footer-text24 {
@@ -415,8 +415,8 @@ const Footer = (props) => {
           .footer-thq-section-content-elm5 {
             color: var(--color-primary-light);
             font-style: normal;
-            font-family: '' '' '' '' '' '' '' '' '' '' '' '' '' 'Inter' '' '' ''
-              '' '' '' '' '' '' '' '' '' '';
+            font-family: '' '' '' '' '' '' '' '' '' '' '' '' '' '' Inter '' ''
+              '' '' '' '' '' '' '' '' '' '' '' '';
             font-weight: 600;
             text-decoration: none;
           }
