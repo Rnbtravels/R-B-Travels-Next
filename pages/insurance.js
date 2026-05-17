@@ -162,19 +162,29 @@ section {
           <div className="page-trust-container">
             <div className="trust-row">
               <div className="trust-item">
-                <span className="trust-label">ISO Certified</span>
+                <span className="trust-label insurance-thq-trust-label-elm1">
+                  ISO Certified
+                </span>
               </div>
               <div className="trust-item">
-                <span className="trust-label">Global Partners</span>
+                <span className="trust-label insurance-thq-trust-label-elm2">
+                  Global Partners
+                </span>
               </div>
               <div className="trust-item">
-                <span className="trust-label">24/7 Support</span>
+                <span className="trust-label insurance-thq-trust-label-elm3">
+                  24/7 Support
+                </span>
               </div>
               <div className="trust-item">
-                <span className="trust-label">Trusted Documentation</span>
+                <span className="trust-label insurance-thq-trust-label-elm4">
+                  Trusted Documentation
+                </span>
               </div>
               <div className="trust-item">
-                <span className="trust-label">Verified Provider</span>
+                <span className="trust-label insurance-thq-trust-label-elm5">
+                  Verified Provider
+                </span>
               </div>
             </div>
           </div>
@@ -884,38 +894,17 @@ section {
                 <div className="page-contact-details">
                   <div className="detail-item">
                     <strong>Email:</strong>
-                    <span>
-                      {' '}
-                      support@voyanta.travel
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
+                    <span>Info@myRnBTravels.com</span>
                   </div>
                   <div className="detail-item">
                     <strong>Phone:</strong>
-                    <span>
-                      {' '}
-                      +1 (800) VOYANTA
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
+                    <span>+2348062163748</span>
                   </div>
                   <div className="detail-item">
                     <strong>Office:</strong>
                     <span>
-                      {' '}
-                      123 Travel Plaza, Global City
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
+                      Nicon Plaza, Plot 242, Muhammadu Buhari Way, Central Area,
+                      Federal Capital Territory.
                     </span>
                   </div>
                 </div>
@@ -1096,6 +1085,23 @@ transform: translateY(0);}}
           }
           .insurance-container7 {
             display: contents;
+          }
+          @media (max-width: 479px) {
+            .insurance-thq-trust-label-elm1 {
+              color: var(--color-scrim-light);
+            }
+            .insurance-thq-trust-label-elm2 {
+              color: var(--color-scrim-light);
+            }
+            .insurance-thq-trust-label-elm3 {
+              color: var(--color-on-accent-dark);
+            }
+            .insurance-thq-trust-label-elm4 {
+              color: var(--color-on-primary-dark);
+            }
+            .insurance-thq-trust-label-elm5 {
+              color: var(--color-scrim-light);
+            }
           }
         `}
       </style>
