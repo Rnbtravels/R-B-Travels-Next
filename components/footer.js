@@ -162,15 +162,6 @@ const Footer = (props) => {
                       </li>
                     </a>
                   </Link>
-                  <Link href="/privacy">
-                    <a>
-                      <li className="footer-li4">
-                        <div className="footer-link">
-                          <span>Privacy</span>
-                        </div>
-                      </li>
-                    </a>
-                  </Link>
                 </ul>
               </nav>
               <div className="footer-nav-column">
@@ -206,13 +197,15 @@ const Footer = (props) => {
                       </div>
                     </a>
                   </li>
-                  <li>
-                    <a href="#">
-                      <div className="footer-link">
-                        <span>Privacy Policy</span>
-                      </div>
+                  <Link href="/privacy">
+                    <a>
+                      <li className="footer-li8">
+                        <div className="footer-link">
+                          <span>Privacy Policy</span>
+                        </div>
+                      </li>
                     </a>
-                  </li>
+                  </Link>
                 </ul>
               </div>
               <div className="footer-contact-column">
@@ -237,7 +230,7 @@ const Footer = (props) => {
                         <circle r="3" cx="12" cy="10"></circle>
                       </svg>
                     </div>
-                    <h1 className="footer-text22">
+                    <h1 className="footer-text21">
                       Mohammadu Buhari Wy, Central Business Dis, Abuja 900103,
                       Federal Capital Territory
                     </h1>
@@ -261,7 +254,7 @@ const Footer = (props) => {
                     </div>
                     <span className="section-content">
                       <span>Info@MyR</span>
-                      <span className="footer-text24">n</span>
+                      <span className="footer-text23">n</span>
                       <span>BTravels.com</span>
                     </span>
                   </li>
@@ -383,17 +376,17 @@ const Footer = (props) => {
           .footer-li3 {
             text-decoration: none;
           }
-          .footer-li4 {
+          .footer-li8 {
             text-decoration: none;
           }
-          .footer-text22 {
+          .footer-text21 {
             font-size: 16px;
             font-style: normal;
             font-family: '' '' '' '' '' '' '' '' '' '' '' '' '' 'Inter' '' '' ''
               '' '' '' '' '' '' '' '' '' '';
             font-weight: 300;
           }
-          .footer-text24 {
+          .footer-text23 {
             color: var(--color-accent-light);
           }
           .footer-icon28 {
@@ -423,7 +416,7 @@ const Footer = (props) => {
             display: contents;
           }
           @media (max-width: 767px) {
-            .footer-text22 {
+            .footer-text21 {
               font-size: 14px;
               font-style: normal;
               font-family: Inter;
@@ -434,13 +427,13 @@ const Footer = (props) => {
             }
           }
           @media (max-width: 479px) {
-            .footer-text22 {
+            .footer-text21 {
               font-size: 16px;
               font-style: normal;
               font-family: Inter;
               font-weight: 200;
             }
-            .footer-text24 {
+            .footer-text23 {
               color: var(--color-accent-light);
             }
             .footer-thq-section-content-elm5 {
