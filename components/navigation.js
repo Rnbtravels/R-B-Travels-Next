@@ -69,6 +69,13 @@ const Navigation = (props) => {
                   </div>
                 </a>
               </Link>
+              <Link href="/terms">
+                <a>
+                  <div className="navigation-link">
+                    <span>Terms</span>
+                  </div>
+                </a>
+              </Link>
             </div>
             <div className="navigation-actions">
               <Link href="/enquiry-form">
@@ -183,6 +190,40 @@ const Navigation = (props) => {
                     </div>
                   </a>
                 </Link>
+                <div
+                  data-thq="thq-dropdown"
+                  className="navigation-thq-dropdown"
+                >
+                  <div
+                    data-thq="thq-dropdown-toggle"
+                    className="navigation-thq-dropdown-toggle"
+                  >
+                    <span>More</span>
+                    <div
+                      data-thq="thq-dropdown-arrow"
+                      className="navigation-thq-dropdown-arrow"
+                    >
+                      <svg
+                        viewBox="0 0 1024 1024"
+                        className="navigation-icon22"
+                      >
+                        <path d="M426 726v-428l214 214z"></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <ul
+                    data-thq="thq-dropdown-list"
+                    className="navigation-thq-dropdown-list"
+                  >
+                    <Link href="/terms">
+                      <a>
+                        <div className="navigation-mobile-link">
+                          <span>Terms</span>
+                        </div>
+                      </a>
+                    </Link>
+                  </ul>
+                </div>
               </div>
               <div className="navigation-mobile-footer">
                 <Link href="/enquiry-form">
@@ -306,6 +347,36 @@ const Navigation = (props) => {
         {`
           .navigation-text11 {
             color: var(--color-accent);
+          }
+          .navigation-thq-dropdown {
+            cursor: pointer;
+            display: inline-block;
+            padding: 4px 8px;
+            position: relative;
+            border-color: rgba(0, 0, 0, 0.45);
+            border-style: solid;
+            border-width: 1px;
+            border-radius: 4px;
+          }
+          .navigation-thq-dropdown-toggle {
+            gap: 4px;
+            display: inline-flex;
+            align-items: center;
+          }
+          .navigation-thq-dropdown-arrow {
+            transition: 0.3s;
+          }
+          .navigation-icon22 {
+            width: 18px;
+            height: 18px;
+          }
+          .navigation-thq-dropdown-list {
+            display: none;
+            z-index: 100;
+            position: absolute;
+            min-width: 100%;
+            flex-direction: column;
+            list-style-type: none;
           }
           .navigation-container2 {
             display: none;

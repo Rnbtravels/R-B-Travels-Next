@@ -11,3 +11,4 @@
 - [Pricing-Packages - rnvtravels](https://voyanta.teleporthq.site/pricing-packages)
 - [rnvtravels](https://voyanta.teleporthq.site)
 - [Privacy - rnvtravels](https://voyanta.teleporthq.site/privacy)
+- [Terms - rnvtravels](https://voyanta.teleporthq.site/terms)
