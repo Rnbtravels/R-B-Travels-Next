@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link'
 
 import Script from 'dangerous-html/react'
 import { useTranslations } from 'next-intl'
@@ -109,13 +108,9 @@ const HowItWorks = (props) => {
               </div>
             </div>
             <div className="how-it-works-cta">
-              <Link href="/booking-documentation">
-                <a>
-                  <div className="btn-lg btn-primary btn">
-                    <span>Start Planning Your Trip</span>
-                  </div>
-                </a>
-              </Link>
+              <div className="btn-lg btn-primary btn">
+                <span>Start Planning Your Trip</span>
+              </div>
             </div>
           </div>
         </section>

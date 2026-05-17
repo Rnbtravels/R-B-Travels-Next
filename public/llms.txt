@@ -10,4 +10,3 @@
 - [EnquiryForm - rnvtravels](https://voyanta.teleporthq.site/enquiryform)
 - [Pricing-Packages - rnvtravels](https://voyanta.teleporthq.site/pricing-packages)
 - [rnvtravels](https://voyanta.teleporthq.site)
-- [Booking-Documentation - rnvtravels](https://voyanta.teleporthq.site/booking-documentation)

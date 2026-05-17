@@ -199,13 +199,9 @@ const WhatToExpect = (props) => {
                   </div>
                 </a>
               </Link>
-              <Link href="/booking-documentation">
-                <a>
-                  <div className="btn-lg btn btn-outline">
-                    <span>Start Planning</span>
-                  </div>
-                </a>
-              </Link>
+              <div className="btn-lg btn btn-outline">
+                <span>Start Planning</span>
+              </div>
             </div>
           </div>
         </section>

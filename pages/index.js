@@ -928,7 +928,7 @@ section {
                     </div>
                   </a>
                 </Link>
-                <Link href="/enquiry-form">
+                <Link href="/consultation">
                   <a>
                     <div className="home-thq-cta-action-card-elm3 highlight cta-action-card">
                       <div className="action-icon">

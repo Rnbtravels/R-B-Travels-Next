@@ -62,13 +62,6 @@ const Navigation = (props) => {
                   </div>
                 </a>
               </Link>
-              <Link href="/booking-documentation">
-                <a>
-                  <div className="navigation-link">
-                    <span>Booking</span>
-                  </div>
-                </a>
-              </Link>
             </div>
             <div className="navigation-actions">
               <Link href="/enquiry-form">
@@ -173,13 +166,6 @@ const Navigation = (props) => {
                   <a>
                     <div className="navigation-mobile-link">
                       <span>Fair Pricing</span>
-                    </div>
-                  </a>
-                </Link>
-                <Link href="/booking-documentation">
-                  <a>
-                    <div className="navigation-mobile-link">
-                      <span>Booking Hub</span>
                     </div>
                   </a>
                 </Link>
