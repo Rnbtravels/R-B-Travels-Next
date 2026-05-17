@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import Head from 'next/head'
 
 import Script from 'dangerous-html/react'
@@ -605,22 +606,26 @@ const ItinerariesExperiences = (props) => {
                 on the memories.
               </p>
               <div className="cta-contact-info">
-                <div className="contact-pill">
-                  <svg
-                    fill="none"
-                    width="18"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="18"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-                  </svg>
-                  <span>Schedule a Call</span>
-                </div>
+                <Link href="/consultation">
+                  <a>
+                    <div className="itineraries-experiences-thq-contact-pill-elm contact-pill">
+                      <svg
+                        fill="none"
+                        width="18"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="18"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                      </svg>
+                      <span>Schedule a Call</span>
+                    </div>
+                  </a>
+                </Link>
               </div>
             </div>
             <div className="cta-form-block">
@@ -795,6 +800,9 @@ section {
           }
           .itineraries-experiences-text15 {
             color: var(--color-primary-light);
+          }
+          .itineraries-experiences-thq-contact-pill-elm {
+            text-decoration: none;
           }
           .itineraries-experiences-container2 {
             display: none;
