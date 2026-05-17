@@ -249,7 +249,7 @@ section {
                   <h3 className="section-subtitle home-thq-section-subtitle-elm10">
                     Study Abroad
                   </h3>
-                  <p className="section-content">
+                  <p className="section-content home-thq-section-content-elm11">
                     Professional guidance for international admissions,
                     applications, and student travel preparation.
                   </p>
@@ -1301,6 +1301,9 @@ section {
               gap: var(--spacing-md);
               margin-top: var(--spacing-lg);
             }
+            .home-thq-section-content-elm11 {
+              text-align: left;
+            }
             .home-thq-map-elm {
               width: 100%;
             }
@@ -1327,6 +1330,9 @@ section {
             }
             .home-thq-section-subtitle-elm10 {
               color: var(--color-on-primary-light);
+            }
+            .home-thq-section-content-elm11 {
+              text-align: left;
             }
             .home-thq-section-content-elm12 {
               text-align: left;
