@@ -1170,7 +1170,8 @@ section {
           }
           .home-text25 {
             font-size: 40px;
-            font-family: '' '' '' '' '' '' '' '' 'Inter' '' '' '' '' '' '' '' '';
+            font-family: '' '' '' '' '' '' '' '' '' Inter '' '' '' '' '' '' ''
+              '' '';
             font-weight: 700;
           }
           .home-thq-timeline-content-elm2 {

@@ -3639,7 +3639,8 @@
   display: flex;
   z-index: 3;
   position: relative;
-  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: column;
   pointer-events: auto;
 }
  
@@ -6835,6 +6836,8 @@
   }
   .hero-cta-group {
     gap: var(--spacing-sm);
+    align-items: flex-start;
+    flex-direction: column;
   }
   .work-container {
     padding: 0 var(--spacing-lg);
@@ -7064,7 +7067,7 @@
     font-size: var(--font-size-base);
   }
   .hero-cta-group {
-    align-items: stretch;
+    align-items: flex-start;
     flex-direction: column;
   }
   .work-container {
