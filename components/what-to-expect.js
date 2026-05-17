@@ -26,18 +26,18 @@ const WhatToExpect = (props) => {
               <div data-index="1" className="what-to-expect-card">
                 <div className="what-to-expect-icon-wrapper">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
                     fill="none"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
                     stroke="currentColor"
+                    viewBox="0 0 24 24"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     className="what-to-expect-icon"
                   >
-                    <circle cx="12" cy="12" r="10"></circle>
+                    <circle r="10" cx="12" cy="12"></circle>
                     <path d="m16.24 7.76l-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z"></path>
                   </svg>
                 </div>
@@ -54,12 +54,12 @@ const WhatToExpect = (props) => {
               <div data-index="2" className="what-to-expect-card">
                 <div className="what-to-expect-icon-wrapper">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
                     fill="none"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
                     stroke="currentColor"
+                    viewBox="0 0 24 24"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -84,8 +84,8 @@ const WhatToExpect = (props) => {
               >
                 <div className="what-to-expect-card-bg">
                   <img
-                    src="https://images.pexels.com/photos/9482127/pexels-photo-9482127.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
                     alt="Luxury tropical island resort"
+                    src="https://images.pexels.com/photos/9482127/pexels-photo-9482127.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
                     loading="lazy"
                   />
                   <div className="what-to-expect-overlay"></div>
@@ -93,12 +93,12 @@ const WhatToExpect = (props) => {
                 <div className="what-to-expect-content">
                   <div className="what-to-expect-icon-wrapper">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -107,12 +107,12 @@ const WhatToExpect = (props) => {
                       <g
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
                       >
                         <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
-                        <circle cx="12" cy="10" r="3"></circle>
+                        <circle r="3" cx="12" cy="10"></circle>
                       </g>
                     </svg>
                   </div>
@@ -128,12 +128,12 @@ const WhatToExpect = (props) => {
               <div data-index="4" className="what-to-expect-card">
                 <div className="what-to-expect-icon-wrapper">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
                     fill="none"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
                     stroke="currentColor"
+                    viewBox="0 0 24 24"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -159,26 +159,26 @@ const WhatToExpect = (props) => {
               <div data-index="5" className="what-to-expect-card">
                 <div className="what-to-expect-icon-wrapper">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
                     fill="none"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
                     stroke="currentColor"
+                    viewBox="0 0 24 24"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     className="what-to-expect-icon"
                   >
                     <circle
+                      r="10"
                       cx="12"
                       cy="12"
-                      r="10"
                       fill="none"
                       stroke="currentColor"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
                     ></circle>
                   </svg>
                 </div>
@@ -194,14 +194,14 @@ const WhatToExpect = (props) => {
             <div className="what-to-expect-cta">
               <Link href="/itineraries-experiences">
                 <a>
-                  <div className="btn btn-primary btn-lg">
+                  <div className="btn-lg btn-primary btn">
                     <span>Explore Experiences</span>
                   </div>
                 </a>
               </Link>
               <Link href="/booking-documentation">
                 <a>
-                  <div className="btn btn-lg btn-outline">
+                  <div className="btn-lg btn btn-outline">
                     <span>Start Planning</span>
                   </div>
                 </a>

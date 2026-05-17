@@ -26,12 +26,12 @@ const Hero = (props) => {
           <div className="hero-background-wrapper">
             <div className="hero-gradient-layer"></div>
             <div className="hero-diagonal-shards">
-              <div className="shard shard-1"></div>
+              <div className="shard-1 shard"></div>
               <div className="shard shard-2"></div>
             </div>
             <img
-              src="https://images.pexels.com/photos/12389419/pexels-photo-12389419.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
               alt="Luxury beach resort destination"
+              src="https://images.pexels.com/photos/12389419/pexels-photo-12389419.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
               className="hero-bg-image"
             />
             <div className="hero-hero-overlay"></div>
@@ -54,22 +54,22 @@ const Hero = (props) => {
                 <div className="hero-hero-cta-group">
                   <button
                     id="cta-scroll-btn"
-                    className="hero-main-btn btn-primary btn-xl"
+                    className="btn-primary btn-xl hero-main-btn"
                   >
                     <span>Schedule Consultation</span>
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
                     >
                       <path d="M8 2v4m8-4v4"></path>
-                      <rect width="18" height="18" x="3" y="4" rx="2"></rect>
+                      <rect x="3" y="4" rx="2" width="18" height="18"></rect>
                       <path d="M3 10h18M9 16l2 2l4-4"></path>
                     </svg>
                   </button>
@@ -85,15 +85,15 @@ const Hero = (props) => {
                   <div className="card-glass">
                     <div className="hero-card-icon">
                       <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
                         fill="none"
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="24"
                         stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
                       >
                         <path d="M12 5v14m7-7l-7 7l-7-7"></path>
                       </svg>

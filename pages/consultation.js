@@ -47,18 +47,18 @@ const Consultation = (props) => {
               <div data-step="1" className="step-card">
                 <div className="step-number-circle">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
                     fill="none"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
                     stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    strokeWidth="2"
                   >
                     <path d="M8 2v4m8-4v4"></path>
-                    <rect width="18" height="18" x="3" y="4" rx="2"></rect>
+                    <rect x="3" y="4" rx="2" width="18" height="18"></rect>
                     <path d="M3 10h18"></path>
                   </svg>
                   <span className="step-number">1</span>
@@ -71,15 +71,15 @@ const Consultation = (props) => {
               <div data-step="2" className="step-card">
                 <div className="step-number-circle">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
                     fill="none"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
                     stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    strokeWidth="2"
                   >
                     <path d="M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0zm.894.211v15M9 3.236v15"></path>
                   </svg>
@@ -93,15 +93,15 @@ const Consultation = (props) => {
               <div data-step="3" className="step-card">
                 <div className="step-number-circle">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
                     fill="none"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
                     stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    strokeWidth="2"
                   >
                     <path d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"></path>
                   </svg>
@@ -123,25 +123,25 @@ const Consultation = (props) => {
                   What Happens During Your Consultation?
                 </h2>
                 <ul className="consultation-thq-what-to-expect-list-elm list">
-                  <li className="list-item what-to-expect-item">
+                  <li className="what-to-expect-item list-item">
                     <span className="what-to-expect-bullet"></span>
                     <span>
                       Personalized destination recommendations based on your
                       preferences
                     </span>
                   </li>
-                  <li className="list-item what-to-expect-item">
+                  <li className="what-to-expect-item list-item">
                     <span className="what-to-expect-bullet"></span>
                     <span>Clear pricing breakdown with no hidden fees</span>
                   </li>
-                  <li className="list-item what-to-expect-item">
+                  <li className="what-to-expect-item list-item">
                     <span className="what-to-expect-bullet"></span>
                     <span>
                       Expert advice on visas, flights, accommodations, and
                       insurance
                     </span>
                   </li>
-                  <li className="list-item what-to-expect-item">
+                  <li className="what-to-expect-item list-item">
                     <span className="what-to-expect-bullet"></span>
                     <span>A draft itinerary you can refine before booking</span>
                   </li>
@@ -150,15 +150,15 @@ const Consultation = (props) => {
               <div className="consultation-thq-what-to-expect-visual-elm">
                 <div className="travel-icon-wrapper">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="80"
-                    height="80"
-                    viewBox="0 0 24 24"
                     fill="none"
+                    width="80"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="80"
                     stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    strokeWidth="1.5"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    strokeWidth="1.5"
                   >
                     <path d="M17.8 19.2L16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8L4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1l3 2l2 3l1-1v-3l3-2l3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2"></path>
                   </svg>
@@ -171,7 +171,7 @@ const Consultation = (props) => {
           <div>
             <div className="consultation-container3">
               <Script
-                html={`<div id="my-cal-inline-consultation" style="width: 100%; height: 100%; overflow: scroll"></div><script>
+                html={`<div id="my-cal-inline-consultation" style="width: 100%; min-height: 60vh; overflow: auto"></div><script>
           ;(function (C, A, L) {
             let p = function (a, ar) {
               a.q.push(ar)
@@ -336,13 +336,15 @@ const Consultation = (props) => {
           .consultation-thq-plan-a-consultation-elm {
             flex: 0 0 auto;
             width: 100%;
-            height: 80vh;
             display: flex;
             align-self: center;
             margin-top: var(--dl-layout-space-fourunits);
+            min-height: 80vh;
             align-items: center;
+            padding-top: 4rem;
             margin-bottom: var(--dl-layout-space-twounits);
             flex-direction: column;
+            padding-bottom: 4rem;
             justify-content: center;
             background-color: #050505;
           }
@@ -364,10 +366,12 @@ const Consultation = (props) => {
             }
             .consultation-thq-plan-a-consultation-elm {
               width: 100%;
-              height: 80vh;
               align-self: center;
               margin-top: var(--dl-layout-space-twounits);
+              min-height: 80vh;
               align-items: center;
+              padding-top: 4rem;
+              padding-bottom: 4rem;
               justify-content: center;
               background-color: #050505;
             }
@@ -384,9 +388,11 @@ const Consultation = (props) => {
             }
             .consultation-thq-plan-a-consultation-elm {
               width: 100%;
-              height: 65vh;
               margin-top: var(--dl-layout-space-fourunits);
+              min-height: 65vh;
+              padding-top: 4rem;
               margin-bottom: var(--dl-layout-space-twounits);
+              padding-bottom: 4rem;
               background-color: #050505;
             }
           }
