@@ -71,10 +71,7 @@ const TravelEnquiryForm = (props) => {
             </div>
           </div>
         </section>
-        <section
-          id="step-1"
-          className="travel-enquiry-form-thq-step1-section-elm"
-        >
+        <section id="step-1" className="thq-step1-section-elm">
           <div className="step-1-container">
             <h2 className="section-title">Select a Service</h2>
             <p className="section-subtitle">
@@ -2384,124 +2381,116 @@ to {transform: scale(1);}}
         <div className="travel-enquiry-form-container5">
           <div className="travel-enquiry-form-container6">
             <Script
-              html={`<script defer data-name="travel-enquiry-logic">
-(function(){
-  const step1 = document.getElementById("step-1")
-  const step2 = document.getElementById("step-2")
-  const step3 = document.getElementById("step-3")
-  const serviceCards = document.querySelectorAll(".service-card")
-  const continueBtn = document.getElementById("btn-continue-step-1")
-  const backBtn = document.getElementById("btn-back-step-2")
-  const form = document.getElementById("enquiry-form")
-  const hiddenServiceInput = document.getElementById("hidden-service")
-  const hiddenSubjectInput = document.getElementById("hidden-subject")
-  const conditionalSections = document.querySelectorAll(".service-specific")
-
-  let selectedService = ""
-  let selectedIcon = ""
-
-  // Step 1: Service Selection
-  serviceCards.forEach((card) => {
-    card.addEventListener("click", () => {
-      serviceCards.forEach((c) => c.classList.remove("selected"))
-      card.classList.add("selected")
-      selectedService = card.getAttribute("data-service")
-      selectedIcon = card.getAttribute("data-icon")
-      continueBtn.disabled = false
-    })
-  })
-
-  continueBtn.addEventListener("click", () => {
-    if (!selectedService) return
-
-    // Set hidden fields
-    hiddenServiceInput.value = selectedService
-
-    // Update conditional logic
-    conditionalSections.forEach((section) => {
-      if (section.getAttribute("data-service") === selectedService) {
-        section.style.display = "block"
-        // Make fields required if needed (optional based on UX)
-      } else {
-        section.style.display = "none"
-      }
-    })
-
-    // Transition to Step 2
-    step1.style.opacity = "0"
-    setTimeout(() => {
-      step1.style.display = "none"
-      step2.style.display = "flex"
-      step2.style.opacity = "1"
-      window.scrollTo(0, 0)
-    }, 400)
-  })
-
-  // Back Navigation
-  backBtn.addEventListener("click", () => {
-    step2.style.opacity = "0"
-    setTimeout(() => {
-      step2.style.display = "none"
-      step1.style.display = "flex"
-      step1.style.opacity = "1"
-      window.scrollTo(0, 0)
-    }, 400)
-  })
-
-  // Form Submission
-  form.addEventListener("submit", async (e) => {
-    e.preventDefault()
-
-    const name = document.getElementById("full_name").value
-    const email = document.getElementById("email").value
-
-    // Update subject line dynamically
-    hiddenSubjectInput.value = \`R&B Travels Enquiry – \${selectedService} – \${name}\`
-
-    // Show loading state on button
-    const submitBtn = form.querySelector('button[type="submit"]')
-    const originalBtnText = submitBtn.innerText
-    submitBtn.innerText = "Sending..."
-    submitBtn.disabled = true
-
-    try {
-      const formData = new FormData(form)
-      const response = await fetch(form.action, {
-        method: "POST",
-        body: formData,
-        headers: {
-          Accept: "application/json",
-        },
-      })
-
-      if (response.ok) {
-        // Prepare Success State
-        document.getElementById("display-name").innerText = name
-        document.getElementById("display-email").innerText = email
-        document.getElementById("display-service").innerText = selectedService
-
-        // Transition to Step 3
-        step2.style.opacity = "0"
-        setTimeout(() => {
-          step2.style.display = "none"
-          step3.style.display = "flex"
-          step3.style.opacity = "1"
-          window.scrollTo(0, 0)
-        }, 400)
-      } else {
-        alert("Something went wrong. Please try again or contact us directly.")
-        submitBtn.innerText = originalBtnText
-        submitBtn.disabled = false
-      }
-    } catch (error) {
-      console.error("Submission error:", error)
-      alert("Connection error. Please check your internet and try again.")
-      submitBtn.innerText = originalBtnText
-      submitBtn.disabled = false
-    }
-  })
-})()
-</script>`}
+              html={`<script>
+        ;(function () {
+          const step1 = document.getElementById("step-1")
+          const step2 = document.getElementById("step-2")
+          const step3 = document.getElementById("step-3")
+          const serviceCards = document.querySelectorAll(".service-card")
+          const continueBtn = document.getElementById("btn-continue-step-1")
+          const backBtn = document.getElementById("btn-back-step-2")
+          const form = document.getElementById("enquiry-form")
+          const hiddenServiceInput = document.getElementById("hidden-service")
+          const hiddenSubjectInput = document.getElementById("hidden-subject")
+          const conditionalSections = document.querySelectorAll(".service-specific")
+          let selectedService = ""
+          let selectedIcon = ""
+          // Step 1: Service Selection
+          serviceCards.forEach((card) => {
+            card.addEventListener("click", () => {
+              serviceCards.forEach((c) => c.classList.remove("selected"))
+              card.classList.add("selected")
+              selectedService = card.getAttribute("data-service")
+              selectedIcon = card.getAttribute("data-icon")
+              continueBtn.disabled = false
+            })
+          })
+          continueBtn.addEventListener("click", () => {
+            if (!selectedService) return
+            // Set hidden fields
+            hiddenServiceInput.value = selectedService
+            // Update conditional logic
+            conditionalSections.forEach((section) => {
+              if (section.getAttribute("data-service") === selectedService) {
+                section.style.display = "block"
+                // Make fields required if needed (optional based on UX)
+              } else {
+                section.style.display = "none"
+              }
+            })
+            // Transition to Step 2
+            step1.style.opacity = "0"
+            setTimeout(() => {
+              step1.style.display = "none"
+              step2.style.display = "flex"
+              // Force reflow to ensure proper layout calculation
+              void step2.offsetHeight
+              step2.style.opacity = "1"
+              window.scrollTo({ top: 0, behavior: "smooth" })
+            }, 400)
+          })
+          // Back Navigation
+          backBtn.addEventListener("click", () => {
+            step2.style.opacity = "0"
+            setTimeout(() => {
+              step2.style.display = "none"
+              step1.style.display = "flex"
+              // Force reflow to ensure proper layout calculation
+              void step1.offsetHeight
+              step1.style.opacity = "1"
+              window.scrollTo({ top: 0, behavior: "smooth" })
+            }, 400)
+          })
+          // Form Submission
+          form.addEventListener("submit", async (e) => {
+            e.preventDefault()
+            const name = document.getElementById("full_name").value
+            const email = document.getElementById("email").value
+            // Update subject line dynamically
+            hiddenSubjectInput.value = \`R&B Travels Enquiry – \\\${selectedService} – \\\${name}\`
+            // Show loading state on button
+            const submitBtn = form.querySelector('button[type="submit"]')
+            const originalBtnText = submitBtn.innerText
+            submitBtn.innerText = "Sending..."
+            submitBtn.disabled = true
+            try {
+              const formData = new FormData(form)
+              const response = await fetch(form.action, {
+                method: "POST",
+                body: formData,
+                headers: {
+                  Accept: "application/json",
+                },
+              })
+              if (response.ok) {
+                // Prepare Success State
+                document.getElementById("display-name").innerText = name
+                document.getElementById("display-email").innerText = email
+                document.getElementById("display-service").innerText = selectedService
+                // Transition to Step 3
+                step2.style.opacity = "0"
+                setTimeout(() => {
+                  step2.style.display = "none"
+                  step3.style.display = "flex"
+                  // Force reflow to ensure proper layout calculation
+                  void step3.offsetHeight
+                  step3.style.opacity = "1"
+                  window.scrollTo({ top: 0, behavior: "smooth" })
+                }, 400)
+              } else {
+                alert("Something went wrong. Please try again or contact us directly.")
+                submitBtn.innerText = originalBtnText
+                submitBtn.disabled = false
+              }
+            } catch (error) {
+              console.error("Submission error:", error)
+              alert("Connection error. Please check your internet and try again.")
+              submitBtn.innerText = originalBtnText
+              submitBtn.disabled = false
+            }
+          })
+        })()
+      </script>`}
             ></Script>
           </div>
         </div>
@@ -2658,16 +2647,6 @@ to {transform: scale(1);}}
             line-height: var(--line-height-body);
             margin-left: auto;
             margin-right: auto;
-          }
-          .travel-enquiry-form-thq-step1-section-elm {
-            color: #f8fafc;
-            display: flex;
-            padding: var(--spacing-4xl) var(--spacing-lg);
-            min-height: 100vh;
-            transition: opacity 0.4s ease;
-            align-items: center;
-            justify-content: center;
-            background-color: #0a0f1a;
           }
           .travel-enquiry-form-thq-dynamic-enquiry-form-elm {
             display: none;
