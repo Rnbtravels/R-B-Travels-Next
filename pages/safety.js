@@ -779,7 +779,7 @@ const Safety = (props) => {
                   </div>
                   <div>
                     <h4 className="section-subtitle">Emergency Hotline</h4>
-                    <p className="section-content">+1 (800) SAFE-TRAVEL</p>
+                    <p className="section-content">+234 806 216 3748</p>
                   </div>
                 </div>
                 <div className="contact-info-item">
@@ -801,9 +801,7 @@ const Safety = (props) => {
                   </div>
                   <div>
                     <h4 className="section-subtitle">Email Support</h4>
-                    <p className="section-content">
-                      safety@voyanta-travels.com
-                    </p>
+                    <p className="section-content">Info@myRnBTravels.com</p>
                   </div>
                 </div>
                 <div className="contact-info-item">
@@ -826,7 +824,8 @@ const Safety = (props) => {
                   <div>
                     <h4 className="section-subtitle">Office Address</h4>
                     <p className="section-content">
-                      123 Travel Plaza, Suite 500, Global City
+                      Nicon Plaza, Plot 242, Muhammadu Buhari Way, Central Area,
+                      Federal Capital Territory.
                     </p>
                   </div>
                 </div>
