@@ -66,7 +66,7 @@ section {
                     </div>
                   </a>
                 </Link>
-                <Link href="/book-consultation">
+                <Link href="/consultation">
                   <a>
                     <div className="home-thq-btn-elm2 btn-lg btn btn-outline">
                       <span>Book Consultation</span>
@@ -307,7 +307,7 @@ section {
                 </p>
                 <span className="service-cta">Start now</span>
               </div>
-              <div className="service-card thq-handle-cell-elm4">
+              <div className="thq-handle-cell-elm4 service-card">
                 <div className="home-thq-bento-icon-elm3 service-icon">
                   <svg
                     width="28"
