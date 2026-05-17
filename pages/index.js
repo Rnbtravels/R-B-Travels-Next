@@ -66,7 +66,7 @@ section {
                     </div>
                   </a>
                 </Link>
-                <Link href="/enquiry-form">
+                <Link href="/consultation">
                   <a>
                     <div className="home-thq-btn-elm2 btn-lg btn btn-outline">
                       <span className="home-text14">Book Consultation</span>

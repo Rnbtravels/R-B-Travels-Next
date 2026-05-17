@@ -29,19 +29,19 @@ const EnquiryForm = (props) => {
             <div className="enquiry-form-thq-page-hero-content-elm">
               <div className="enquiry-form-thq-page-hero-icon-elm thq-page-hero-icon-elm">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
                   width="48"
+                  xmlns="http://www.w3.org/2000/svg"
                   height="48"
                   viewBox="0 0 24 24"
                 >
                   <g
                     fill="none"
                     stroke="currentColor"
+                    strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    strokeWidth="2"
                   >
-                    <circle cx="12" cy="12" r="10"></circle>
+                    <circle r="10" cx="12" cy="12"></circle>
                     <path d="m16.24 7.76l-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z"></path>
                   </g>
                 </svg>
@@ -62,8 +62,8 @@ const EnquiryForm = (props) => {
             </div>
             <div className="page-hero-image">
               <img
-                src="https://images.pexels.com/photos/9123014/pexels-photo-9123014.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                 alt="Stunning sunset view from mountain top with expansive seascape"
+                src="https://images.pexels.com/photos/9123014/pexels-photo-9123014.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
               />
             </div>
           </div>
@@ -76,24 +76,24 @@ const EnquiryForm = (props) => {
             </p>
             <div className="service-grid">
               <div
-                data-service="Study Abroad"
                 data-icon="🎓"
+                data-service="Study Abroad"
                 className="service-card"
               >
                 <span className="service-icon">🎓</span>
                 <span className="service-label">Study Abroad</span>
               </div>
               <div
-                data-service="Travel Documentation"
                 data-icon="📄"
+                data-service="Travel Documentation"
                 className="service-card"
               >
                 <span className="service-icon">📄</span>
                 <span className="service-label">Travel Documentation</span>
               </div>
               <div
-                data-service="Comprehensive Itinerary Planning"
                 data-icon="🗺️"
+                data-service="Comprehensive Itinerary Planning"
                 className="service-card"
               >
                 <span className="service-icon">🗺️</span>
@@ -102,16 +102,16 @@ const EnquiryForm = (props) => {
                 </span>
               </div>
               <div
-                data-service="Travel Insurance"
                 data-icon="🛡️"
+                data-service="Travel Insurance"
                 className="service-card"
               >
                 <span className="service-icon">🛡️</span>
                 <span className="service-label">Travel Insurance</span>
               </div>
               <div
-                data-service="Tour Packages &amp; Guided Experiences"
                 data-icon="✈️"
+                data-service="Tour Packages &amp; Guided Experiences"
                 className="service-card"
               >
                 <span className="service-icon">✈️</span>
@@ -120,8 +120,8 @@ const EnquiryForm = (props) => {
                 </span>
               </div>
               <div
-                data-service="Airport Transfer Arrangements"
                 data-icon="🚐"
+                data-service="Airport Transfer Arrangements"
                 className="service-card"
               >
                 <span className="service-icon">🚐</span>
@@ -130,8 +130,8 @@ const EnquiryForm = (props) => {
                 </span>
               </div>
               <div
-                data-service="24/7 Travel Support &amp; Emergency Assistance"
                 data-icon="🆘"
+                data-service="24/7 Travel Support &amp; Emergency Assistance"
                 className="service-card"
               >
                 <span className="service-icon">🆘</span>
@@ -143,7 +143,7 @@ const EnquiryForm = (props) => {
             <button
               id="btn-continue-step-1"
               disabled="true"
-              className="btn btn-accent btn-lg button"
+              className="btn-lg btn button btn-accent"
             >
               Continue
             </button>
