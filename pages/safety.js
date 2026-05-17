@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import Head from 'next/head'
 
 import Script from 'dangerous-html/react'
@@ -132,11 +133,13 @@ const Safety = (props) => {
                     <span>Contact Support</span>
                   </div>
                 </a>
-                <a href="#services">
-                  <div className="hero-btn-secondary btn btn-lg btn-outline">
-                    <span>Explore Travel Services</span>
-                  </div>
-                </a>
+                <Link href="/services">
+                  <a>
+                    <div className="safety-thq-btn-elm2 hero-btn-secondary btn btn-lg btn-outline">
+                      <span>Explore Travel Services</span>
+                    </div>
+                  </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -903,6 +906,9 @@ const Safety = (props) => {
           .safety-container1 {
             width: 100%;
             min-height: 100vh;
+          }
+          .safety-thq-btn-elm2 {
+            text-decoration: none;
           }
           .safety-container5 {
             display: none;
