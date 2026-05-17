@@ -246,7 +246,9 @@ section {
                   </svg>
                 </div>
                 <div className="thq-service-card-text">
-                  <h3 className="section-subtitle">Study Abroad</h3>
+                  <h3 className="section-subtitle home-thq-section-subtitle-elm10">
+                    Study Abroad
+                  </h3>
                   <p className="section-content">
                     Professional guidance for international admissions,
                     applications, and student travel preparation.
@@ -276,7 +278,7 @@ section {
                   </svg>
                 </div>
                 <h3 className="section-subtitle">Visa Appointment Booking</h3>
-                <p className="section-content">
+                <p className="home-thq-section-content-elm12 section-content">
                   Fast and stress-free embassy appointment scheduling
                   assistance.
                 </p>
@@ -301,7 +303,7 @@ section {
                   </svg>
                 </div>
                 <h3 className="section-subtitle">Travel Documentation</h3>
-                <p className="section-content">
+                <p className="home-thq-section-content-elm13 section-content">
                   Support for passport processing, visa applications, proof of
                   funds, and essential travel documents.
                 </p>
@@ -328,7 +330,7 @@ section {
                 <h3 className="section-subtitle">
                   Comprehensive Itinerary Planning
                 </h3>
-                <p className="section-content">
+                <p className="home-thq-section-content-elm14 section-content">
                   Personalized travel schedules designed for comfort,
                   efficiency, and memorable experiences.
                 </p>
@@ -353,7 +355,7 @@ section {
                   </svg>
                 </div>
                 <h3 className="section-subtitle">Travel Insurance</h3>
-                <p className="section-content">
+                <p className="home-thq-section-content-elm15 section-content">
                   Reliable insurance options for international trips, studies,
                   tours, and emergencies.
                 </p>
@@ -382,7 +384,7 @@ section {
                 <h3 className="section-subtitle">
                   Tour Packages &amp; Guided Experiences
                 </h3>
-                <p className="section-content">
+                <p className="section-content home-thq-section-content-elm16">
                   Curated travel experiences, vacation packages, and guided
                   international tours.
                 </p>
@@ -413,7 +415,7 @@ section {
                 <h3 className="section-subtitle">
                   Airport Transfer Arrangements
                 </h3>
-                <p className="section-content">
+                <p className="home-thq-section-content-elm17 section-content">
                   Convenient pickup and drop-off arrangements for smooth travel
                   experiences.
                 </p>
@@ -442,7 +444,7 @@ section {
                 <h3 className="section-subtitle">
                   24/7 Travel Support &amp; Emergency Assistance
                 </h3>
-                <p className="section-content">
+                <p className="section-content home-thq-section-content-elm18">
                   Round-the-clock assistance to help travelers anytime,
                   anywhere.
                 </p>
@@ -1159,17 +1161,32 @@ section {
             color: var(--color-primary);
             margin-bottom: var(--spacing-md);
           }
+          .home-thq-section-content-elm12 {
+            text-align: left;
+          }
           .home-thq-bento-icon-elm2 {
             color: var(--color-primary);
             margin-bottom: var(--spacing-md);
+          }
+          .home-thq-section-content-elm13 {
+            text-align: left;
           }
           .home-thq-bento-icon-elm3 {
             color: var(--color-primary);
             margin-bottom: var(--spacing-md);
           }
+          .home-thq-section-content-elm14 {
+            text-align: left;
+          }
           .home-thq-bento-icon-elm4 {
             color: var(--color-primary);
             margin-bottom: var(--spacing-md);
+          }
+          .home-thq-section-content-elm15 {
+            text-align: left;
+          }
+          .home-thq-section-content-elm17 {
+            text-align: left;
           }
           .home-text25 {
             font-size: 40px;
@@ -1262,6 +1279,27 @@ section {
             }
             .home-thq-handle-bento-grid-elm {
               grid-template-columns: 1fr;
+            }
+            .home-thq-section-subtitle-elm10 {
+              color: var(--color-on-primary-light);
+            }
+            .home-thq-section-content-elm12 {
+              text-align: left;
+            }
+            .home-thq-section-content-elm13 {
+              text-align: left;
+            }
+            .home-thq-section-content-elm14 {
+              text-align: left;
+            }
+            .home-thq-section-content-elm15 {
+              text-align: left;
+            }
+            .home-thq-section-content-elm16 {
+              text-align: left;
+            }
+            .home-thq-section-content-elm18 {
+              text-align: left;
             }
             .home-text32 {
               color: var(--color-accent-dark);
