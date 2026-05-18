@@ -738,6 +738,20 @@ const PricingPackages = (props) => {
                         Add pre or post-tour days to any group itinerary.
                       </p>
                     </div>
+                    <div className="questions-contact__feature-item">
+                      <h4 className="section-subtitle">Accessibility</h4>
+                      <p className="section-content">
+                        Wheelchair-friendly transport and adapted accommodations
+                        on request.
+                      </p>
+                    </div>
+                    <div className="questions-contact__feature-item">
+                      <h4 className="section-subtitle">Niche Workshops</h4>
+                      <p className="section-content">
+                        Photography, cooking, or local craft sessions tailored
+                        to your interests.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
