@@ -1025,11 +1025,6 @@ transform: translateY(0);}}
           .pricing-packages-container26 {
             display: contents;
           }
-          @media (max-width: 479px) {
-            .pricing-packages-thq-questions-contactpane-elm3 {
-              display: flex;
-            }
-          }
         `}
       </style>
     </>
