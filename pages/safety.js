@@ -25,8 +25,8 @@ const Safety = (props) => {
         <header className="hero-wrapper">
           <div className="hero-bg-container">
             <img
-              src="https://images.pexels.com/photos/4401167/pexels-photo-4401167.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
               alt="Modern airport terminal"
+              src="https://images.pexels.com/photos/4401167/pexels-photo-4401167.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
               className="page-hero-bg-image"
             />
             <div className="hero-overlay"></div>
@@ -45,12 +45,12 @@ const Safety = (props) => {
                 <div className="hero-feature-item">
                   <div className="hero-feature-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -63,20 +63,20 @@ const Safety = (props) => {
                 <div className="hero-feature-item">
                   <div className="hero-feature-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
                     >
                       <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
                       <polyline points="14 2 14 8 20 8"></polyline>
-                      <line x1="16" y1="13" x2="8" y2="13"></line>
-                      <line x1="16" y1="17" x2="8" y2="17"></line>
+                      <line x1="16" x2="8" y1="13" y2="13"></line>
+                      <line x1="16" x2="8" y1="17" y2="17"></line>
                       <polyline points="10 9 9 9 8 9"></polyline>
                     </svg>
                   </div>
@@ -87,12 +87,12 @@ const Safety = (props) => {
                 <div className="hero-feature-item">
                   <div className="hero-feature-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -107,18 +107,18 @@ const Safety = (props) => {
                 <div className="hero-feature-item">
                   <div className="hero-feature-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
                     >
-                      <circle cx="12" cy="12" r="10"></circle>
-                      <line x1="2" y1="12" x2="22" y2="12"></line>
+                      <circle r="10" cx="12" cy="12"></circle>
+                      <line x1="2" x2="22" y1="12" y2="12"></line>
                       <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
                     </svg>
                   </div>
@@ -129,13 +129,13 @@ const Safety = (props) => {
               </div>
               <div className="page-hero-cta-group">
                 <a href="#contact">
-                  <div className="btn btn-primary btn-lg">
+                  <div className="btn-lg btn-primary btn">
                     <span>Contact Support</span>
                   </div>
                 </a>
                 <Link href="/services">
                   <a>
-                    <div className="safety-thq-btn-elm2 hero-btn-secondary btn btn-lg btn-outline">
+                    <div className="safety-thq-btn-elm2 btn-lg btn hero-btn-secondary btn-outline">
                       <span>Explore Travel Services</span>
                     </div>
                   </a>
@@ -146,26 +146,26 @@ const Safety = (props) => {
         </header>
         <section className="guidelines-section">
           <div className="container">
-            <h2 className="text-center section-title">
+            <h2 className="section-title text-center">
               Comprehensive Safety Protocols
             </h2>
             <div className="guidelines-grid">
               <article className="guideline-card">
                 <div className="guideline-icon-box">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
                     fill="none"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
                     stroke="currentColor"
+                    viewBox="0 0 24 24"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   >
-                    <circle cx="12" cy="12" r="10"></circle>
-                    <line x1="12" y1="16" x2="12" y2="12"></line>
-                    <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                    <circle r="10" cx="12" cy="12"></circle>
+                    <line x1="12" x2="12" y1="16" y2="12"></line>
+                    <line x1="12" x2="12.01" y1="8" y2="8"></line>
                   </svg>
                 </div>
                 <h3 className="section-subtitle">1. General Travel Safety</h3>
@@ -178,12 +178,12 @@ const Safety = (props) => {
               <article className="guideline-card">
                 <div className="guideline-icon-box">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
                     fill="none"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
                     stroke="currentColor"
+                    viewBox="0 0 24 24"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -204,12 +204,12 @@ const Safety = (props) => {
               <article className="guideline-card">
                 <div className="guideline-icon-box">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
                     fill="none"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
                     stroke="currentColor"
+                    viewBox="0 0 24 24"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -229,12 +229,12 @@ const Safety = (props) => {
               <article className="guideline-card">
                 <div className="guideline-icon-box">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
                     fill="none"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
                     stroke="currentColor"
+                    viewBox="0 0 24 24"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -242,12 +242,12 @@ const Safety = (props) => {
                     <rect
                       x="1"
                       y="4"
-                      width="22"
-                      height="16"
                       rx="2"
                       ry="2"
+                      width="22"
+                      height="16"
                     ></rect>
-                    <line x1="1" y1="10" x2="23" y2="10"></line>
+                    <line x1="1" x2="23" y1="10" y2="10"></line>
                   </svg>
                 </div>
                 <h3 className="section-subtitle">
@@ -262,12 +262,12 @@ const Safety = (props) => {
               <article className="guideline-card">
                 <div className="guideline-icon-box">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
                     fill="none"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
                     stroke="currentColor"
+                    viewBox="0 0 24 24"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -275,10 +275,10 @@ const Safety = (props) => {
                     <rect
                       x="3"
                       y="11"
-                      width="18"
-                      height="11"
                       rx="2"
                       ry="2"
+                      width="18"
+                      height="11"
                     ></rect>
                     <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
                   </svg>
@@ -295,17 +295,17 @@ const Safety = (props) => {
               <article className="guideline-card">
                 <div className="guideline-icon-box">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
                     fill="none"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
                     stroke="currentColor"
+                    viewBox="0 0 24 24"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   >
-                    <rect x="3" y="3" width="18" height="18" rx="2"></rect>
+                    <rect x="3" y="3" rx="2" width="18" height="18"></rect>
                     <path d="M9 3v18"></path>
                     <path d="M15 3v18"></path>
                     <path d="M3 9h18"></path>
@@ -324,19 +324,19 @@ const Safety = (props) => {
               <article className="guideline-card">
                 <div className="guideline-icon-box">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
                     fill="none"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
                     stroke="currentColor"
+                    viewBox="0 0 24 24"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   >
                     <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
-                    <line x1="12" y1="9" x2="12" y2="13"></line>
-                    <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                    <line x1="12" x2="12" y1="9" y2="13"></line>
+                    <line x1="12" x2="12.01" y1="17" y2="17"></line>
                   </svg>
                 </div>
                 <h3 className="section-subtitle">7. Emergency Situations</h3>
@@ -349,20 +349,20 @@ const Safety = (props) => {
               <article className="guideline-card">
                 <div className="guideline-icon-box">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
                     fill="none"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
                     stroke="currentColor"
+                    viewBox="0 0 24 24"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   >
                     <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
-                    <circle cx="9" cy="7" r="4"></circle>
-                    <line x1="19" y1="8" x2="19" y2="14"></line>
-                    <line x1="22" y1="11" x2="16" y2="11"></line>
+                    <circle r="4" cx="9" cy="7"></circle>
+                    <line x1="19" x2="19" y1="8" y2="14"></line>
+                    <line x1="22" x2="16" y1="11" y2="11"></line>
                   </svg>
                 </div>
                 <h3 className="section-subtitle">
@@ -377,12 +377,12 @@ const Safety = (props) => {
               <article className="guideline-card">
                 <div className="guideline-icon-box">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
                     fill="none"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
                     stroke="currentColor"
+                    viewBox="0 0 24 24"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -402,12 +402,12 @@ const Safety = (props) => {
               <article className="guideline-card">
                 <div className="guideline-icon-box">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
                     fill="none"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
                     stroke="currentColor"
+                    viewBox="0 0 24 24"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -428,12 +428,12 @@ const Safety = (props) => {
           </div>
         </section>
         <section className="commitment-section">
-          <div className="container commitment-inner">
+          <div className="commitment-inner container">
             <div className="commitment-featured">
               <div className="commitment-visual">
                 <img
-                  src="https://images.pexels.com/photos/29152262/pexels-photo-29152262.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                   alt="Professional travel assistance"
+                  src="https://images.pexels.com/photos/29152262/pexels-photo-29152262.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                   className="commitment-image"
                 />
                 <div className="commitment-badge">
@@ -454,12 +454,12 @@ const Safety = (props) => {
                 <li className="commitment-item">
                   <div className="commitment-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -479,12 +479,12 @@ const Safety = (props) => {
                 <li className="commitment-item">
                   <div className="commitment-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -504,12 +504,12 @@ const Safety = (props) => {
                 <li className="commitment-item">
                   <div className="commitment-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -532,12 +532,12 @@ const Safety = (props) => {
         </section>
         <section className="confidence-section">
           <div className="container">
-            <h2 className="text-center section-title">
+            <h2 className="section-title text-center">
               Why Travel With Confidence
             </h2>
             <div className="confidence-bento">
               <div className="bento-main">
-                <div className="bento-card bento-card-primary">
+                <div className="bento-card-primary bento-card">
                   <h3 className="section-subtitle">Verified Local Partners</h3>
                   <p className="section-content">
                     Every partner in our network undergoes a rigorous vetting
@@ -547,12 +547,12 @@ const Safety = (props) => {
                   <div className="trust-badge-group">
                     <div className="trust-badge">
                       <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="20"
-                        height="20"
-                        viewBox="0 0 24 24"
                         fill="none"
+                        width="20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="20"
                         stroke="currentColor"
+                        viewBox="0 0 24 24"
                         strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
@@ -563,17 +563,17 @@ const Safety = (props) => {
                     </div>
                     <div className="trust-badge">
                       <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="20"
-                        height="20"
-                        viewBox="0 0 24 24"
                         fill="none"
+                        width="20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="20"
                         stroke="currentColor"
+                        viewBox="0 0 24 24"
                         strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
                       >
-                        <circle cx="12" cy="12" r="10"></circle>
+                        <circle r="10" cx="12" cy="12"></circle>
                         <polyline points="12 6 12 12 16 14"></polyline>
                       </svg>
                       <span>24/7 Support</span>
@@ -585,12 +585,12 @@ const Safety = (props) => {
                 <div className="bento-card bento-card-secondary">
                   <div className="bento-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="32"
-                      height="32"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="32"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="32"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -616,7 +616,7 @@ const Safety = (props) => {
         </section>
         <section className="tips-section">
           <div className="container">
-            <h2 className="text-center section-title">Essential Travel Tips</h2>
+            <h2 className="section-title text-center">Essential Travel Tips</h2>
             <div className="tips-masonry">
               <div className="tip-card">
                 <h3 className="section-subtitle">Pack Smarter</h3>
@@ -626,7 +626,7 @@ const Safety = (props) => {
                   of your travel insurance policy.
                 </p>
               </div>
-              <div className="tip-card tip-card-highlight">
+              <div className="tip-card-highlight tip-card">
                 <h3 className="section-subtitle">Stay Connected</h3>
                 <p className="section-content">
                   Download offline maps for your destination before you arrive.
@@ -655,7 +655,7 @@ const Safety = (props) => {
         </section>
         <section className="page-faq-section">
           <div className="container">
-            <h2 className="text-center section-title">
+            <h2 className="section-title text-center">
               Safety Frequently Asked Questions
             </h2>
             <div className="faq-accordion">
@@ -666,12 +666,12 @@ const Safety = (props) => {
                   </span>
                   <div className="faq-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -696,12 +696,12 @@ const Safety = (props) => {
                   </span>
                   <div className="faq-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -726,12 +726,12 @@ const Safety = (props) => {
                   </span>
                   <div className="faq-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -767,12 +767,12 @@ const Safety = (props) => {
                 <div className="contact-info-item">
                   <div className="contact-info-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -788,12 +788,12 @@ const Safety = (props) => {
                 <div className="contact-info-item">
                   <div className="contact-info-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -810,18 +810,18 @@ const Safety = (props) => {
                 <div className="contact-info-item">
                   <div className="contact-info-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
                     >
                       <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                      <circle cx="12" cy="10" r="3"></circle>
+                      <circle r="3" cx="12" cy="10"></circle>
                     </svg>
                   </div>
                   <div>
@@ -834,7 +834,7 @@ const Safety = (props) => {
                 </div>
               </div>
               <div className="contact-action">
-                <button className="btn btn-primary btn-xl">Get Support</button>
+                <button className="btn-primary btn btn-xl">Get Support</button>
               </div>
             </div>
           </div>

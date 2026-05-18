@@ -34,7 +34,7 @@ const ItinerariesExperiences = (props) => {
               <div className="itinerary-snapshot-badge">
                 <span>Featured Journey</span>
               </div>
-              <h1 className="hero-title">
+              <h1 className="hero-title itineraries-experiences-thq-hero-title-elm">
                 <span>
                   {' '}
                   Crafting Your Next
@@ -528,7 +528,11 @@ const ItinerariesExperiences = (props) => {
         <section className="experience-video">
           <div className="video-section-container">
             <div className="video-content">
-              <h2 className="section-title">The Voyanta Experience</h2>
+              <h2 className="section-title">
+                <span>The R</span>
+                <span className="itineraries-experiences-text50">&amp;</span>
+                <span>B Travels Experience</span>
+              </h2>
               <p className="section-content">
                 Witness the highlights from our most loved sample itineraries.
                 From the quiet majesty of mountain peaks to the vibrant pulse of
@@ -817,11 +821,17 @@ section {
             display: contents;
           }
           @media (max-width: 479px) {
+            .itineraries-experiences-thq-hero-title-elm {
+              font-size: 48px;
+            }
             .itineraries-experiences-text12 {
               color: var(--color-primary);
             }
             .itineraries-experiences-text15 {
               color: var(--color-primary-light);
+            }
+            .itineraries-experiences-text50 {
+              color: var(--color-accent-light);
             }
           }
         `}

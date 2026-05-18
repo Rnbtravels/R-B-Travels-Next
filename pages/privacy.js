@@ -40,8 +40,8 @@ section {
         <section className="header-section">
           <div className="header-section-bg">
             <img
-              src="https://images.pexels.com/photos/4401167/pexels-photo-4401167.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
               alt="Modern airport terminal"
+              src="https://images.pexels.com/photos/4401167/pexels-photo-4401167.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
               className="header-section-image"
             />
             <div className="header-section-overlay"></div>
@@ -58,25 +58,25 @@ section {
                 <div className="header-feature-item">
                   <div className="header-feature-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
                     >
                       <g
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
                       >
                         <rect
-                          width="18"
-                          height="11"
                           x="3"
                           y="11"
                           rx="2"
                           ry="2"
+                          width="18"
+                          height="11"
                         ></rect>
                         <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
                       </g>
@@ -89,18 +89,18 @@ section {
                 <div className="header-feature-item">
                   <div className="header-feature-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
                     >
                       <path
+                        d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
                       ></path>
                     </svg>
                   </div>
@@ -111,17 +111,17 @@ section {
                 <div className="header-feature-item">
                   <div className="header-feature-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
                     >
                       <g
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
                       >
                         <path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path>
                         <path d="M14 2v5a1 1 0 0 0 1 1h5M10 9H8m8 4H8m8 4H8"></path>
@@ -135,17 +135,17 @@ section {
                 <div className="header-feature-item">
                   <div className="header-feature-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
                     >
                       <g
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
                       >
                         <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
                         <path d="m9 12l2 2l4-4"></path>
@@ -159,13 +159,13 @@ section {
               </div>
               <div className="header-section-actions">
                 <a href="#contact">
-                  <div className="btn btn-primary btn-lg">
+                  <div className="btn-lg btn-primary btn">
                     <span>Contact Support</span>
                   </div>
                 </a>
                 <Link href="/">
                   <a>
-                    <div className="btn btn-lg btn-outline">
+                    <div className="btn-lg btn btn-outline">
                       <span>Back to Home</span>
                     </div>
                   </a>
@@ -181,18 +181,18 @@ section {
                 <div className="privacy-card-header">
                   <div className="privacy-card-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
                     >
                       <path
+                        d="M2 7a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2z"
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M2 7a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2z"
                       ></path>
                       <path d="M9 12a3 3 0 1 0 6 0a3 3 0 1 0-6 0m0 0H2m13 0h7"></path>
                     </svg>
@@ -210,26 +210,26 @@ section {
                 <div className="privacy-card-header">
                   <div className="privacy-card-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
                     >
                       <g
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
                       >
                         <path d="M19 16v-2a2 2 0 0 0-4 0v2m-5.5-1H7a4 4 0 0 0-4 4v2"></path>
-                        <circle cx="10" cy="7" r="4"></circle>
+                        <circle r="4" cx="10" cy="7"></circle>
                         <rect
-                          width="8"
-                          height="5"
                           x="13"
                           y="16"
                           rx=".899"
+                          width="8"
+                          height="5"
                         ></rect>
                       </g>
                     </svg>
@@ -257,20 +257,20 @@ section {
                 <div className="privacy-card-header">
                   <div className="privacy-card-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
                     >
                       <g
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
                       >
                         <path d="M15.686 15A14.5 14.5 0 0 1 12 22a14.5 14.5 0 0 1 0-20a10 10 0 1 0 9.542 13M2 12h8.5M20 6V4a2 2 0 1 0-4 0v2"></path>
-                        <rect width="8" height="5" x="14" y="6" rx="1"></rect>
+                        <rect x="14" y="6" rx="1" width="8" height="5"></rect>
                       </g>
                     </svg>
                   </div>
@@ -289,25 +289,25 @@ section {
                 <div className="privacy-card-header">
                   <div className="privacy-card-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
                     >
                       <g
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
                       >
                         <rect
-                          width="18"
-                          height="11"
                           x="3"
                           y="11"
                           rx="2"
                           ry="2"
+                          width="18"
+                          height="11"
                         ></rect>
                         <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
                       </g>
@@ -328,18 +328,18 @@ section {
                 <div className="privacy-card-header">
                   <div className="privacy-card-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
                     >
                       <path
+                        d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1zm-8 9V2"
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1zm-8 9V2"
                       ></path>
                     </svg>
                   </div>
@@ -358,19 +358,19 @@ section {
                 <div className="privacy-card-header">
                   <div className="privacy-card-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
                     >
                       <g
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
                       >
-                        <circle cx="12" cy="12" r="10"></circle>
+                        <circle r="10" cx="12" cy="12"></circle>
                         <path d="M12 2a7 7 0 0 1 7 7c0 2.3-1.3 4.3-3.2 5.3c-.6.3-1.1.8-1.4 1.4c-.4.6-.4 1.3-.4 2.3v1"></path>
                         <path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4l1.4 1.4M2 12h2m16 0h2m-17.1 7.1l1.4-1.4M17.7 6.3l1.4-1.4"></path>
                       </g>
@@ -390,20 +390,20 @@ section {
                 <div className="privacy-card-header">
                   <div className="privacy-card-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
                     >
                       <g
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
                       >
                         <path d="m16 11l2 2l4-4m-6 12v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
-                        <circle cx="9" cy="7" r="4"></circle>
+                        <circle r="4" cx="9" cy="7"></circle>
                       </g>
                     </svg>
                   </div>
@@ -419,17 +419,17 @@ section {
                 <div className="privacy-card-header">
                   <div className="privacy-card-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
                     >
                       <g
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
                       >
                         <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
                         <path d="m3.3 7l8.7 5l8.7-5M12 22V12"></path>
@@ -448,17 +448,17 @@ section {
                 <div className="privacy-card-header">
                   <div className="privacy-card-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
                     >
                       <g
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
                       >
                         <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path>
                         <path d="M3 3v5h5m8 4.2V9a3 3 0 0 0-3-3H9"></path>
@@ -473,21 +473,21 @@ section {
                   review this page occasionally for the latest information.
                 </p>
               </article>
-              <article className="privacy-card privacy-card-highlight">
+              <article className="privacy-card-highlight privacy-card">
                 <div className="privacy-card-header">
                   <div className="privacy-card-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
                     >
                       <g
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
                       >
                         <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
                       </g>
@@ -511,7 +511,7 @@ section {
                     Address: Nicon Plaza, Plot 242, Muhammadu Buhari Way,
                     Central Area, Federal Capital Territory.
                   </p>
-                  <button className="privacy-thq-btn-elm3 btn btn-primary btn-sm">
+                  <button className="privacy-thq-btn-elm3 btn-primary btn btn-sm">
                     Message Support
                   </button>
                 </div>
@@ -584,17 +584,17 @@ section {
               <div className="trust-badge-item">
                 <div className="trust-badge-icon">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
                     width="48"
+                    xmlns="http://www.w3.org/2000/svg"
                     height="48"
                     viewBox="0 0 24 24"
                   >
                     <g
                       fill="none"
                       stroke="currentColor"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
                     >
                       <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
                       <path d="m9 12l2 2l4-4"></path>
@@ -606,25 +606,25 @@ section {
               <div className="trust-badge-item">
                 <div className="trust-badge-icon">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
                     width="48"
+                    xmlns="http://www.w3.org/2000/svg"
                     height="48"
                     viewBox="0 0 24 24"
                   >
                     <g
                       fill="none"
                       stroke="currentColor"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
                     >
                       <rect
-                        width="18"
-                        height="11"
                         x="3"
                         y="11"
                         rx="2"
                         ry="2"
+                        width="18"
+                        height="11"
                       ></rect>
                       <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
                     </g>
@@ -635,18 +635,18 @@ section {
               <div className="trust-badge-item">
                 <div className="trust-badge-icon">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
                     width="48"
+                    xmlns="http://www.w3.org/2000/svg"
                     height="48"
                     viewBox="0 0 24 24"
                   >
                     <path
+                      d="M2 7a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2z"
                       fill="none"
                       stroke="currentColor"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M2 7a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2z"
                     ></path>
                     <path d="M9 12a3 3 0 1 0 6 0a3 3 0 1 0-6 0m0 0H2m13 0h7"></path>
                   </svg>
@@ -656,17 +656,17 @@ section {
               <div className="trust-badge-item">
                 <div className="trust-badge-icon">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
                     width="48"
+                    xmlns="http://www.w3.org/2000/svg"
                     height="48"
                     viewBox="0 0 24 24"
                   >
                     <g
                       fill="none"
                       stroke="currentColor"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
                     >
                       <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"></path>
                       <path d="m9 12l2 2 4-4"></path>

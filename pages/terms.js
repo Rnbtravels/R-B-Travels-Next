@@ -24,8 +24,8 @@ const Terms = (props) => {
         <section className="tos-hero">
           <div className="tos-hero-bg">
             <img
-              src="https://images.pexels.com/photos/12932352/pexels-photo-12932352.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
               alt="R&amp;B Travels Hero Background"
+              src="https://images.pexels.com/photos/12932352/pexels-photo-12932352.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
               loading="lazy"
             />
             <div className="tos-hero-overlay"></div>
@@ -42,18 +42,18 @@ const Terms = (props) => {
                 <div className="tos-hero-feature">
                   <div className="tos-hero-icon-box">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
                     >
                       <path
+                        d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
                       ></path>
                     </svg>
                   </div>
@@ -64,18 +64,18 @@ const Terms = (props) => {
                 <div className="tos-hero-feature">
                   <div className="tos-hero-icon-box">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
                     >
                       <path
+                        d="M17.8 19.2L16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8L4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1l3 2l2 3l1-1v-3l3-2l3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2"
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M17.8 19.2L16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8L4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1l3 2l2 3l1-1v-3l3-2l3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2"
                       ></path>
                     </svg>
                   </div>
@@ -86,25 +86,25 @@ const Terms = (props) => {
                 <div className="tos-hero-feature">
                   <div className="tos-hero-icon-box">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
                     >
                       <g
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
                       >
                         <rect
-                          width="18"
-                          height="11"
                           x="3"
                           y="11"
                           rx="2"
                           ry="2"
+                          width="18"
+                          height="11"
                         ></rect>
                         <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
                       </g>
@@ -117,20 +117,20 @@ const Terms = (props) => {
                 <div className="tos-hero-feature">
                   <div className="tos-hero-icon-box">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
                     >
                       <g
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
                       >
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <circle cx="12" cy="10" r="3"></circle>
+                        <circle r="10" cx="12" cy="12"></circle>
+                        <circle r="3" cx="12" cy="10"></circle>
                         <path d="M7 20.662V19a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v1.662"></path>
                       </g>
                     </svg>
@@ -142,12 +142,12 @@ const Terms = (props) => {
               </div>
               <div className="tos-hero-actions">
                 <a href="#contact">
-                  <div className="btn btn-primary btn-lg">
+                  <div className="btn-lg btn-primary btn">
                     <span>Contact Support</span>
                   </div>
                 </a>
                 <a href="#services">
-                  <div className="btn btn-lg btn-outline">
+                  <div className="btn-lg btn btn-outline">
                     <span>Explore Services</span>
                   </div>
                 </a>
@@ -162,18 +162,18 @@ const Terms = (props) => {
                 <div className="tos-card-header">
                   <div className="tos-card-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
                     >
                       <path
+                        d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="1.5"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="1.5"
-                        d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"
                       ></path>
                     </svg>
                   </div>
@@ -191,18 +191,18 @@ const Terms = (props) => {
                 <div className="tos-card-header">
                   <div className="tos-card-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
                     >
                       <path
+                        d="m21 15l-1-6l-2.5 6M9 15l1-6M3 9h1v6h.5L7 9m9 .5a.5.5 0 0 0-.5-.5h-.75c-.721 0-1.337.521-1.455 1.233l-.09.534A1.06 1.06 0 0 0 14.25 12a1.06 1.06 0 0 1 1.045 1.233l-.09.534A1.476 1.476 0 0 1 13.75 15H13a.5.5 0 0 1-.5-.5M18 14h2.7"
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="m21 15l-1-6l-2.5 6M9 15l1-6M3 9h1v6h.5L7 9m9 .5a.5.5 0 0 0-.5-.5h-.75c-.721 0-1.337.521-1.455 1.233l-.09.534A1.06 1.06 0 0 0 14.25 12a1.06 1.06 0 0 1 1.045 1.233l-.09.534A1.476 1.476 0 0 1 13.75 15H13a.5.5 0 0 1-.5-.5M18 14h2.7"
                       ></path>
                     </svg>
                   </div>
@@ -242,20 +242,20 @@ const Terms = (props) => {
                 <div className="tos-card-header">
                   <div className="tos-card-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
                     >
                       <g
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
                       >
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <circle cx="12" cy="10" r="3"></circle>
+                        <circle r="10" cx="12" cy="12"></circle>
+                        <circle r="3" cx="12" cy="10"></circle>
                         <path d="M7 20.662V19a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v1.662"></path>
                       </g>
                     </svg>
@@ -274,18 +274,18 @@ const Terms = (props) => {
                 <div className="tos-card-header">
                   <div className="tos-card-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
                     >
                       <path
+                        d="M12 7v6m-8 6.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20M9 10h6"
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M12 7v6m-8 6.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20M9 10h6"
                       ></path>
                     </svg>
                   </div>
@@ -302,18 +302,18 @@ const Terms = (props) => {
                 <div className="tos-card-header">
                   <div className="tos-card-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
                     >
                       <path
+                        d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1zm-8-5v4m0 4h.01"
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1zm-8-5v4m0 4h.01"
                       ></path>
                     </svg>
                   </div>
@@ -330,18 +330,18 @@ const Terms = (props) => {
                 <div className="tos-card-header">
                   <div className="tos-card-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
                     >
                       <path
+                        d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0m15.364-6.364L5.636 18.364"
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0m15.364-6.364L5.636 18.364"
                       ></path>
                     </svg>
                   </div>
@@ -360,18 +360,18 @@ const Terms = (props) => {
                 <div className="tos-card-header">
                   <div className="tos-card-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
                     >
                       <path
+                        d="m2 2l20 20M5 5a1 1 0 0 0-1 1v7c0 5 3.5 7.5 7.67 8.94a1 1 0 0 0 .67.01c2.35-.82 4.48-1.97 5.9-3.71M9.309 3.652A12.3 12.3 0 0 0 11.24 2.28a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1v7a10 10 0 0 1-.08 1.264"
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="m2 2l20 20M5 5a1 1 0 0 0-1 1v7c0 5 3.5 7.5 7.67 8.94a1 1 0 0 0 .67.01c2.35-.82 4.48-1.97 5.9-3.71M9.309 3.652A12.3 12.3 0 0 0 11.24 2.28a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1v7a10 10 0 0 1-.08 1.264"
                       ></path>
                     </svg>
                   </div>
@@ -388,18 +388,18 @@ const Terms = (props) => {
                 <div className="tos-card-header">
                   <div className="tos-card-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
                     >
                       <path
+                        d="M16 5H3m8 7H3m13 7H3M18 9v6m3-3h-6"
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M16 5H3m8 7H3m13 7H3M18 9v6m3-3h-6"
                       ></path>
                     </svg>
                   </div>
@@ -416,25 +416,25 @@ const Terms = (props) => {
                 <div className="tos-card-header">
                   <div className="tos-card-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
                     >
                       <g
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
                       >
                         <rect
-                          width="18"
-                          height="11"
                           x="3"
                           y="11"
                           rx="2"
                           ry="2"
+                          width="18"
+                          height="11"
                         ></rect>
                         <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
                       </g>
@@ -453,26 +453,26 @@ const Terms = (props) => {
                 <div className="tos-card-header">
                   <div className="tos-card-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
                     >
                       <g
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
                       >
                         <path d="M19 16v-2a2 2 0 0 0-4 0v2m-5.5-1H7a4 4 0 0 0-4 4v2"></path>
-                        <circle cx="10" cy="7" r="4"></circle>
+                        <circle r="4" cx="10" cy="7"></circle>
                         <rect
-                          width="8"
-                          height="5"
                           x="13"
                           y="16"
                           rx=".899"
+                          width="8"
+                          height="5"
                         ></rect>
                       </g>
                     </svg>
@@ -489,18 +489,18 @@ const Terms = (props) => {
                 <div className="tos-card-header">
                   <div className="tos-card-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
                     >
                       <path
+                        d="M10.268 21a2 2 0 0 0 3.464 0M15 8h6m-3-3v6m2.002 3.464a9 9 0 0 0 .738.863A1 1 0 0 1 20 17H4a1 1 0 0 1-.74-1.673C4.59 13.956 6 12.499 6 8a6 6 0 0 1 8.75-5.332"
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M10.268 21a2 2 0 0 0 3.464 0M15 8h6m-3-3v6m2.002 3.464a9 9 0 0 0 .738.863A1 1 0 0 1 20 17H4a1 1 0 0 1-.74-1.673C4.59 13.956 6 12.499 6 8a6 6 0 0 1 8.75-5.332"
                       ></path>
                     </svg>
                   </div>
@@ -517,18 +517,18 @@ const Terms = (props) => {
                 <div className="tos-card-header">
                   <div className="tos-card-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
                     >
                       <path
+                        d="M3.85 8.62a4 4 0 0 1 4.78-4.77a4 4 0 0 1 6.74 0a4 4 0 0 1 4.78 4.78a4 4 0 0 1 0 6.74a4 4 0 0 1-4.77 4.78a4 4 0 0 1-6.75 0a4 4 0 0 1-4.78-4.77a4 4 0 0 1 0-6.76"
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M3.85 8.62a4 4 0 0 1 4.78-4.77a4 4 0 0 1 6.74 0a4 4 0 0 1 4.78 4.78a4 4 0 0 1 0 6.74a4 4 0 0 1-4.77 4.78a4 4 0 0 1-6.75 0a4 4 0 0 1-4.78-4.77a4 4 0 0 1 0-6.76"
                       ></path>
                     </svg>
                   </div>
@@ -544,17 +544,17 @@ const Terms = (props) => {
                 <div className="tos-card-header">
                   <div className="tos-card-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
                     >
                       <g
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
                       >
                         <path d="M11 12h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 14"></path>
                         <path d="m7 18l1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a2 2 0 0 0-2.75-2.91l-4.2 3.9M2 13l6 6"></path>
@@ -612,7 +612,7 @@ const Terms = (props) => {
                       />
                     </span>
                   </p>
-                  <button className="btn btn-primary">Contact Support</button>
+                  <button className="btn-primary btn">Contact Support</button>
                 </div>
               </article>
             </div>
@@ -709,18 +709,18 @@ const Terms = (props) => {
                 <div className="tos-why-card">
                   <div className="tos-why-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
                     >
                       <path
+                        d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
                       ></path>
                     </svg>
                   </div>
@@ -733,19 +733,19 @@ const Terms = (props) => {
                 <div className="tos-why-card">
                   <div className="tos-why-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
                     >
                       <g
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
                       >
-                        <circle cx="12" cy="12" r="10"></circle>
+                        <circle r="10" cx="12" cy="12"></circle>
                         <path d="M12 13a2 2 0 0 0 .914-3.782a1.98 1.98 0 0 0-2.414.483"></path>
                       </g>
                     </svg>
@@ -765,17 +765,17 @@ const Terms = (props) => {
             <div className="tos-trust-grid">
               <div className="tos-trust-badge">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
                   width="24"
+                  xmlns="http://www.w3.org/2000/svg"
                   height="24"
                   viewBox="0 0 24 24"
                 >
                   <g
                     fill="none"
                     stroke="currentColor"
+                    strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    strokeWidth="2"
                   >
                     <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
                     <path d="m9 12l2 2l4-4"></path>
@@ -785,54 +785,54 @@ const Terms = (props) => {
               </div>
               <div className="tos-trust-badge">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
                   width="24"
+                  xmlns="http://www.w3.org/2000/svg"
                   height="24"
                   viewBox="0 0 24 24"
                 >
                   <path
+                    d="M3.85 8.62a4 4 0 0 1 4.78-4.77a4 4 0 0 1 6.74 0a4 4 0 0 1 4.78 4.78a4 4 0 0 1 0 6.74a4 4 0 0 1-4.77 4.78a4 4 0 0 1-6.75 0a4 4 0 0 1-4.78-4.77a4 4 0 0 1 0-6.76M12 8v8m-4-4h8"
                     fill="none"
                     stroke="currentColor"
+                    strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M3.85 8.62a4 4 0 0 1 4.78-4.77a4 4 0 0 1 6.74 0a4 4 0 0 1 4.78 4.78a4 4 0 0 1 0 6.74a4 4 0 0 1-4.77 4.78a4 4 0 0 1-6.75 0a4 4 0 0 1-4.78-4.77a4 4 0 0 1 0-6.76M12 8v8m-4-4h8"
                   ></path>
                 </svg>
                 <span className="section-subtitle">Expert Assistance</span>
               </div>
               <div className="tos-trust-badge">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
                   width="24"
+                  xmlns="http://www.w3.org/2000/svg"
                   height="24"
                   viewBox="0 0 24 24"
                 >
                   <path
+                    d="M12 7v6m-8 6.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20M9 10h6"
                     fill="none"
                     stroke="currentColor"
+                    strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M12 7v6m-8 6.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20M9 10h6"
                   ></path>
                 </svg>
                 <span className="section-subtitle">Data Privacy</span>
               </div>
               <div className="tos-trust-badge">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
                   width="24"
+                  xmlns="http://www.w3.org/2000/svg"
                   height="24"
                   viewBox="0 0 24 24"
                 >
                   <path
+                    d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
                     fill="none"
                     stroke="currentColor"
+                    strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
                   ></path>
                 </svg>
                 <span className="section-subtitle">Service Guarantee</span>

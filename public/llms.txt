@@ -4,13 +4,14 @@
 
 ## Pages
 
+- [Safety - rnvtravels](https://voyanta.teleporthq.site/safety)
 - [Itineraries-Experiences - rnvtravels](https://voyanta.teleporthq.site/itineraries-experiences)
+- [Privacy - rnvtravels](https://voyanta.teleporthq.site/privacy)
+- [Help - rnvtravels](https://voyanta.teleporthq.site/help)
 - [Services - rnvtravels](https://voyanta.teleporthq.site/services)
 - [Consultation - rnvtravels](https://voyanta.teleporthq.site/consultation)
+- [Terms - rnvtravels](https://voyanta.teleporthq.site/terms)
 - [EnquiryForm - rnvtravels](https://voyanta.teleporthq.site/enquiryform)
+- [Insurance - rnvtravels](https://voyanta.teleporthq.site/insurance)
 - [Pricing-Packages - rnvtravels](https://voyanta.teleporthq.site/pricing-packages)
 - [rnvtravels](https://voyanta.teleporthq.site)
-- [Privacy - rnvtravels](https://voyanta.teleporthq.site/privacy)
-- [Terms - rnvtravels](https://voyanta.teleporthq.site/terms)
-- [Safety - rnvtravels](https://voyanta.teleporthq.site/safety)
-- [Insurance - rnvtravels](https://voyanta.teleporthq.site/insurance)

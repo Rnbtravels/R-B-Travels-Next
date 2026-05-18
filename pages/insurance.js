@@ -41,8 +41,8 @@ section {
         <section className="page-hero-section">
           <div className="hero-bg-wrapper">
             <img
-              src="https://images.pexels.com/photos/1008155/pexels-photo-1008155.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
               alt="Travel Insurance Services"
+              src="https://images.pexels.com/photos/1008155/pexels-photo-1008155.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
               className="hero-bg-img"
             />
             <div className="hero-overlay"></div>
@@ -59,18 +59,18 @@ section {
                 <div className="page-hero-feature-item">
                   <div className="feature-icon-wrapper">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
                     >
                       <path d="M12 11v4m2-2h-4m6-7V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2m10 0v14M6 6v14"></path>
-                      <rect width="20" height="14" x="2" y="6" rx="2"></rect>
+                      <rect x="2" y="6" rx="2" width="20" height="14"></rect>
                     </svg>
                   </div>
                   <span>Medical Emergency Coverage</span>
@@ -78,23 +78,23 @@ section {
                 <div className="page-hero-feature-item">
                   <div className="feature-icon-wrapper">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
                     >
                       <rect
-                        width="18"
-                        height="18"
                         x="3"
                         y="3"
                         rx="2"
                         ry="2"
+                        width="18"
+                        height="18"
                       ></rect>
                       <path d="m15 9l-6 6m0-6l6 6"></path>
                     </svg>
@@ -104,12 +104,12 @@ section {
                 <div className="page-hero-feature-item">
                   <div className="feature-icon-wrapper">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -122,12 +122,12 @@ section {
                 <div className="page-hero-feature-item">
                   <div className="feature-icon-wrapper">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -142,7 +142,7 @@ section {
               <div className="page-hero-cta-group1">
                 <Link href="/enquiry-form">
                   <a>
-                    <div className="insurance-thq-btn-primary-elm1 btn-primary btn-lg">
+                    <div className="insurance-thq-btn-primary-elm1 btn-lg btn-primary">
                       <span>Get Insurance Support</span>
                     </div>
                   </a>
@@ -196,12 +196,12 @@ section {
                 <div className="sidebar-card">
                   <div className="sidebar-icon">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="32"
-                      height="32"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="32"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="32"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -253,18 +253,18 @@ section {
               <div className="coverage-card">
                 <div className="page-card-icon">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="32"
-                    height="32"
-                    viewBox="0 0 24 24"
                     fill="none"
+                    width="32"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="32"
                     stroke="currentColor"
+                    viewBox="0 0 24 24"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   >
                     <path d="M12 11v4m2-2h-4m6-7V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2m10 0v14M6 6v14"></path>
-                    <rect width="20" height="14" x="2" y="6" rx="2"></rect>
+                    <rect x="2" y="6" rx="2" width="20" height="14"></rect>
                   </svg>
                 </div>
                 <h3 className="section-subtitle">Medical Coverage</h3>
@@ -283,12 +283,12 @@ section {
               <div className="coverage-card">
                 <div className="page-card-icon">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="32"
-                    height="32"
-                    viewBox="0 0 24 24"
                     fill="none"
+                    width="32"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="32"
                     stroke="currentColor"
+                    viewBox="0 0 24 24"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -314,18 +314,18 @@ section {
               <div className="coverage-card">
                 <div className="page-card-icon">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="32"
-                    height="32"
-                    viewBox="0 0 24 24"
                     fill="none"
+                    width="32"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="32"
                     stroke="currentColor"
+                    viewBox="0 0 24 24"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   >
                     <path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
-                    <rect width="20" height="14" x="2" y="6" rx="2"></rect>
+                    <rect x="2" y="6" rx="2" width="20" height="14"></rect>
                   </svg>
                 </div>
                 <h3 className="section-subtitle">Baggage Protection</h3>
@@ -344,12 +344,12 @@ section {
               <div className="coverage-card">
                 <div className="page-card-icon">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="32"
-                    height="32"
-                    viewBox="0 0 24 24"
                     fill="none"
+                    width="32"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="32"
                     stroke="currentColor"
+                    viewBox="0 0 24 24"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -357,12 +357,12 @@ section {
                     <g
                       fill="none"
                       stroke="currentColor"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
                     >
                       <path d="M10.268 21a2 2 0 0 0 3.464 0M11.68 2.009A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673c-.824-.85-1.678-1.731-2.21-3.348"></path>
-                      <circle cx="18" cy="5" r="3"></circle>
+                      <circle r="3" cx="18" cy="5"></circle>
                     </g>
                   </svg>
                 </div>
@@ -382,12 +382,12 @@ section {
               <div className="coverage-card">
                 <div className="page-card-icon">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="32"
-                    height="32"
-                    viewBox="0 0 24 24"
                     fill="none"
+                    width="32"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="32"
                     stroke="currentColor"
+                    viewBox="0 0 24 24"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -465,119 +465,119 @@ section {
               <div className="who-grid">
                 <div className="who-item">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
                     fill="none"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
                     stroke="currentColor"
+                    viewBox="0 0 24 24"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   >
-                    <circle cx="12" cy="12" r="10"></circle>
+                    <circle r="10" cx="12" cy="12"></circle>
                     <path d="m9 12 2 2 4-4"></path>
                   </svg>
                   <span>International Travelers</span>
                 </div>
                 <div className="who-item">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
                     fill="none"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
                     stroke="currentColor"
+                    viewBox="0 0 24 24"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   >
-                    <circle cx="12" cy="12" r="10"></circle>
+                    <circle r="10" cx="12" cy="12"></circle>
                     <path d="m9 12 2 2 4-4"></path>
                   </svg>
                   <span>Students Studying Abroad</span>
                 </div>
                 <div className="who-item">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
                     fill="none"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
                     stroke="currentColor"
+                    viewBox="0 0 24 24"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   >
-                    <circle cx="12" cy="12" r="10"></circle>
+                    <circle r="10" cx="12" cy="12"></circle>
                     <path d="m9 12 2 2 4-4"></path>
                   </svg>
                   <span>Business Professionals</span>
                 </div>
                 <div className="who-item">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
                     fill="none"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
                     stroke="currentColor"
+                    viewBox="0 0 24 24"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   >
-                    <circle cx="12" cy="12" r="10"></circle>
+                    <circle r="10" cx="12" cy="12"></circle>
                     <path d="m9 12 2 2 4-4"></path>
                   </svg>
                   <span>Families Traveling Globally</span>
                 </div>
                 <div className="who-item">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
                     fill="none"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
                     stroke="currentColor"
+                    viewBox="0 0 24 24"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   >
-                    <circle cx="12" cy="12" r="10"></circle>
+                    <circle r="10" cx="12" cy="12"></circle>
                     <path d="m9 12 2 2 4-4"></path>
                   </svg>
                   <span>Pilgrimage Travelers</span>
                 </div>
                 <div className="who-item">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
                     fill="none"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
                     stroke="currentColor"
+                    viewBox="0 0 24 24"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   >
-                    <circle cx="12" cy="12" r="10"></circle>
+                    <circle r="10" cx="12" cy="12"></circle>
                     <path d="m9 12 2 2 4-4"></path>
                   </svg>
                   <span>Frequent Flyers</span>
                 </div>
                 <div className="who-item">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
                     fill="none"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
                     stroke="currentColor"
+                    viewBox="0 0 24 24"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   >
-                    <circle cx="12" cy="12" r="10"></circle>
+                    <circle r="10" cx="12" cy="12"></circle>
                     <path d="m9 12 2 2 4-4"></path>
                   </svg>
                   <span>Leisure Tourists</span>
@@ -591,8 +591,8 @@ section {
             <div className="study-split">
               <div className="study-visual">
                 <img
-                  src="https://images.pexels.com/photos/3985162/pexels-photo-3985162.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                   alt="Students studying abroad"
+                  src="https://images.pexels.com/photos/3985162/pexels-photo-3985162.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                   className="study-img"
                 />
               </div>
@@ -652,7 +652,7 @@ section {
                 </button>
               </nav>
               <div className="visa-tabs-content">
-                <div id="mandatory" className="page-tab-panel active">
+                <div id="mandatory" className="active page-tab-panel">
                   <h3 className="section-subtitle">Compulsory Insurance</h3>
                   <p className="section-content">
                     Many countries, especially within the Schengen Area and
@@ -919,10 +919,10 @@ section {
                   <div className="form-group">
                     <input
                       type="text"
-                      placeholder="Full Name"
-                      required="true"
                       id="thq_textinput_P2Kj"
                       name="textinput"
+                      required="true"
+                      placeholder="Full Name"
                       data-form-field-id="thq_textinput_P2Kj"
                       className="page-form-input"
                     />
@@ -930,10 +930,10 @@ section {
                   <div className="form-group">
                     <input
                       type="email"
-                      placeholder="Email Address"
-                      required="true"
                       id="thq_textinput_B_oW"
                       name="textinput"
+                      required="true"
+                      placeholder="Email Address"
                       data-form-field-id="thq_textinput_B_oW"
                       className="page-form-input"
                     />
@@ -941,20 +941,20 @@ section {
                   <div className="form-group">
                     <input
                       type="tel"
-                      placeholder="Phone Number"
-                      required="true"
                       id="thq_textinput_1u_5"
                       name="textinput"
+                      required="true"
+                      placeholder="Phone Number"
                       data-form-field-id="thq_textinput_1u_5"
                       className="page-form-input"
                     />
                   </div>
                   <button
-                    type="submit"
                     id="thq_button_uBTw"
                     name="button"
+                    type="submit"
                     data-form-field-id="thq_button_uBTw"
-                    className="w-full btn-primary btn-lg"
+                    className="btn-lg w-full btn-primary"
                   >
                     Request Support
                   </button>
@@ -966,7 +966,7 @@ section {
         <section className="disclaimer-section">
           <div className="disclaimer-container">
             <div className="disclaimer-content">
-              <p className="disclaimer-text section-content">
+              <p className="section-content disclaimer-text">
                 <span className="insurance-text59">Important Notice:</span>
                 <span>
                   {' '}

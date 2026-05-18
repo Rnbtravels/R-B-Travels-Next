@@ -52,7 +52,7 @@ section {
           <div className="services-overview-container">
             <div className="services-overview-content">
               <div className="services-overview-text">
-                <h1 className="hero-title">
+                <h1 className="hero-title services-thq-hero-title-elm">
                   <span>
                     {' '}
                     Your Journey,
@@ -62,7 +62,6 @@ section {
                       }}
                     />
                   </span>
-                  <br></br>
                   <span>
                     {' '}
                     Expertly Crafted.
@@ -267,7 +266,11 @@ section {
         <section className="how-it-works">
           <div className="how-it-works-container">
             <div className="how-it-works-header">
-              <h2 className="section-title">The Voyanta Process</h2>
+              <h2 className="section-title">
+                <span>The R</span>
+                <span className="services-text19">&amp;</span>
+                <span>B Process</span>
+              </h2>
               <p className="section-content">
                 From initial consultation through your safe return, we are with
                 you every step of the way.
@@ -770,6 +773,9 @@ transform: translateY(0);}}
           .services-text13 {
             color: var(--color-primary-light);
           }
+          .services-text19 {
+            color: var(--color-accent-light);
+          }
           .services-container4 {
             display: none;
           }
@@ -786,6 +792,16 @@ transform: translateY(0);}}
             .services-text13 {
               fill: var(--color-primary-light);
               color: var(--color-primary-light);
+            }
+          }
+          @media (max-width: 767px) {
+            .services-thq-hero-title-elm {
+              font-size: 48px;
+            }
+          }
+          @media (max-width: 479px) {
+            .services-thq-hero-title-elm {
+              font-size: 32px;
             }
           }
         `}
