@@ -2494,17 +2494,24 @@
  
 .package-tiers__bento {
   gap: var(--spacing-lg);
+  width: 100%;
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
+  max-width: 100%;
+  box-sizing: border-box;
+  grid-template-columns: 1fr;
 }
  
 .package-tiers__card {
   border: 1px solid var(--color-border);
   display: flex;
-  padding: var(--spacing-2xl);
+  padding: var(--spacing-xl);
+  min-width: 0;
   background: var(--color-surface);
+  box-sizing: border-box;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  word-break: break-word;
   border-radius: var(--border-radius-card);
+  overflow-wrap: break-word;
   flex-direction: column;
 }
  
@@ -2539,7 +2546,7 @@
 .package-tiers__amount {
   color: var(--color-primary);
   display: block;
-  font-size: var(--font-size-2xl);
+  font-size: var(--font-size-xl);
   font-weight: var(--font-weight-heading);
 }
  
@@ -2551,7 +2558,8 @@
 .package-tiers__item {
   gap: var(--spacing-sm);
   display: flex;
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-base);
+  min-height: 44px;
   align-items: center;
   margin-bottom: var(--spacing-sm);
 }
@@ -2913,11 +2921,6 @@
 .package-tiers__card:hover {
   transform: translateY(-5px);
   box-shadow: var(--shadow-level-2);
-}
- 
-.package-tiers__item  svg {
-  color: var(--color-primary);
-  flex-shrink: 0;
 }
  
 .inclusions-addons__side-cell--alt  .section-subtitle {
@@ -8814,12 +8817,6 @@
   .pricing-overview__actions {
     justify-content: center;
   }
-  .package-tiers__bento {
-    grid-template-columns: 1fr 1fr;
-  }
-  .package-tiers__card--featured {
-    grid-column: span 2;
-  }
   .inclusions-addons__bento {
     grid-template-columns: 1fr;
   }
@@ -9255,12 +9252,6 @@
   .card-elevated {
     transform: none;
   }
-  .package-tiers__bento {
-    grid-template-columns: 1fr;
-  }
-  .package-tiers__card--featured {
-    grid-column: span 1;
-  }
   .inclusions-addons__grid {
     grid-template-columns: 1fr;
   }
@@ -9612,6 +9603,18 @@
   }
   .pricing---packages-btn {
     width: 100%;
+  }
+  .package-tiers__container {
+    padding: 0 var(--spacing-md);
+  }
+  .package-tiers__bento {
+    gap: var(--spacing-md);
+  }
+  .package-tiers__card {
+    padding: var(--spacing-lg);
+  }
+  .package-tiers__amount {
+    font-size: var(--font-size-lg);
   }
   .itineraries---experiences-masonry-grid {
     columns: 1;

@@ -820,6 +820,44 @@ transform: translateY(0);}}
           </div>
         </div>
         <Footer></Footer>
+        <div>
+          <div className="pricing-packages-container26">
+            <Script
+              html={`<style>
+@media (min-width: 768px) {
+.package-tiers__bento {
+  grid-template-columns: 1fr 1fr;
+}
+.package-tiers__card--featured {
+  grid-column: span 2;
+}
+.package-tiers__card {
+  padding: var(--spacing-2xl);
+}
+.package-tiers__amount {
+  font-size: var(--font-size-2xl);
+}
+.package-tiers__item {
+  font-size: var(--font-size-sm);
+}
+.package-tiers__item svg {
+  width: 24px;
+  height: 24px;
+}
+}
+
+@media (min-width: 1024px) {
+.package-tiers__bento {
+  grid-template-columns: 2fr 1fr 1fr;
+}
+.package-tiers__card--featured {
+  grid-column: span 1;
+}
+}
+</style>`}
+            ></Script>
+          </div>
+        </div>
       </div>
       <style jsx>
         {`
@@ -865,6 +903,9 @@ transform: translateY(0);}}
             display: none;
           }
           .pricing-packages-container24 {
+            display: contents;
+          }
+          .pricing-packages-container26 {
             display: contents;
           }
           @media (max-width: 479px) {
