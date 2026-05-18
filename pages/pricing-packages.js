@@ -56,7 +56,9 @@ const PricingPackages = (props) => {
                 </a>
                 <a href="#contact">
                   <div className="btn-lg btn pricing---packages-btn btn-outline">
-                    <span>Custom Quote</span>
+                    <span className="pricing-packages-text11">
+                      Custom Quote
+                    </span>
                   </div>
                 </a>
               </div>
@@ -864,6 +866,9 @@ transform: translateY(0);}}
           .pricing-packages-container10 {
             width: 100%;
             min-height: 100vh;
+          }
+          .pricing-packages-text11 {
+            color: var(--color-primary-light);
           }
           .pricing-packages-thq-section-content-elm15 {
             font-weight: 600;
