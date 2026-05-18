@@ -276,8 +276,8 @@ const Help = (props) => {
                 </div>
                 <h3>Email Support</h3>
                 <p>For detailed inquiries and document submissions.</p>
-                <a href="mailto:support@voyanta.com?subject=">
-                  <div className="btn btn-outline btn-sm">
+                <a href="mailto:Info@myRnBTravels.com?subject=">
+                  <div className="help-thq-btn-elm14 btn btn-outline btn-sm">
                     <span>Send Email</span>
                   </div>
                 </a>
@@ -302,7 +302,7 @@ const Help = (props) => {
                 </div>
                 <h3>Phone Support</h3>
                 <p>Speak directly with a dedicated travel agent.</p>
-                <a href="tel:+1234567890">
+                <a href="tel:+2348062163748">
                   <div className="btn-secondary btn btn-sm">
                     <span>Call Support</span>
                   </div>
@@ -1305,6 +1305,9 @@ details[open] .faq-summary::after {
             width: 100%;
             min-height: 100vh;
           }
+          .help-thq-btn-elm14 {
+            background-color: var(--color-primary-light);
+          }
           .help-thq-category-card-elm1 {
             text-decoration: none;
           }
@@ -1342,8 +1345,16 @@ details[open] .faq-summary::after {
             display: contents;
           }
           @media (max-width: 767px) {
+            .help-thq-btn-elm14 {
+              background-color: var(--color-primary-light);
+            }
             .help-text79 {
               color: var(--color-accent-light);
+            }
+          }
+          @media (max-width: 479px) {
+            .help-thq-btn-elm14 {
+              background-color: var(--color-primary-light);
             }
           }
         `}

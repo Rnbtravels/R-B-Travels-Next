@@ -194,7 +194,7 @@ const Navigation = (props) => {
               <div className="navigation-mobile-footer">
                 <Link href="/enquiry-form">
                   <a>
-                    <div className="btn-lg btn-primary navigation-mobile-cta btn">
+                    <div className="btn-lg btn-primary navigation-mobile-cta btn navigation-thq-btn-elm2">
                       <span>Start Your Journey</span>
                     </div>
                   </a>
@@ -330,6 +330,16 @@ const Navigation = (props) => {
           @media (max-width: 991px) {
             .navigation-text11 {
               color: var(--color-accent);
+            }
+          }
+          @media (max-width: 767px) {
+            .navigation-thq-btn-elm2 {
+              display: none;
+            }
+          }
+          @media (max-width: 479px) {
+            .navigation-thq-btn-elm2 {
+              display: none;
             }
           }
         `}
