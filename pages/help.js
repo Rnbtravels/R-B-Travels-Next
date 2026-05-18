@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import Head from 'next/head'
 
 import Script from 'dangerous-html/react'
@@ -314,149 +315,177 @@ const Help = (props) => {
           <div className="help-categories-container">
             <h2 className="section-title">Support Categories</h2>
             <div className="help-categories-grid">
-              <div className="category-card">
-                <div className="category-icon">
-                  <svg
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M2 7a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2z"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    ></path>
-                    <path d="M9 12a3 3 0 1 0 6 0a3 3 0 1 0-6 0m0 0H2m13 0h7"></path>
-                  </svg>
-                </div>
-                <span>Visa Assistance</span>
-              </div>
-              <div className="category-card">
-                <div className="category-icon">
-                  <svg
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0zM22 10v6"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    ></path>
-                    <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
-                  </svg>
-                </div>
-                <span>Study Abroad Support</span>
-              </div>
-              <div className="category-card">
-                <div className="category-icon">
-                  <svg
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M17.8 19.2L16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8L4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1l3 2l2 3l1-1v-3l3-2l3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    ></path>
-                  </svg>
-                </div>
-                <span>Flight &amp; Hotel Booking</span>
-              </div>
-              <div className="category-card">
-                <div className="category-icon">
-                  <svg
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M12 6V2H8m7 9v2M2 12h2m16 0h2m-2 4a2 2 0 0 1-2 2H8.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 4 20.286V8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2zM9 11v2"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    ></path>
-                  </svg>
-                </div>
-                <span>Travel Documentation</span>
-              </div>
-              <div className="category-card">
-                <div className="category-icon">
-                  <svg
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    ></path>
-                  </svg>
-                </div>
-                <span>Travel Insurance</span>
-              </div>
-              <div className="category-card">
-                <div className="category-icon">
-                  <svg
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M11 6a13 13 0 0 0 8.4-2.8A1 1 0 0 1 21 4v12a1 1 0 0 1-1.6.8A13 13 0 0 0 11 14H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    ></path>
-                    <path d="M6 14a12 12 0 0 0 2.4 7.2a2 2 0 0 0 3.2-2.4A8 8 0 0 1 10 14M8 6v8"></path>
-                  </svg>
-                </div>
-                <span>Tour Packages</span>
-              </div>
-              <div className="category-card">
-                <div className="category-icon">
-                  <svg
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M2 22h20M3.77 10.77L2 9l2-4.5l1.1.55c.55.28.9.84.9 1.45s.35 1.17.9 1.45L8 8.5l3-6l1.05.53a2 2 0 0 1 1.09 1.52l.72 5.4a2 2 0 0 0 1.09 1.52l4.4 2.2c.42.22.78.55 1.01.96l.6 1.03c.49.88-.06 1.98-1.06 2.1l-1.18.15c-.47.06-.95-.02-1.37-.24L4.29 11.15a2 2 0 0 1-.52-.38"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    ></path>
-                  </svg>
-                </div>
-                <span>Airport Transfer Assistance</span>
-              </div>
+              <Link href="/enquiry-form">
+                <a>
+                  <div className="help-thq-category-card-elm1 category-card">
+                    <div className="category-icon">
+                      <svg
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M2 7a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2z"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        ></path>
+                        <path d="M9 12a3 3 0 1 0 6 0a3 3 0 1 0-6 0m0 0H2m13 0h7"></path>
+                      </svg>
+                    </div>
+                    <span>Visa Assistance</span>
+                  </div>
+                </a>
+              </Link>
+              <Link href="/enquiry-form">
+                <a>
+                  <div className="help-thq-category-card-elm2 category-card">
+                    <div className="category-icon">
+                      <svg
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0zM22 10v6"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        ></path>
+                        <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+                      </svg>
+                    </div>
+                    <span>Study Abroad Support</span>
+                  </div>
+                </a>
+              </Link>
+              <Link href="/enquiry-form">
+                <a>
+                  <div className="help-thq-category-card-elm3 category-card">
+                    <div className="category-icon">
+                      <svg
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M17.8 19.2L16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8L4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1l3 2l2 3l1-1v-3l3-2l3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        ></path>
+                      </svg>
+                    </div>
+                    <span>Flight &amp; Hotel Booking</span>
+                  </div>
+                </a>
+              </Link>
+              <Link href="/enquiry-form">
+                <a>
+                  <div className="help-thq-category-card-elm4 category-card">
+                    <div className="category-icon">
+                      <svg
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 6V2H8m7 9v2M2 12h2m16 0h2m-2 4a2 2 0 0 1-2 2H8.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 4 20.286V8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2zM9 11v2"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        ></path>
+                      </svg>
+                    </div>
+                    <span>Travel Documentation</span>
+                  </div>
+                </a>
+              </Link>
+              <Link href="/enquiry-form">
+                <a>
+                  <div className="help-thq-category-card-elm5 category-card">
+                    <div className="category-icon">
+                      <svg
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        ></path>
+                      </svg>
+                    </div>
+                    <span>Travel Insurance</span>
+                  </div>
+                </a>
+              </Link>
+              <Link href="/enquiry-form">
+                <a>
+                  <div className="help-thq-category-card-elm6 category-card">
+                    <div className="category-icon">
+                      <svg
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M11 6a13 13 0 0 0 8.4-2.8A1 1 0 0 1 21 4v12a1 1 0 0 1-1.6.8A13 13 0 0 0 11 14H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        ></path>
+                        <path d="M6 14a12 12 0 0 0 2.4 7.2a2 2 0 0 0 3.2-2.4A8 8 0 0 1 10 14M8 6v8"></path>
+                      </svg>
+                    </div>
+                    <span>Tour Packages</span>
+                  </div>
+                </a>
+              </Link>
+              <Link href="/enquiry-form">
+                <a>
+                  <div className="help-thq-category-card-elm7 category-card">
+                    <div className="category-icon">
+                      <svg
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M2 22h20M3.77 10.77L2 9l2-4.5l1.1.55c.55.28.9.84.9 1.45s.35 1.17.9 1.45L8 8.5l3-6l1.05.53a2 2 0 0 1 1.09 1.52l.72 5.4a2 2 0 0 0 1.09 1.52l4.4 2.2c.42.22.78.55 1.01.96l.6 1.03c.49.88-.06 1.98-1.06 2.1l-1.18.15c-.47.06-.95-.02-1.37-.24L4.29 11.15a2 2 0 0 1-.52-.38"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        ></path>
+                      </svg>
+                    </div>
+                    <span>Airport Transfer Assistance</span>
+                  </div>
+                </a>
+              </Link>
             </div>
           </div>
         </section>
@@ -959,7 +988,11 @@ const Help = (props) => {
           <div className="contact-info-container">
             <div className="info-card-wrapper">
               <div className="info-card-content">
-                <h2 className="section-title">Voyanta - R&amp;B Travels</h2>
+                <h2 className="section-title">
+                  <span>R</span>
+                  <span className="help-text79">&amp;</span>
+                  <span>B Travels</span>
+                </h2>
                 <div className="info-details">
                   <div className="info-item">
                     <svg
@@ -977,7 +1010,7 @@ const Help = (props) => {
                         strokeLinejoin="round"
                       ></path>
                     </svg>
-                    <span>+1 (555) 000-0000</span>
+                    <span>+2348062163748</span>
                   </div>
                   <div className="info-item">
                     <svg
@@ -991,7 +1024,7 @@ const Help = (props) => {
                         fill="currentColor"
                       ></path>
                     </svg>
-                    <span>+1 (555) 000-0001</span>
+                    <span>+2348062163748</span>
                   </div>
                   <div className="info-item">
                     <svg
@@ -1009,7 +1042,7 @@ const Help = (props) => {
                         strokeLinejoin="round"
                       ></path>
                     </svg>
-                    <span>support@voyanta.com</span>
+                    <span>Info@myRnBTravels.com</span>
                   </div>
                   <div className="info-item">
                     <svg
@@ -1028,7 +1061,10 @@ const Help = (props) => {
                       ></path>
                       <circle r="3" cx="12" cy="10"></circle>
                     </svg>
-                    <span>123 Travel Avenue, Suite 400, Global City</span>
+                    <span>
+                      Nicon Plaza, Plot 242, Muhammadu Buhari Way, Central Area,
+                      Federal Capital Territory.
+                    </span>
                   </div>
                 </div>
                 <div className="social-links">
@@ -1078,7 +1114,7 @@ const Help = (props) => {
           </div>
         </a>
         <div className="sticky-support-bar">
-          <a href="tel:+1234567890">
+          <a href="tel:+2348062163748">
             <div className="sticky-item">
               <svg
                 width="20"
@@ -1269,6 +1305,27 @@ details[open] .faq-summary::after {
             width: 100%;
             min-height: 100vh;
           }
+          .help-thq-category-card-elm1 {
+            text-decoration: none;
+          }
+          .help-thq-category-card-elm2 {
+            text-decoration: none;
+          }
+          .help-thq-category-card-elm3 {
+            text-decoration: none;
+          }
+          .help-thq-category-card-elm4 {
+            text-decoration: none;
+          }
+          .help-thq-category-card-elm5 {
+            text-decoration: none;
+          }
+          .help-thq-category-card-elm6 {
+            text-decoration: none;
+          }
+          .help-thq-category-card-elm7 {
+            text-decoration: none;
+          }
           .help-text58 {
             font-weight: 700;
           }
@@ -1283,6 +1340,11 @@ details[open] .faq-summary::after {
           }
           .help-container5 {
             display: contents;
+          }
+          @media (max-width: 767px) {
+            .help-text79 {
+              color: var(--color-accent-light);
+            }
           }
         `}
       </style>

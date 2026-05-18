@@ -760,7 +760,9 @@ const Safety = (props) => {
                   Contact &amp; Emergency Support
                 </h2>
                 <p className="section-content">
-                  Voyanta - R&amp;B Travels Support Team
+                  <span>R</span>
+                  <span className="safety-text6">&amp;</span>
+                  <span>B Travels Support Team</span>
                 </p>
               </div>
               <div className="contact-grid">
@@ -915,6 +917,16 @@ const Safety = (props) => {
           }
           .safety-container6 {
             display: contents;
+          }
+          @media (max-width: 767px) {
+            .safety-text6 {
+              color: var(--color-accent-light);
+            }
+          }
+          @media (max-width: 479px) {
+            .safety-text6 {
+              color: var(--color-accent-light);
+            }
           }
         `}
       </style>
