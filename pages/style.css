@@ -8850,8 +8850,16 @@
     flex-direction: row;
     padding-bottom: var(--spacing-md);
   }
+  .questions-contact__content-area {
+    width: 100%;
+    min-width: 0;
+  }
   .questions-contact__tab-btn {
+    flex-shrink: 0;
     white-space: nowrap;
+  }
+  .questions-contact__pane {
+    overflow-x: hidden;
   }
   .itinerary-snapshot-container {
     gap: var(--spacing-3xl);
@@ -9264,6 +9272,13 @@
   .testimonials__masonry {
     grid-template-columns: 1fr;
   }
+  .questions-contact__nav {
+    gap: var(--spacing-xs);
+  }
+  .questions-contact__tab-btn {
+    padding: var(--spacing-sm) var(--spacing-md);
+    font-size: var(--font-size-sm);
+  }
   .questions-contact__features {
     grid-template-columns: 1fr;
   }
@@ -9615,6 +9630,39 @@
   }
   .package-tiers__amount {
     font-size: var(--font-size-lg);
+  }
+  .questions-contact__container {
+    padding: 0 var(--spacing-md);
+  }
+  .questions-contact__tabs {
+    gap: var(--spacing-lg);
+  }
+  .questions-contact__nav {
+    gap: var(--spacing-xs);
+    padding-bottom: var(--spacing-sm);
+  }
+  .questions-contact__content-area {
+    width: 100%;
+    min-width: 0;
+  }
+  .questions-contact__tab-btn {
+    padding: var(--spacing-sm) var(--spacing-sm);
+    font-size: var(--font-size-xs);
+    min-height: 40px;
+  }
+  .questions-contact__pane {
+    overflow-x: hidden;
+  }
+  .questions-contact__input {
+    padding: var(--spacing-sm);
+    font-size: var(--font-size-sm);
+    min-height: 40px;
+  }
+  .questions-contact__textarea {
+    min-height: 80px;
+  }
+  .questions-contact__feature-item {
+    padding: var(--spacing-lg);
   }
   .itineraries---experiences-masonry-grid {
     columns: 1;
