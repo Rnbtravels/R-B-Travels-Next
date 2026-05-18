@@ -717,37 +717,47 @@ const PricingPackages = (props) => {
                 </div>
                 <div
                   id="tab-custom"
-                  className="questions-contact__pane pricing-packages-thq-questions-contactpane-elm3"
+                  className="pricing-packages-thq-questions-contactpane-elm3 questions-contact__pane"
                 >
-                  <h2 className="section-title">Bespoke Customizations</h2>
-                  <p className="section-content">
+                  <h2 className="pricing-packages-thq-section-title-elm8 section-title">
+                    Bespoke Customizations
+                  </h2>
+                  <p className="pricing-packages-thq-section-content-elm45 section-content">
                     Every traveler is unique. We can adjust any package to
                     include specific luxury upgrades, accessibility
                     requirements, or niche interest workshops.
                   </p>
-                  <div className="questions-contact__features">
-                    <div className="questions-contact__feature-item">
-                      <h4 className="section-subtitle">Luxury Upgrades</h4>
-                      <p className="section-content">
+                  <div className="pricing-packages-thq-questions-contactfeatures-elm questions-contact__features">
+                    <div className="pricing-packages-thq-questions-contactfeature-item-elm1 questions-contact__feature-item">
+                      <h4 className="pricing-packages-thq-section-subtitle-elm20 section-subtitle">
+                        Luxury Upgrades
+                      </h4>
+                      <p className="pricing-packages-thq-section-content-elm46 section-content">
                         Upgrade to 5-star suites or private villas.
                       </p>
                     </div>
-                    <div className="questions-contact__feature-item">
-                      <h4 className="section-subtitle">Extended Stays</h4>
-                      <p className="section-content">
+                    <div className="pricing-packages-thq-questions-contactfeature-item-elm2 questions-contact__feature-item">
+                      <h4 className="pricing-packages-thq-section-subtitle-elm21 section-subtitle">
+                        Extended Stays
+                      </h4>
+                      <p className="pricing-packages-thq-section-content-elm47 section-content">
                         Add pre or post-tour days to any group itinerary.
                       </p>
                     </div>
-                    <div className="questions-contact__feature-item">
-                      <h4 className="section-subtitle">Accessibility</h4>
-                      <p className="section-content">
+                    <div className="pricing-packages-thq-questions-contactfeature-item-elm3 questions-contact__feature-item">
+                      <h4 className="pricing-packages-thq-section-subtitle-elm22 section-subtitle">
+                        Accessibility
+                      </h4>
+                      <p className="pricing-packages-thq-section-content-elm48 section-content">
                         Wheelchair-friendly transport and adapted accommodations
                         on request.
                       </p>
                     </div>
-                    <div className="questions-contact__feature-item">
-                      <h4 className="section-subtitle">Niche Workshops</h4>
-                      <p className="section-content">
+                    <div className="pricing-packages-thq-questions-contactfeature-item-elm4 questions-contact__feature-item">
+                      <h4 className="pricing-packages-thq-section-subtitle-elm23 section-subtitle">
+                        Niche Workshops
+                      </h4>
+                      <p className="pricing-packages-thq-section-content-elm49 section-content">
                         Photography, cooking, or local craft sessions tailored
                         to your interests.
                       </p>
@@ -911,6 +921,94 @@ transform: translateY(0);}}
           .pricing-packages-thq-section-content-elm31 {
             font-size: var(--font-size-sm);
             margin-top: var(--spacing-md);
+          }
+          .pricing-packages-thq-questions-contactpane-elm3 {
+            width: 100%;
+            max-width: 100%;
+            box-sizing: border-box;
+            overflow-x: hidden;
+          }
+          .pricing-packages-thq-section-title-elm8 {
+            max-width: 100%;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+          }
+          .pricing-packages-thq-section-content-elm45 {
+            max-width: 100%;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+          }
+          .pricing-packages-thq-questions-contactfeatures-elm {
+            width: 100%;
+            display: flex;
+            max-width: 100%;
+            box-sizing: border-box;
+            overflow-x: hidden;
+            flex-direction: column;
+          }
+          .pricing-packages-thq-questions-contactfeature-item-elm1 {
+            width: 100%;
+            max-width: 100%;
+            box-sizing: border-box;
+            overflow-x: hidden;
+          }
+          .pricing-packages-thq-section-subtitle-elm20 {
+            max-width: 100%;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+          }
+          .pricing-packages-thq-section-content-elm46 {
+            max-width: 100%;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+          }
+          .pricing-packages-thq-questions-contactfeature-item-elm2 {
+            width: 100%;
+            max-width: 100%;
+            box-sizing: border-box;
+            overflow-x: hidden;
+          }
+          .pricing-packages-thq-section-subtitle-elm21 {
+            max-width: 100%;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+          }
+          .pricing-packages-thq-section-content-elm47 {
+            max-width: 100%;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+          }
+          .pricing-packages-thq-questions-contactfeature-item-elm3 {
+            width: 100%;
+            max-width: 100%;
+            box-sizing: border-box;
+            overflow-x: hidden;
+          }
+          .pricing-packages-thq-section-subtitle-elm22 {
+            max-width: 100%;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+          }
+          .pricing-packages-thq-section-content-elm48 {
+            max-width: 100%;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+          }
+          .pricing-packages-thq-questions-contactfeature-item-elm4 {
+            width: 100%;
+            max-width: 100%;
+            box-sizing: border-box;
+            overflow-x: hidden;
+          }
+          .pricing-packages-thq-section-subtitle-elm23 {
+            max-width: 100%;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+          }
+          .pricing-packages-thq-section-content-elm49 {
+            max-width: 100%;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
           }
           .pricing-packages-container21 {
             display: none;
