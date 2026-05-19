@@ -415,7 +415,7 @@ const Footer = (props) => {
             font-size: 16px;
             font-style: normal;
             font-family: '' '' '' '' '' '' '' '' '' '' '' '' '' '' '' '' ''
-              Inter '' '' '' '' '' '' '' '' '' '' '' '' '' '' '' '' '';
+              'Inter' '' '' '' '' '' '' '' '' '' '' '' '' '' '' '' '' '';
             font-weight: 300;
           }
           .footer-text24 {
@@ -431,7 +431,7 @@ const Footer = (props) => {
             color: var(--color-primary-light);
             font-style: normal;
             font-family: '' '' '' '' '' '' '' '' '' '' '' '' '' '' '' '' ''
-              Inter '' '' '' '' '' '' '' '' '' '' '' '' '' '' '' '' '';
+              'Inter' '' '' '' '' '' '' '' '' '' '' '' '' '' '' '' '' '';
             font-weight: 600;
             text-decoration: none;
           }

@@ -45,30 +45,6 @@ const Help = (props) => {
                     <span>Contact Support</span>
                   </div>
                 </a>
-                <a href="https://wa.me/placeholder">
-                  <div className="btn-lg btn btn-accent">
-                    <svg
-                      width="24"
-                      xmlns="http://www.w3.org/2000/svg"
-                      height="24"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="M18.497 4.409a10 10 0 0 1-10.36 16.828l-.223-.098l-4.759.849l-.11.011a1 1 0 0 1-.11 0l-.102-.013l-.108-.024l-.105-.037l-.099-.047l-.093-.058l-.014-.011l-.012-.007l-.086-.073l-.077-.08l-.067-.088l-.056-.094l-.034-.07l-.04-.108l-.028-.128l-.012-.102a1 1 0 0 1 0-.125l.012-.1l.024-.11l.045-.122l1.433-3.304l-.009-.014A10 10 0 0 1 5.056 4.83l.215-.203a10 10 0 0 1 13.226-.217M9.5 7.5A1.5 1.5 0 0 0 8 9v1a6 6 0 0 0 6 6h1a1.5 1.5 0 0 0 0-3h-1l-.144.007a1.5 1.5 0 0 0-1.128.697l-.042.074l-.022-.007a4.01 4.01 0 0 1-2.435-2.435l-.008-.023l.075-.041A1.5 1.5 0 0 0 11 10V9a1.5 1.5 0 0 0-1.5-1.5"
-                        fill="currentColor"
-                      ></path>
-                    </svg>
-                    <span>
-                      {' '}
-                      Start WhatsApp Chat
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
-                  </div>
-                </a>
               </div>
               <div className="page-hero-features-grid1">
                 <div className="page-hero-feature-item1">
@@ -223,11 +199,6 @@ const Help = (props) => {
                 <p>
                   Instant chat with our travel consultants for quick updates.
                 </p>
-                <a href="https://wa.me/placeholder">
-                  <div className="btn btn-accent btn-sm">
-                    <span>Chat on WhatsApp</span>
-                  </div>
-                </a>
               </div>
               <div className="support-card">
                 <div className="support-icon-box">
@@ -277,7 +248,7 @@ const Help = (props) => {
                 <h3>Email Support</h3>
                 <p>For detailed inquiries and document submissions.</p>
                 <a href="mailto:Info@myRnBTravels.com?subject=">
-                  <div className="help-thq-btn-elm14 btn btn-outline btn-sm">
+                  <div className="help-thq-btn-elm3 btn btn-outline btn-sm">
                     <span>Send Email</span>
                   </div>
                 </a>
@@ -761,7 +732,7 @@ const Help = (props) => {
                       }}
                     />
                   </span>
-                  <span className="help-text58">GMT +1</span>
+                  <span className="help-text56">GMT +1</span>
                 </p>
                 <div className="emergency-notice">
                   <div className="emergency-icon">
@@ -948,49 +919,13 @@ const Help = (props) => {
             </div>
           </div>
         </section>
-        <section className="whatsapp-highlight">
-          <div className="whatsapp-container">
-            <div className="whatsapp-content">
-              <div className="whatsapp-large-icon">
-                <svg
-                  width="64"
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="64"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    d="M18.497 4.409a10 10 0 0 1-10.36 16.828l-.223-.098l-4.759.849l-.11.011a1 1 0 0 1-.11 0l-.102-.013l-.108-.024l-.105-.037l-.099-.047l-.093-.058l-.014-.011l-.012-.007l-.086-.073l-.077-.08l-.067-.088l-.056-.094l-.034-.07l-.04-.108l-.028-.128l-.012-.102a1 1 0 0 1 0-.125l.012-.1l.024-.11l.045-.122l1.433-3.304l-.009-.014A10 10 0 0 1 5.056 4.83l.215-.203a10 10 0 0 1 13.226-.217M9.5 7.5A1.5 1.5 0 0 0 8 9v1a6 6 0 0 0 6 6h1a1.5 1.5 0 0 0 0-3h-1l-.144.007a1.5 1.5 0 0 0-1.128.697l-.042.074l-.022-.007a4.01 4.01 0 0 1-2.435-2.435l-.008-.023l.075-.041A1.5 1.5 0 0 0 11 10V9a1.5 1.5 0 0 0-1.5-1.5"
-                    fill="currentColor"
-                  ></path>
-                </svg>
-              </div>
-              <h2 className="section-title">Instant Travel Support</h2>
-              <p className="section-content">
-                Get reassuring text support from our experts wherever you are in
-                the world. We are just a message away.
-              </p>
-              <a href="https://wa.me/placeholder">
-                <div className="btn btn-accent btn-xl">
-                  <span>Start WhatsApp Conversation</span>
-                </div>
-              </a>
-            </div>
-            <div className="whatsapp-visual">
-              <img
-                alt="Support on Mobile"
-                src="https://images.pexels.com/photos/5453809/pexels-photo-5453809.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                className="whatsapp-img"
-              />
-            </div>
-          </div>
-        </section>
         <section className="contact-info-section">
           <div className="contact-info-container">
             <div className="info-card-wrapper">
               <div className="info-card-content">
                 <h2 className="section-title">
                   <span>R</span>
-                  <span className="help-text79">&amp;</span>
+                  <span className="help-text76">&amp;</span>
                   <span>B Travels</span>
                 </h2>
                 <div className="info-details">
@@ -1098,21 +1033,6 @@ const Help = (props) => {
             </div>
           </div>
         </section>
-        <a href="https://wa.me/placeholder">
-          <div aria-label="Chat on WhatsApp" className="floating-whatsapp">
-            <svg
-              width="32"
-              xmlns="http://www.w3.org/2000/svg"
-              height="32"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M18.497 4.409a10 10 0 0 1-10.36 16.828l-.223-.098l-4.759.849l-.11.011a1 1 0 0 1-.11 0l-.102-.013l-.108-.024l-.105-.037l-.099-.047l-.093-.058l-.014-.011l-.012-.007l-.086-.073l-.077-.08l-.067-.088l-.056-.094l-.034-.07l-.04-.108l-.028-.128l-.012-.102a1 1 0 0 1 0-.125l.012-.1l.024-.11l.045-.122l1.433-3.304l-.009-.014A10 10 0 0 1 5.056 4.83l.215-.203a10 10 0 0 1 13.226-.217M9.5 7.5A1.5 1.5 0 0 0 8 9v1a6 6 0 0 0 6 6h1a1.5 1.5 0 0 0 0-3h-1l-.144.007a1.5 1.5 0 0 0-1.128.697l-.042.074l-.022-.007a4.01 4.01 0 0 1-2.435-2.435l-.008-.023l.075-.041A1.5 1.5 0 0 0 11 10V9a1.5 1.5 0 0 0-1.5-1.5"
-                fill="currentColor"
-              ></path>
-            </svg>
-          </div>
-        </a>
         <div className="sticky-support-bar">
           <a href="tel:+2348062163748">
             <div className="sticky-item">
@@ -1142,32 +1062,8 @@ const Help = (props) => {
               </span>
             </div>
           </a>
-          <a href="https://wa.me/placeholder">
-            <div className="sticky-item">
-              <svg
-                width="20"
-                xmlns="http://www.w3.org/2000/svg"
-                height="20"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M18.497 4.409a10 10 0 0 1-10.36 16.828l-.223-.098l-4.759.849l-.11.011a1 1 0 0 1-.11 0l-.102-.013l-.108-.024l-.105-.037l-.099-.047l-.093-.058l-.014-.011l-.012-.007l-.086-.073l-.077-.08l-.067-.088l-.056-.094l-.034-.07l-.04-.108l-.028-.128l-.012-.102a1 1 0 0 1 0-.125l.012-.1l.024-.11l.045-.122l1.433-3.304l-.009-.014A10 10 0 0 1 5.056 4.83l.215-.203a10 10 0 0 1 13.226-.217M9.5 7.5A1.5 1.5 0 0 0 8 9v1a6 6 0 0 0 6 6h1a1.5 1.5 0 0 0 0-3h-1l-.144.007a1.5 1.5 0 0 0-1.128.697l-.042.074l-.022-.007a4.01 4.01 0 0 1-2.435-2.435l-.008-.023l.075-.041A1.5 1.5 0 0 0 11 10V9a1.5 1.5 0 0 0-1.5-1.5"
-                  fill="currentColor"
-                ></path>
-              </svg>
-              <span>
-                {' '}
-                WhatsApp
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-            </div>
-          </a>
           <a href="#contact-form">
-            <div className="sticky-item">
+            <div className="help-thq-sticky-item-elm2 sticky-item">
               <svg
                 width="20"
                 xmlns="http://www.w3.org/2000/svg"
@@ -1305,7 +1201,7 @@ details[open] .faq-summary::after {
             width: 100%;
             min-height: 100vh;
           }
-          .help-thq-btn-elm14 {
+          .help-thq-btn-elm3 {
             background-color: var(--color-primary-light);
           }
           .help-thq-category-card-elm1 {
@@ -1329,8 +1225,11 @@ details[open] .faq-summary::after {
           .help-thq-category-card-elm7 {
             text-decoration: none;
           }
-          .help-text58 {
+          .help-text56 {
             font-weight: 700;
+          }
+          .help-thq-sticky-item-elm2 {
+            text-decoration: none;
           }
           .help-container2 {
             display: none;
@@ -1345,15 +1244,15 @@ details[open] .faq-summary::after {
             display: contents;
           }
           @media (max-width: 767px) {
-            .help-thq-btn-elm14 {
+            .help-thq-btn-elm3 {
               background-color: var(--color-primary-light);
             }
-            .help-text79 {
+            .help-text76 {
               color: var(--color-accent-light);
             }
           }
           @media (max-width: 479px) {
-            .help-thq-btn-elm14 {
+            .help-thq-btn-elm3 {
               background-color: var(--color-primary-light);
             }
           }
