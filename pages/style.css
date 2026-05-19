@@ -8677,6 +8677,74 @@
  
 
  
+.grecaptcha-badge {
+  display: none !important;
+  visibility: hidden;
+}
+ 
+.whatsapp-float {
+  color: #ffffff;
+  right: 24px;
+  width: 52px;
+  bottom: 24px;
+  cursor: pointer;
+  height: 52px;
+  display: flex;
+  z-index: 9999;
+  position: fixed;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.25s ease;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #25D366;
+}
+ 
+.whatsapp-float:hover {
+  transform: scale(1.12);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+ 
+.whatsapp-float  svg {
+  flex-shrink: 0;
+}
+ 
+.whatsapp-tooltip {
+  color: var(--color-surface-light);
+  right: 0;
+  bottom: calc(100% + 10px);
+  opacity: 0;
+  padding: 8px 14px;
+  position: absolute;
+  font-size: var(--font-size-sm);
+  transform: translateY(6px);
+  box-shadow: var(--shadow-level-2);
+  transition: all 0.2s ease;
+  visibility: hidden;
+  font-family: var(--font-family-body);
+  white-space: nowrap;
+  border-radius: var(--border-radius-md);
+  pointer-events: none;
+  background-color: var(--color-on-surface-light);
+}
+ 
+.whatsapp-tooltip::after {
+  top: 100%;
+  right: 18px;
+  content: '';
+  position: absolute;
+  border-color: var(--color-on-surface-light) transparent transparent transparent;
+  border-style: solid;
+  border-width: 5px;
+}
+ 
+.whatsapp-float:hover .whatsapp-tooltip {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+}
+ 
 .Content {
   font-size: 16px;
   font-family: Inter;
@@ -9531,6 +9599,19 @@
   }
   .sticky-support-bar {
     display: grid;
+  }
+  .whatsapp-float {
+    right: 16px;
+    width: 48px;
+    bottom: 16px;
+    height: 48px;
+  }
+  .whatsapp-float  svg {
+    width: 24px;
+    height: 24px;
+  }
+  .whatsapp-tooltip {
+    display: none;
   }
 }
  
