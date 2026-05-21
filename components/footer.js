@@ -56,7 +56,10 @@ const Footer = (props) => {
                 </p>
                 <div className="footer-social-links">
                   <a href="#">
-                    <div aria-label="Facebook" className="footer-social-icon">
+                    <div
+                      aria-label="Facebook"
+                      className="footer-thq-footer-social-icon-elm1 footer-social-icon"
+                    >
                       <svg
                         fill="none"
                         width="24"
@@ -105,7 +108,10 @@ const Footer = (props) => {
                     </div>
                   </a>
                   <a href="#">
-                    <div aria-label="LinkedIn" className="footer-social-icon">
+                    <div
+                      aria-label="LinkedIn"
+                      className="footer-thq-footer-social-icon-elm3 footer-social-icon"
+                    >
                       <svg
                         fill="none"
                         width="24"
@@ -380,8 +386,14 @@ const Footer = (props) => {
           .footer-text11 {
             color: var(--color-accent-light);
           }
+          .footer-thq-footer-social-icon-elm1 {
+            display: none;
+          }
           .footer-thq-footer-social-icon-elm2 {
             text-decoration: none;
+          }
+          .footer-thq-footer-social-icon-elm3 {
+            display: none;
           }
           .footer-li1 {
             text-decoration: none;
@@ -458,6 +470,12 @@ const Footer = (props) => {
             }
           }
           @media (max-width: 479px) {
+            .footer-thq-footer-social-icon-elm1 {
+              display: none;
+            }
+            .footer-thq-footer-social-icon-elm3 {
+              display: none;
+            }
             .footer-text21 {
               font-size: 16px;
               font-style: normal;
