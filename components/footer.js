@@ -214,15 +214,6 @@ const Footer = (props) => {
                       </li>
                     </a>
                   </Link>
-                  <Link href="/insurance">
-                    <a>
-                      <li className="footer-li9">
-                        <div className="footer-link">
-                          <span>Insurance</span>
-                        </div>
-                      </li>
-                    </a>
-                  </Link>
                 </ul>
               </div>
               <div className="footer-contact-column">
@@ -247,34 +238,42 @@ const Footer = (props) => {
                         <circle r="3" cx="12" cy="10"></circle>
                       </svg>
                     </div>
-                    <h1 className="footer-text22">
+                    <h1 className="footer-text21">
                       Nicon Plaza, Plot 242, Muhammadu Buhari Way, Central Area,
                       Federal Capital Territory.
                     </h1>
                   </li>
-                  <li className="footer-contact-item">
-                    <div className="footer-contact-icon">
-                      <svg
-                        fill="none"
-                        width="24"
-                        xmlns="http://www.w3.org/2000/svg"
-                        height="24"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <path d="m22 7l-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
-                        <rect x="2" y="4" rx="2" width="20" height="16"></rect>
-                      </svg>
-                    </div>
-                    <span className="section-content">
-                      <span>Info@MyR</span>
-                      <span className="footer-text24">n</span>
-                      <span>BTravels.com</span>
-                    </span>
-                  </li>
+                  <a href="mailto:Info@MyRnBTravels.com?subject=">
+                    <li className="footer-thq-footer-contact-item-elm2 footer-contact-item">
+                      <div className="footer-contact-icon">
+                        <svg
+                          fill="none"
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                          height="24"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path d="m22 7l-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
+                          <rect
+                            x="2"
+                            y="4"
+                            rx="2"
+                            width="20"
+                            height="16"
+                          ></rect>
+                        </svg>
+                      </div>
+                      <span className="section-content">
+                        <span>Info@MyR</span>
+                        <span className="footer-text23">n</span>
+                        <span>BTravels.com</span>
+                      </span>
+                    </li>
+                  </a>
                   <li className="footer-contact-item">
                     <div className="footer-contact-icon">
                       <a href="tel:+2348062163748">
@@ -408,17 +407,17 @@ const Footer = (props) => {
           .footer-li8 {
             text-decoration: none;
           }
-          .footer-li9 {
-            text-decoration: none;
-          }
-          .footer-text22 {
+          .footer-text21 {
             font-size: 16px;
             font-style: normal;
             font-family: '' '' '' '' '' '' '' '' '' '' '' '' '' '' '' '' ''
               'Inter' '' '' '' '' '' '' '' '' '' '' '' '' '' '' '' '' '';
             font-weight: 300;
           }
-          .footer-text24 {
+          .footer-thq-footer-contact-item-elm2 {
+            text-decoration: none;
+          }
+          .footer-text23 {
             color: var(--color-accent-light);
           }
           .footer-icon28 {
@@ -448,7 +447,7 @@ const Footer = (props) => {
             display: contents;
           }
           @media (max-width: 767px) {
-            .footer-text22 {
+            .footer-text21 {
               font-size: 14px;
               font-style: normal;
               font-family: Inter;
@@ -459,13 +458,13 @@ const Footer = (props) => {
             }
           }
           @media (max-width: 479px) {
-            .footer-text22 {
+            .footer-text21 {
               font-size: 16px;
               font-style: normal;
               font-family: Inter;
               font-weight: 200;
             }
-            .footer-text24 {
+            .footer-text23 {
               color: var(--color-accent-light);
             }
             .footer-thq-section-content-elm5 {
